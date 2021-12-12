@@ -30,7 +30,7 @@ while not not_guest:
     #Testing for adding a guest phone number.
     while not not_phone:
         #Asking for the user's input.
-        guest_phone = input("What is the phone number of the guest?")
+        guest_phone = input("What is the phone number of the guest?\nPlease only enter a 10 digit phone number with numbers: ")
         #Validating the guest phone.
         not_phone = my_guest.validate_guest_phone(guest_phone)
     #Creating a flag.
