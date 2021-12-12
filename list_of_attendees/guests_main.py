@@ -67,9 +67,13 @@ while not not_guest:
                 #Creating the csv file.
                 with open("text_files/guest_info.csv", "w+") as csv_file:
                     for line in guest_list:
+                        guest_len = len(guest_list)
+                        print(guest_len)
                         #Writing each guest info to the file.
                         csv_file.write(line)
                         csv_file.write(",")
+                        if guest_len == 0:
+                            break
             #Handling the alternative case.
             else: 
                 #Creating the csv file.
