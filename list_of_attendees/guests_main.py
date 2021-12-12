@@ -68,6 +68,7 @@ while not not_guest:
                     for line in guest_list:
                         #Writing each guest info to the file.
                         csv_file.write(line)
+                        csv_file.write(",")
             #Handling the alternative case.
             else: 
                 #Creating the csv file.
