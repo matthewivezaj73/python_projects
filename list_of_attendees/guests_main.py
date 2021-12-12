@@ -56,4 +56,22 @@ while not not_guest:
                     for line in guest_list:
                         #Writing each guest info to the file.
                         csv_file.write(line)
-
+    else:
+        #Opening a file for writing.
+        with open(my_file) as txt_file:
+            #Assigning the file path to a variable.
+            csv_file = "text_files/guest_info.csv"
+            #Checking if the csv file exists.
+            if os.path.isfile("text_files/guest_info.csv"): 
+                #Creating the csv file.
+                with open("text_files/guest_info.csv", "w+") as csv_file:
+                    for line in guest_list:
+                        #Writing each guest info to the file.
+                        csv_file.write(line)
+            #Checking if the csv file exists.
+            else: 
+                #Creating the csv file.
+                with open("text_files/guest_info.csv", "a") as csv_file:
+                    for line in guest_list:
+                        #Writing each guest info to the file.
+                        csv_file.write(line)
