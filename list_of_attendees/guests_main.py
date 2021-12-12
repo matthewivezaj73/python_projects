@@ -59,7 +59,7 @@ while not not_guest:
                         #Writing each guest info to the file.
                         csv_file.write(line)
                         csv_file.write(",")
-                        if guest_len == 0:
+                        if guest_len:
                             csv_file.write("\n")
                             break
     else:
@@ -77,7 +77,7 @@ while not not_guest:
                         #Writing each guest info to the file.
                         csv_file.write(line)
                         csv_file.write(",")
-                        if guest_len == 0:
+                        if guest_len:
                             csv_file.write("\n")
                             break
             #Handling the alternative case.
