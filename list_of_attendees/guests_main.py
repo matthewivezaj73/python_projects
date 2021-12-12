@@ -38,6 +38,7 @@ while not not_guest:
         guestType = input("What is the type of guest?")
         #Validating the guest type.
         my_guest.guest_type(guestType)
+    #Creating a list of the data gathered.
     guest_list = [add_person, add_age, guest_phone, guestType]
     #Created a variable and assigned it a file path.
     my_file = "text_files/guest_info.txt"
