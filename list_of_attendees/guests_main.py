@@ -60,6 +60,8 @@ while not not_guest:
                         csv_file.write(line)
                         csv_file.write(",")
                         if guest_len == 0:
+                            csv_file.write("\n")
+                            csv_file.write("\n")
                             break
     else:
         #Opening a file for writing.
@@ -77,6 +79,8 @@ while not not_guest:
                         csv_file.write(line)
                         csv_file.write(",")
                         if guest_len == 0:
+                            csv_file.write("\n")
+                            csv_file.write("\n")
                             break
             #Handling the alternative case.
             else: 
@@ -89,4 +93,6 @@ while not not_guest:
                         csv_file.write(line)
                         csv_file.write(",")
                         if guest_len == 0:
+                            csv_file.write("\n")
+                            csv_file.write("\n")
                             break
