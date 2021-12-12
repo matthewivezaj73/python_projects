@@ -39,4 +39,4 @@ while not not_guest:
         #Validating the guest type.
         my_guest.guest_type(guestType)
     #Opening a file for writing.
-    
+    with open("text_files/guest_info.txt") as txt_file:
