@@ -46,6 +46,7 @@ while not not_guest:
     my_file = "text_files/guest_info.txt"
     #Opening a file for writing.
     with open(my_file) as txt_file:
+        #Assigning the file path to a variable.
         csv_file = "text_files/guest_info.csv"
         #Checking if the csv file exists.
         if os.isfile("text_files/guest_info.csv"): 
