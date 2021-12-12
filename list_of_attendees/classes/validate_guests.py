@@ -24,11 +24,11 @@ class Guests:
             return True
         else: 
             return False
-    def validate_guest_phone(self, name):
+    def validate_guest_phone(self, phone):
         """
-        A method that validates the guest's name.
+        A method that validates the guest's phone number.
         """
-        if (len(name) > 0) and name.isalpha():
+        if ((len(phone) == 10) and phone.isdigit()) or (('-' in phone) and (len(phone) == 12) and phone.isdigit()):
             return True
         else:
             return False
