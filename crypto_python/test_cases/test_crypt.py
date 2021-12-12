@@ -26,7 +26,7 @@ class TestCrypto(unittest.TestCase):
         list_of_improper_names = ["!Frank","Frank!","@Fra(nk!","&*@($*#@&$*#@","1frank","frank2","1fra2nk4","1fra@nk1","47482374239",""," "]
         #Looping through each value in the list.
         for name in list_of_improper_names:
-            self.assertFalse(self.new_vehicle.individual_name_check(name))
+            self.assertFalse(self.new_validator.validate_Key(name))
     def test_validate_key_assert_True(self):
         """
         Checks to ensure that the chars in the character 
