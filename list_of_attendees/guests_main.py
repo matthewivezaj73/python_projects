@@ -50,4 +50,5 @@ while not not_guest:
         if os.isfile("text_files/guest_info.csv"): 
             with open("text_files/guest_info.csv", "w+") as csv_file:
                 for line in guest_list:
+                    #Writing each guest info to the file.
                     csv_file.write(line)
