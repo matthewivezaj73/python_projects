@@ -38,3 +38,5 @@ while not not_guest:
         guestType = input("What is the type of guest?")
         #Validating the guest type.
         my_guest.guest_type(guestType)
+    #Opening a file for writing.
+    
