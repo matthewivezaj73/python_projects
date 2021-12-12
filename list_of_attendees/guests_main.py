@@ -48,7 +48,9 @@ while not not_guest:
     with open(my_file) as txt_file:
         csv_file = "text_files/guest_info.csv"
         if os.isfile("text_files/guest_info.csv"): 
+            #Creating the csv file.
             with open("text_files/guest_info.csv", "w+") as csv_file:
                 for line in guest_list:
                     #Writing each guest info to the file.
                     csv_file.write(line)
+
