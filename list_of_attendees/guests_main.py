@@ -93,3 +93,11 @@ while not not_guest:
                         if guest_len:
                             csv_file.write("\n")
                             break
+        not_question = False
+        while not_question:
+            exit_now = input("Would you like to stop adding guests? Y/N: ")
+            #If the user enters y for yes.
+            if exit_now.lower() == "y":
+                #Setting flags to exit the loop
+                not_guest = True
+                not_question = True
