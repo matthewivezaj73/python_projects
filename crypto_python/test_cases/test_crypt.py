@@ -1,7 +1,7 @@
 import unittest
 #Import all methods from InventoryItem in the classes folder.
 from classes.validation import Validate
-class TestVehicleClass(unittest.TestCase):
+class TestCrypto(unittest.TestCase):
     """
     Creating a class for unittesting.
     """
