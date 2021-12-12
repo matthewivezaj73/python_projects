@@ -47,7 +47,7 @@ while not not_guest:
     my_file = "text_files/guest_info.txt"
     if os.path.isfile(my_file):
         #Opening a file for writing.
-        with open(my_file,"w") as txt_file:
+        with open(my_file) as txt_file:
             #Assigning the file path to a variable.
             csv_file = "text_files/guest_info.csv"
             #Checking if the csv file exists.
@@ -62,7 +62,7 @@ while not not_guest:
                         csv_file.write(",")
                         if guest_len:
                             csv_file.write("\n")
-                            break
+
     else:
         #Opening a file for writing.
         with open(my_file, "w+") as txt_file:
@@ -80,11 +80,10 @@ while not not_guest:
                         csv_file.write(",")
                         if guest_len:
                             csv_file.write("\n")
-                            break
             #Handling the alternative case.
             else: 
                 #Creating the csv file.
-                with open("text_files/guest_info.csv", "w+") as csv_file:
+                with open("text_files/guest_info.csv", "a") as csv_file:
                     for line in guest_list:
                         guest_len = len(guest_list)
                         # print(guest_len)
@@ -93,7 +92,6 @@ while not not_guest:
                         csv_file.write(",")
                         if guest_len:
                             csv_file.write("\n")
-                            break
         #Setting flag to false.
         not_question = False
         #Testing for the user input.
