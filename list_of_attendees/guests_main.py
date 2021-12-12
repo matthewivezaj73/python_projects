@@ -106,3 +106,6 @@ while not not_guest:
                 #Setting flags to exit the loop
                 not_guest = False
                 not_question = True
+            #Handling all other cases.
+            else:
+                print(f"Sorry, I did not understand{exit_now}, please try again!")
