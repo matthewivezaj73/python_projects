@@ -55,12 +55,11 @@ while not not_guest:
                 with open("text_files/guest_info.csv", "w+") as csv_file:
                     for line in guest_list:
                         guest_len = len(guest_list)
-                        print(guest_len)
+                        # print(guest_len)
                         #Writing each guest info to the file.
                         csv_file.write(line)
                         csv_file.write(",")
                         if guest_len == 0:
-                            csv_file.write("\n")
                             csv_file.write("\n")
                             break
     else:
@@ -74,12 +73,11 @@ while not not_guest:
                 with open("text_files/guest_info.csv", "w+") as csv_file:
                     for line in guest_list:
                         guest_len = len(guest_list)
-                        print(guest_len)
+                        # print(guest_len)
                         #Writing each guest info to the file.
                         csv_file.write(line)
                         csv_file.write(",")
                         if guest_len == 0:
-                            csv_file.write("\n")
                             csv_file.write("\n")
                             break
             #Handling the alternative case.
@@ -88,11 +86,10 @@ while not not_guest:
                 with open("text_files/guest_info.csv", "w+") as csv_file:
                     for line in guest_list:
                         guest_len = len(guest_list)
-                        print(guest_len)
+                        # print(guest_len)
                         #Writing each guest info to the file.
                         csv_file.write(line)
                         csv_file.write(",")
-                        if guest_len == 0:
-                            csv_file.write("\n")
+                        if guest_len:
                             csv_file.write("\n")
                             break
