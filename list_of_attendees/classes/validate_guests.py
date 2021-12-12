@@ -28,7 +28,7 @@ class Guests:
         """
         A method that validates the guest's phone number.
         """
-        if ((len(phone) == 10) and phone.isdigit()) or (('-' in phone) and (len(phone) == 12) and phone.isdigit()):
+        if ((len(phone) == 10) and phone.isdigit()) or (('-' in phone) and (len(phone.replace("-","")) == 10) and phone.isdigit()):
             return True
         else:
             return False
