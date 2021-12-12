@@ -1,5 +1,7 @@
 #Importing the validate_guests file and the Guests class.
 from classes.validate_guests import Guests
+#Importing the os library.
+import os
 #Creating an instance of the class.
 my_guest = Guests("Sally", 22, 8374734624, "Guest")
 #Adding a flag
@@ -43,7 +45,9 @@ while not not_guest:
     #Created a variable and assigned it a file path.
     my_file = "text_files/guest_info.txt"
     #Opening a file for writing.
-    with open(my_file, "w") as txt_file:
-        for guest in guest_list:
-            txt_file.write(guest)
-    with open("text_files/guest_info.csv", "w+") as
+    with open(my_file) as txt_file:
+        csv_file = "text_files/guest_info.csv"
+        if os.isfile("text_files/guest_info.csv"): 
+            with open("text_files/guest_info.csv", "w+") as csv_file:
+                for line in guest_list:
+                    csv_file.write(line)
