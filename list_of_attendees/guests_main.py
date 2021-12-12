@@ -56,6 +56,7 @@ while not not_guest:
                     for line in guest_list:
                         #Writing each guest info to the file.
                         csv_file.write(line)
+                        csv_file.write(",")
     else:
         #Opening a file for writing.
         with open(my_file, "w+") as txt_file:
@@ -76,3 +77,4 @@ while not not_guest:
                     for line in guest_list:
                         #Writing each guest info to the file.
                         csv_file.write(line)
+                        csv_file.write(",")
