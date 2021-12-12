@@ -101,3 +101,8 @@ while not not_guest:
                 #Setting flags to exit the loop
                 not_guest = True
                 not_question = True
+            #If the user enters n for no.
+            elif exit_now.lower() == "n":
+                #Setting flags to exit the loop
+                not_guest = False
+                not_question = True
