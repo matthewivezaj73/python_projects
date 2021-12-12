@@ -52,7 +52,7 @@ while not not_guest:
             #Checking if the csv file exists.
             if os.path.isfile("text_files/guest_info.csv"): 
                 #Creating the csv file.
-                with open("text_files/guest_info.csv", "w+") as csv_file:
+                with open("text_files/guest_info.csv", "a") as csv_file:
                     for line in guest_list:
                         guest_len = len(guest_list)
                         # print(guest_len)
