@@ -12,7 +12,7 @@ class Guests:
         """
         A method that validates the guest's age.
         """
-        if (age >=1) and age.isdigit():
+        if (len(age) > 0) and age.isdigit():
             return True
         else:
             return False
@@ -20,15 +20,15 @@ class Guests:
         """
         A method that validates the guest's name.
         """
-        if (name >=1) and name.isalpha():
+        if (len(name) > 0) and name.isalpha():
             return True
-        else:
+        else: 
             return False
     def validate_guest_phone(self, name):
         """
         A method that validates the guest's name.
         """
-        if (name >=1) and name.isalpha():
+        if (len(name) > 0) and name.isalpha():
             return True
         else:
             return False
