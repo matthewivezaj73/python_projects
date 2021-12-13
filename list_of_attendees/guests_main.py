@@ -1,6 +1,8 @@
 #https://github.com/matthewivezaj73/python_projects/tree/main/list_of_attendees
 #Importing the validate_guests file and the Guests class.
 from classes.validate_guests import Guests
+from PIL import Image, ImageDraw, ImageFont
+
 #Importing the os library.
 import os
 #Creating an instance of the class.
@@ -41,6 +43,9 @@ while not not_guest:
         guestType = input("What is the type of guest?")
         #Validating the guest type.
         not_type = my_guest.validate_guest_type(guestType)
+
+
+ 
     #Creating a list of the data gathered.
     guest_list = [add_person, add_age, guest_phone, guestType]
     #Created a variable and assigned it a file path.
@@ -111,3 +116,4 @@ while not not_guest:
             #Handling all other cases.
             else:
                 print(f"Sorry, I did not understand{exit_now}, please try again!")
+        
