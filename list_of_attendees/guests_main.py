@@ -2,6 +2,8 @@
 #Importing the validate_guests file and the Guests class.
 from classes.validate_guests import Guests
 import shutil
+import os
+
 
 #Importing the os library.
 import os
@@ -119,18 +121,19 @@ while not not_guest:
                 else:
                     print(f"Sorry, I did not understand{exit_now}, please try again!")
     elif user_choice.lower() == "s":
-        shutil.copy2(csv_file,"text_files/guest_info.csv.backup" + 
-            str(time.time()))
-            #Opening the file to save any changes that were not caught.
-            with open(FName) as json_obj:
-                config_data = json.load(json_obj)
-            #Opening the file for writing.
-            with open(FName,'w') as json_obj:
-                #Dumping the contents of config_data to server_configs.json.
-                json.dump(config_data,json_obj)
-            print("Finished making a back up and saved!")
-            #Setting not_response to true to break out of the loop
-            not_response = True
+        my_time = shutil.copy2(csv_file,"text_files/guest_info.csv.backup" + str(time.time()))
+        #Opening the file to save any changes that were not caught.
+        with open(csv_file) as csv_obj:
+            my_lines = csv_obj.readlines()
+            for line in my_lines:
+                print(line)
+        #Opening the file for writing.
+        with open(csv_file,'w') as csv_object:
+            #Dumping the contents of config_data to server_configs.json.
+            csv_object.write(my_time)
+        print("Finished making a back up and saved!")
+        #Setting not_response to true to break out of the loop
+        not_response = True
     #If the user enters the letter D.
     elif response2.upper() == "D":
         #Remove "text_files/server_config.json"
