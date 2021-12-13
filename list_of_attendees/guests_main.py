@@ -11,6 +11,7 @@ my_guest = Guests("Sally", 22, 8374734624, "Guest")
 not_guest = False
 #testing for guests.
 while not not_guest:
+    user_choice = input("Select \'a\' to add new guests to the list.\nSelect \'s\' to save the list.\nSelect \'d\' to delete an entry from the list\nSelect s to show all of the data from the database: ")
     #Creating a flag.
     not_add = False
     #Testing for adding a guest.
