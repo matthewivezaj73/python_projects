@@ -1,6 +1,7 @@
 #https://github.com/matthewivezaj73/python_projects/tree/main/list_of_attendees
 #Importing the validate_guests file and the Guests class.
 from classes.validate_guests import Guests
+import shutil
 
 #Importing the os library.
 import os
@@ -45,7 +46,6 @@ while not not_guest:
             guestType = input("What is the type of guest?")
             #Validating the guest type.
             not_type = my_guest.validate_guest_type(guestType)
-
 
     
         #Creating a list of the data gathered.
@@ -118,4 +118,20 @@ while not not_guest:
                 #Handling all other cases.
                 else:
                     print(f"Sorry, I did not understand{exit_now}, please try again!")
-            
+    elif user_choice.lower() == "s":
+        shutil.copy2(csv_file,"text_files/guest_info.csv.backup" + 
+            str(time.time()))
+            #Opening the file to save any changes that were not caught.
+            with open(FName) as json_obj:
+                config_data = json.load(json_obj)
+            #Opening the file for writing.
+            with open(FName,'w') as json_obj:
+                #Dumping the contents of config_data to server_configs.json.
+                json.dump(config_data,json_obj)
+            print("Finished making a back up and saved!")
+            #Setting not_response to true to break out of the loop
+            not_response = True
+    #If the user enters the letter D.
+    elif response2.upper() == "D":
+        #Remove "text_files/server_config.json"
+        os.remove("text_files/server_configs.json") 
