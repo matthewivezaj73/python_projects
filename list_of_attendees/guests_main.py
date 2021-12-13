@@ -128,7 +128,7 @@ while not not_guest:
             for line in my_lines:
                 print(line)
         #Opening the file for writing.
-        with open(csv_file,'w') as csv_object:
+        with open(csv_file,'a') as csv_object:
             #Dumping the contents of config_data to server_configs.json.
             csv_object.write(my_time)
         print("Finished making a back up and saved!")
