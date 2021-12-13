@@ -1,7 +1,6 @@
 #https://github.com/matthewivezaj73/python_projects/tree/main/list_of_attendees
 #Importing the validate_guests file and the Guests class.
 from classes.validate_guests import Guests
-from PIL import Image, ImageDraw, ImageFont
 
 #Importing the os library.
 import os
