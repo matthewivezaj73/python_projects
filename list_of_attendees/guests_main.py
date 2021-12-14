@@ -51,6 +51,7 @@ while not not_guest:
             guestType = input("What is the type of guest?")
             #Validating the guest type.
             not_type = my_guest.validate_guest_type(guestType)
+#Adding a breakpoint()
 breakpoint()
     
         #Creating a list of the data gathered.
