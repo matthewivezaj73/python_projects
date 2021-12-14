@@ -71,3 +71,4 @@ for numbers in my_numbers:
         #Handling the case where the user enters One.
         if type(numbers) is str and numbers[0] == "T":
             print(f"The number guessed is {my_numbers[19]}")
+    
