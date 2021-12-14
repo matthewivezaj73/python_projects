@@ -20,6 +20,7 @@ class Guests:
         """
         A method that validates the guest's name.
         """
+        guest_list = ['Karen', "Joe", "Arnold", "William", "Samantha", "Sarah", "Tegan"]
         if (len(name) > 0) and name.isalpha():
             return True
         else: 
