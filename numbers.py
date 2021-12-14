@@ -3,7 +3,7 @@ my_numbers = [1,"One",2,"Two",3,"Three",4,"Four", 5, "Five", 6, "Six", 7, "Seven
 #A for loop.
 for numbers in my_numbers:
     if numbers.isdigit():
-        print("The number is in numerical for")
+        print("The number is in numerical form")
         #Handling the case where the user enters 1.
         if numbers == 1:
             print(f"The number is {my_numbers[0]}")
@@ -25,3 +25,6 @@ for numbers in my_numbers:
         #Handling the case where the user enters 6.
         elif numbers == 7:
             print(f"The number guessed is {my_numbers[6]}")
+        #Handling the case where the user enters 6.
+        elif numbers == 8:
+            print(f"The number guessed is {my_numbers[7]}")
