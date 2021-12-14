@@ -41,6 +41,8 @@ while not not_guest:
         while not not_phone:
             #Asking for the user's input.
             guest_phone = input("What is the phone number of the guest?\nPlease only enter a 10 digit phone number with numbers: ")
+            #Adding a breakpoint()
+            breakpoint()
             #Validating the guest phone.
             not_phone = my_guest.validate_guest_phone(guest_phone)
         #Creating a flag.
@@ -49,10 +51,10 @@ while not not_guest:
         while not not_type:
             #Asking for the user's input.
             guestType = input("What is the type of guest?")
+            #Adding a breakpoint()
+            breakpoint()
             #Validating the guest type.
             not_type = my_guest.validate_guest_type(guestType)
-#Adding a breakpoint()
-breakpoint()
     
         #Creating a list of the data gathered.
         guest_list = [add_person, add_age, guest_phone, guestType]
