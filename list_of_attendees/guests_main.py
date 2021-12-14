@@ -23,6 +23,8 @@ while not not_guest:
         while not not_add:
             #Asking for the user's input.
             add_person = input("What is the name of the guest?")
+            #Adding a breakpoint
+            breakpoint()
             #Validating the guest name
             not_add = my_guest.validate_guest_name(add_person)
         #Creating a flag.
