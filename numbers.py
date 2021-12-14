@@ -41,5 +41,6 @@ for numbers in my_numbers:
     elif numbers.isalpha():
         #Adding a breakpoint
         breakpoint()
+        #Handling the case where the user enters One.
         if numbers == "One":
-            print(f"The number guessed is {my_numbers[]}")
+            print(f"The number guessed is {my_numbers[1]}")
