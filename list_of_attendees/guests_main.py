@@ -135,7 +135,7 @@ while not not_guest:
         try:
             #Assigning a var to the file path.
             csv_file = "text_files/guest_info.csv"
-
+            #Creating a backup of the file.
             my_time = shutil.copy2(csv_file,"text_files/guest_info.csv.backup" + str(time.time()))
             #Opening the file to save any changes that were not caught.
             with open(csv_file) as csv_obj:
