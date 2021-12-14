@@ -42,5 +42,5 @@ for numbers in my_numbers:
         #Adding a breakpoint
         breakpoint()
         #Handling the case where the user enters One.
-        if numbers == "One":
+        if type(numbers) is str:
             print(f"The number guessed is {my_numbers[1]}")
