@@ -33,6 +33,8 @@ while not not_guest:
         while not not_age:
             #Asking for the user's input.
             add_age = input("What is the age of the guest?")
+            #Adding a breakpoint()
+            breakpoint()
             #Validating the guest age
             not_age = my_guest.validate_guest_age(add_age)
         #Creating a flag.
@@ -111,6 +113,9 @@ while not not_guest:
             not_question = False
             #Testing for the user input.
             while not_question:
+                #Adding a breakpoint()
+                breakpoint()
+
                 #Asking for user input.
                 exit_now = input("Would you like to stop adding guests? Y/N: ")
                 #If the user enters y for yes.
