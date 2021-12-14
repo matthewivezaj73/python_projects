@@ -5,6 +5,8 @@ for numbers in my_numbers:
     #Checking if the value type is an integer.
     if type(numbers) is int:
         print("The number is in numerical form")
+        #Adding a breakpoint
+        breakpoint()
         #Handling the case where the user enters 1.
         if numbers == 1:
             print(f"The number is {my_numbers[0]}")
