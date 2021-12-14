@@ -10,3 +10,6 @@ for numbers in my_numbers:
         #Handling the case where the user enters 2.
         elif numbers == 2:
             print(f"The number guessed is {my_numbers[1]}")
+        #Handling the case where the user enters 3.
+        elif numbers == 3:
+            print(f"The number guessed is {my_numbers[2]}")
