@@ -10,8 +10,7 @@ for numbers in my_numbers:
         #Handling the case where the user enters 1.
         if numbers == 1:
             print(f"The number is {my_numbers[0]}")
-        #Adding a breakpoint
-        breakpoint()
+            
         #Handling the case where the user enters 2.
         elif numbers == 2:
             print(f"The number guessed is {my_numbers[2]}")
@@ -40,5 +39,7 @@ for numbers in my_numbers:
         elif numbers == 10:
             print(f"The number guessed is {my_numbers[9]}")
     elif numbers.isalpha():
+        #Adding a breakpoint
+        breakpoint()
         if numbers == "One":
             print(f"The number guessed is {my_numbers[]}")
