@@ -7,4 +7,4 @@ for numbers in my_numbers:
         if numbers == 1:
             print(f"The number is {my_numbers[0]}")
         elif numbers == 2:
-            
+            print(f"The number guessed is {my_numbers[1]}")
