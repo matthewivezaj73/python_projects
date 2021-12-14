@@ -1,7 +1,7 @@
 #Creating a list of numbers.
 my_numbers = [1,"One",2,"Two",3,"Three",4,"Four", 5, "Five", 6, "Six", 7, "Seven", 8, "Eight", 9, "Nine", 10, "Ten"]
 #Sorting the list.
-my_numbers.sort()
+print(my_numbers.sort())
 #A for loop.
 for numbers in my_numbers:
     if numbers.isdigit():
