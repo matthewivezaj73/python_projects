@@ -1,7 +1,5 @@
 #Creating a list of numbers.
 my_numbers = [1,"One",2,"Two",3,"Three",4,"Four", 5, "Five", 6, "Six", 7, "Seven", 8, "Eight", 9, "Nine", 10, "Ten"]
-#Sorting the list.
-print(my_numbers.sort())
 #A for loop.
 for numbers in my_numbers:
     if numbers.isdigit():
@@ -36,3 +34,4 @@ for numbers in my_numbers:
         #Handling the case where the user enters 6.
         elif numbers == 10:
             print(f"The number guessed is {my_numbers[9]}")
+    elif numbers.isalpha():
