@@ -38,7 +38,8 @@ while not not_host:
             #Printing the cpu percentage.
             print(cpupercent)
         #Hanlding the case where the user selects option si.
-        
+        elif user_choice.lower() == "si":
+            
         #Handling the case where the user selects option p.
         elif user_choice.lower() == "e":
             #Setting the not_host flag to true.
