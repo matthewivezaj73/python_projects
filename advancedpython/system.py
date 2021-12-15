@@ -8,7 +8,7 @@ user_info = []
 #Testing for user input.
 while not not_host:
     #Asking the user to make a choice.
-    user_choice = input("Please enter \'h\' if you would like to check the file directory this program is running from.\nPlease enter \'a\' if you would like to check the ip address of the system.\n")
+    user_choice = input("Please enter \'h\' if you would like to check the file directory this program is running from.\nPlease enter \'a\' if you would like to check the ip address of the system.\nPlease enter \'s\' if you would like to check cpu stats.")
     #Try block
     try:
         #handling the case where the user selects option h.
