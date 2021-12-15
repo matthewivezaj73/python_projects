@@ -29,6 +29,8 @@ while not not_host:
             cpustats = psutil.cpu_stats()
             #Printing the cpu stats.
             print(cpustats)
+        #Handling the case where the user selects option p.
+        
     #Handling the case where the cases above are not met.
     except:
         print("You must first grab the host name by entering \'h\'")
