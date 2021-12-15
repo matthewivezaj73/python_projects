@@ -25,7 +25,7 @@ while not not_host:
             print(ipaddress)
         #Handling the case where the user selects option s.
         elif user_choice.lower() == "s":
-
+            psutil.cpu_stats()
     #Handling the case where the cases above are not met.
     except:
         print("You must first grab the host name by entering \'h\'")
