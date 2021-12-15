@@ -11,4 +11,5 @@ class Server:
         A method that will tell you if the ac is plugged in or not.
         """
         # In[8]:
-        psutil.sensors_battery().power_plugged
+        get_ac = psutil.sensors_battery().power_plugged
+        print(get_ac)
