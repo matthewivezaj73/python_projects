@@ -22,3 +22,4 @@ while not not_host:
             #Printing the ipaddress.
             print(ipaddress)
     except:
+        print("You must first grab the host name by entering \'h\'")
