@@ -1,4 +1,5 @@
 import psutil
+import sys
 class Server:
     """
     A  class that will represent verifications of inputs on a server.
@@ -26,3 +27,5 @@ class Server:
         """
         A method that will get the sys info.
         """
+        sys_info = sys.version_info
+        print(sys_info)
