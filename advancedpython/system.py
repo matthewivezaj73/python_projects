@@ -33,6 +33,7 @@ while not not_host:
         elif user_choice.lower() == "p":
             #Assigning the cpu percentage to a variable.
             cpupercent = psutil.cpu_percent(interval=0.1)
+            #Printing the cpu percentage.
             print(cpupercent)
     #Handling the case where the cases above are not met.
     except:
