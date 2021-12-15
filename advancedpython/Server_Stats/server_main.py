@@ -44,6 +44,11 @@ while not not_host:
         elif user_choice.lower() == "si":
             #Calling the sys info method.
             my_server.get_sys_info()
+        #Handling the case where the user selects option si.
+        elif user_choice.lower() == "ac":
+            #Calling the sys info method.
+            my_server.ac_connected()
+
         #Handling the case where the user selects option p.
         elif user_choice.lower() == "e":
             #Setting the not_host flag to true.
