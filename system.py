@@ -14,6 +14,7 @@ while not not_host:
         hostname = socket.gethostname()
     #Handling the case where the user selects option a.
     elif user_choice.lower() == "a":
-
+        #Grabbing the ip address of the system and assigning it to a variable.
+        socket.getaddrinfo
 
 
