@@ -9,7 +9,7 @@ class Server:
         self.server_type = server_type
         self.server_mem = server_mem
         self.server_hertz = server_hertz
-    def get_ac(self):
+    def ac_connected(self):
         """
         A method that will tell you if the ac is plugged in or not.
         """
