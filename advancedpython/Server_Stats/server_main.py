@@ -3,6 +3,9 @@ import socket
 import psutil
 import sys
 
+from classes.validate_server_config import Server
+#Instantiating the class.
+my_server = Server()
 #Creating a flag.
 not_host = False
 #Creating a list to hold a bunch of dictionaries.
@@ -39,7 +42,7 @@ while not not_host:
             print(cpupercent)
         #Hanlding the case where the user selects option si.
         elif user_choice.lower() == "si":
-            
+
         #Handling the case where the user selects option p.
         elif user_choice.lower() == "e":
             #Setting the not_host flag to true.
