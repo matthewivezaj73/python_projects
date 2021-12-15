@@ -16,6 +16,12 @@ class Server:
         # In[8]:
         get_ac_var = psutil.sensors_battery().power_plugged
         print(get_ac_var)
+    def get_sys_info(self):
+        """
+        A method that will get the sys info.
+        """
+        sys_info = sys.version_info
+        print(sys_info)
     def get_virtual_mem(self):
         """
         A method that will tell you how much virtual memory is on the server.
@@ -23,9 +29,3 @@ class Server:
         # In[7]:
         virtual_mem = psutil.virtual_memory().available
         print(virtual_mem)
-    def get_sys_info(self):
-        """
-        A method that will get the sys info.
-        """
-        sys_info = sys.version_info
-        print(sys_info)
