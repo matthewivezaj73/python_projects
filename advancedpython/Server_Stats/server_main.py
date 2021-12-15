@@ -5,7 +5,7 @@ import sys
 
 from classes.validate_server_config import Server
 #Instantiating the class.
-my_server = Server()
+my_server = Server("Alpha00291","Dell EMC","4782334GB","4.32")
 #Creating a flag.
 not_host = False
 #Creating a list to hold a bunch of dictionaries.
