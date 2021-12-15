@@ -21,5 +21,6 @@ while not not_host:
             ipaddress = socket.getaddrinfo(hostname,None)
             #Printing the ipaddress.
             print(ipaddress)
+    #Handling the case where the cases above are not met.
     except:
         print("You must first grab the host name by entering \'h\'")
