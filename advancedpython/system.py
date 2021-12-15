@@ -1,5 +1,6 @@
 #Importing the socket, psutil modules.
 import socket
+import psutil
 #Creating a flag.
 not_host = False
 #Creating a list to hold a bunch of dictionaries.
