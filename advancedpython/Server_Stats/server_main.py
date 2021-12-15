@@ -42,7 +42,8 @@ while not not_host:
             print(cpupercent)
         #Hanlding the case where the user selects option si.
         elif user_choice.lower() == "si":
-
+            #Calling the sys info method.
+            my_server.get_sys_info()
         #Handling the case where the user selects option p.
         elif user_choice.lower() == "e":
             #Setting the not_host flag to true.
