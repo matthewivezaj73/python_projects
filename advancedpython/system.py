@@ -30,7 +30,8 @@ while not not_host:
             #Printing the cpu stats.
             print(cpustats)
         #Handling the case where the user selects option p.
-
+        elif user_choice.lower() == "p":
+            
     #Handling the case where the cases above are not met.
     except:
         print("You must first grab the host name by entering \'h\'")
