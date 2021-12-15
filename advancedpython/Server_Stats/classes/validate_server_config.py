@@ -5,6 +5,9 @@ class Server:
     """
     def __init__(self,server_name,server_type,server_mem,server_hertz):
         self.server_name = server_name
+        self.server_type = server_type
+        self.server_mem = server_mem
+        self.server_hertz = server_hertz
 
     def get_ac(self):
         """
