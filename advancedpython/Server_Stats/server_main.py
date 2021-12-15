@@ -5,8 +5,7 @@ import sys
 sys.version_info
 # In[6]:
 psutil.cpu_percent()
-# In[7]:
-psutil.virtual_memory().available
+
 
 # In[ ]:
 #Creating a flag.
