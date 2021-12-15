@@ -2,5 +2,7 @@
 import socket
 #Creating a flag.
 not_host = False
-#Assigning a variable to the hostname.
-hostname = socket.gethostname()
+#Testing for user input.
+while not not_host:
+    #Assigning a variable to the hostname.
+    hostname = socket.gethostname()
