@@ -2,12 +2,7 @@
 import socket
 import psutil
 import sys
-sys.version_info
-# In[6]:
-psutil.cpu_percent()
 
-
-# In[ ]:
 #Creating a flag.
 not_host = False
 #Creating a list to hold a bunch of dictionaries.

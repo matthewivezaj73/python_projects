@@ -22,3 +22,7 @@ class Server:
         # In[7]:
         virtual_mem = psutil.virtual_memory().available
         print(virtual_mem)
+    def get_sys_info(self):
+        """
+        A method that will get the sys info.
+        """
