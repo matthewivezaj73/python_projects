@@ -8,7 +8,7 @@ user_info = []
 #Testing for user input.
 while not not_host:
     #Asking the user to make a choice.
-    user_choice = input("Please enter \'h\' if you would like to check the file directory this program is running from.\nPlease enter \'a\' if you would like to check the ip address of the system.\nPlease enter \'s\' if you would like to check cpu stats.")
+    user_choice = input("Please enter \'h\' if you would like to check the file directory this program is running from.\nPlease enter \'a\' if you would like to check the ip address of the system.\nPlease enter \'s\' if you would like to check cpu stats.\nPlease enter \'p\' if you would like to check the cpu percent.")
     #Try block
     try:
         #handling the case where the user selects option h.
@@ -30,7 +30,7 @@ while not not_host:
             #Printing the cpu stats.
             print(cpustats)
         #Handling the case where the user selects option p.
-        
+
     #Handling the case where the cases above are not met.
     except:
         print("You must first grab the host name by entering \'h\'")
