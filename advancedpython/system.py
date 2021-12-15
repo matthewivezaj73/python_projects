@@ -1,4 +1,4 @@
-#Importing the socket, psutil modules.
+#Importing the socket, psutil libraries.
 import socket
 import psutil
 #Creating a flag.
