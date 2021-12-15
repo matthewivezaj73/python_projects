@@ -40,7 +40,7 @@ while not not_host:
             cpupercent = psutil.cpu_percent(interval=0.01)
             #Printing the cpu percentage.
             print(cpupercent)
-        #Hanlding the case where the user selects option si.
+        #Handling the case where the user selects option si.
         elif user_choice.lower() == "si":
             #Calling the sys info method.
             my_server.get_sys_info()
