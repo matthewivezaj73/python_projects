@@ -18,5 +18,6 @@ while not not_host:
     elif user_choice.lower() == "a":
         #Grabbing the ip address of the system and assigning it to a variable.
         ipaddress = socket.getaddrinfo(hostname)
+        #Printing the ipaddress.
         print(ipaddress)
 
