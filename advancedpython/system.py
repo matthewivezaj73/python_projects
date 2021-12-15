@@ -23,8 +23,10 @@ while not not_host:
             ipaddress = socket.getaddrinfo(hostname,None)
             #Printing the ipaddress.
             print(ipaddress)
+        #Handling the case where the user wants to check CPU stats
+        elif user_choice.lower() == "s":
+            
     #Handling the case where the cases above are not met.
     except:
         print("You must first grab the host name by entering \'h\'")
 
-        #Hanlding the case where the user wants to check CPU stats
