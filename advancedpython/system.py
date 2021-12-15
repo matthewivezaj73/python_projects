@@ -7,7 +7,7 @@ not_host = False
 user_info = []
 #Testing for user input.
 while not not_host:
-    
+    #Try block.
     try:
         #Asking the user to make a choice.
         user_choice = input("Please enter \'h\' if you would like to check the file directory this program is running from.\nPlease enter \'a\' if you would like to check the ip address of the system.\nPlease enter \'s\' if you would like to check cpu stats.\nPlease enter \'p\' if you would like to check the cpu percent.\nPlease enter \'e\' if you would like to exit\nPlease enter your choice here: ")
