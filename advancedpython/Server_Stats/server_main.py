@@ -1,6 +1,15 @@
 #Importing the socket, psutil libraries.
 import socket
 import psutil
+import sys
+sys.version_info
+# In[6]:
+psutil.cpu_percent()
+# In[7]:
+psutil.virtual_memory().available
+# In[8]:
+psutil.sensors_battery().power_plugged
+# In[ ]:
 #Creating a flag.
 not_host = False
 #Creating a list to hold a bunch of dictionaries.
@@ -42,5 +51,4 @@ while not not_host:
     #Handling the case where the cases above are not met.
     except:
         print("That choice was either invalid or you must first grab the host name by entering \'h\'")
-
 
