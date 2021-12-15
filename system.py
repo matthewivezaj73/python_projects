@@ -12,3 +12,7 @@ while not not_host:
     if user_choice.lower() == "h":
         #Assigning a variable to the hostname.
         hostname = socket.gethostname()
+    elif user_choice.lower() == "a":
+
+
+
