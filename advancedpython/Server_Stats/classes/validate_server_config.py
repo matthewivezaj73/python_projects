@@ -19,3 +19,6 @@ class Server:
         """
         A method that will tell you how much virtual memory is on the server.
         """
+        # In[7]:
+        virtual_mem = psutil.virtual_memory().available
+        print(virtual_mem)
