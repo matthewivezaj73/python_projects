@@ -1,4 +1,4 @@
-#Importing the socket module.
+#Importing the socket, psutil modules.
 import socket
 #Creating a flag.
 not_host = False
