@@ -2,6 +2,8 @@
 import socket
 #Creating a flag.
 not_host = False
+#Creating a list to hold a bunch of dictionaries.
+user_info = []
 #Testing for user input.
 while not not_host:
     #Asking the user to make a choice.
