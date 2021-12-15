@@ -21,10 +21,10 @@ while not not_host:
             print(hostname)
         #Handling the case where the user selects option a.
         elif user_choice.lower() == "a":
-                #Grabbing the ip address of the system and assigning it to a variable.
-                ipaddress = socket.getaddrinfo(hostname,None)
-                #Printing the ipaddress.
-                print(ipaddress)
+            #Grabbing the ip address of the system and assigning it to a variable.
+            ipaddress = socket.getaddrinfo(hostname,None)
+            #Printing the ipaddress.
+            print(ipaddress)
         #Handling the case where the user selects option s.
         elif user_choice.lower() == "s":
             #Grabbing the cpu stats and assigning them to a variable.
