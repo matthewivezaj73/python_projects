@@ -31,7 +31,7 @@ while not not_host:
             print(cpustats)
         #Handling the case where the user selects option p.
         elif user_choice.lower() == "p":
-            
+            cpupercent = psutil.cpu_percent(interval=0.1)
     #Handling the case where the cases above are not met.
     except:
         print("You must first grab the host name by entering \'h\'")
