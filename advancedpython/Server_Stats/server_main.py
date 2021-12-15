@@ -7,8 +7,7 @@ sys.version_info
 psutil.cpu_percent()
 # In[7]:
 psutil.virtual_memory().available
-# In[8]:
-psutil.sensors_battery().power_plugged
+
 # In[ ]:
 #Creating a flag.
 not_host = False
