@@ -28,5 +28,5 @@ def get_sys_info():
     - hostname
     - addresses
     """
-    
+    hostname = socket.gethostname
 print(HELP_TEXT)
