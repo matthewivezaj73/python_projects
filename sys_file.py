@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-#The first line defines the interpreter and the second line defines the encoding for the project.
+#The first line defines the interpreter 
+# and the second line defines the encoding for the project.
+
 #Importing the following libraries:
 # - socket
 # - sys
@@ -31,4 +33,6 @@ def get_sys_info():
     hostname = socket.gethostname
     print(hostname)
     sys_addresses = socket.getaddrinfo(socket.gethostname(), None)
+    for address in sys_addresses:
+        print(address)
 print(HELP_TEXT)
