@@ -13,5 +13,7 @@ HELP_TEXT = """usage: python {program_name:s}
 Displays the values of the sensors
 Options and arguments:
 --help:    Display this message"""
+
 def show_version(user_input):
     print(sys.version_info)
+print(HELP_TEXT)
