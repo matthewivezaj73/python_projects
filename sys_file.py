@@ -15,7 +15,18 @@ Options and arguments:
 --help:    Display this message"""
 
 def show_version(user_input):
-    print(sys.version_info)
+    """
+    A function that prints out system version information.
+    """
+    sys_version = sys.version_info
+    for line in sys_version:
+        print(line)
 def get_sys_info():
+    """
+    A function that gets the following information
+    and then returns them to the user to view:
+    - hostname
+    - addresses
+    """
     
 print(HELP_TEXT)
