@@ -9,3 +9,7 @@
 import socket
 import sys
 import psutil
+HELP_TEXT = """usage: python {program_name:s}
+Displays the values of the sensors
+Options and arguments:
+--help:    Display this message"""
