@@ -16,4 +16,6 @@ Options and arguments:
 
 def show_version(user_input):
     print(sys.version_info)
+def get_sys_info():
+    
 print(HELP_TEXT)
