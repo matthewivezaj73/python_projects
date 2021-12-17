@@ -94,6 +94,7 @@ while not not_done:
         print("Now exiting the system....")
     #Handling the case where the user enters ac.
     elif user_choice.lower() == "ac":
+        #Calling the ac_connected function.
         ac_connected()
 
 #ifmain construct.
