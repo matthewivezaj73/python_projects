@@ -83,7 +83,7 @@ while not not_done:
         show_sensors()
     #Handling the case where the user enters cl.
     elif user_choice.lower() == "cl":
-        #Calling the show sensors function
+        #Calling the command_line function
         command_line()
 
 if __name__ == '__main__':
