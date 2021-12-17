@@ -17,12 +17,12 @@ def ip_addresses():
         address_info.append((address[0].name, address[4][0]))
     return address_info
 def cpu_load():
-    return psutil.cpu_percent(interval=0.1)
-def ram_available():
     """
     A function that checks the total amount of ram available 
     on the system and displays it within intercals of a tenth of a percent.
     """
+    return psutil.cpu_percent(interval=0.1)
+def ram_available():
     return psutil.virtual_memory().available
 def ac_connected():
     """
