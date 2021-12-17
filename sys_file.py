@@ -95,7 +95,6 @@ while not not_done:
     elif user_choice.lower() == "ac":
         #Calling the ac_connected function.
         ac_connected()
-
 #ifmain construct.
 if __name__ == '__main__':
     print()
