@@ -62,6 +62,7 @@ def show_sensors():
     print("Python version: {0.major}.{0.minor}".format(show_version()))
     for address in get_sys_info():
         print("IP addresses: {0[1]} ({0[0]})".format(address))
+#Adding a flag.
 #Printing out the help for the user to see.
 print(HELP_TEXT)
 #Using the ifmain construct.
