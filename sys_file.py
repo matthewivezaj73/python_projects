@@ -72,7 +72,7 @@ while not not_done:
     #Printing out the help for the user to see.
     print(HELP_TEXT)
     #Set a flag.
-    not_version = False
+    not_version = True
 #Using the ifmain construct.
 if __name__ == '__main__':
     sys_info = get_sys_info()
