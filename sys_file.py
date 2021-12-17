@@ -23,6 +23,15 @@ def show_version(user_input):
     sys_version = sys.version_info
     for line in sys_version:
         print(line)
+def get_ram():
+    """
+    A function that gets the ram from a system
+    and returns it to the user.
+
+    function used:
+    - virtual_memory
+    """
+    return psutil.virtual_memory().available
 def get_sys_info():
     """
     A function that gets the following information
@@ -35,6 +44,8 @@ def get_sys_info():
     sys_addresses = socket.getaddrinfo(socket.gethostname(), None)
     for address in sys_addresses:
         print(address)
+def load_sys():
+    return psutil.cpu_percent(interval=0.2)
 print(HELP_TEXT)
 #Using the ifmain construct.
 if __name__ == '__main__':
