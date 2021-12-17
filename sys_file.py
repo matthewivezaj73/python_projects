@@ -32,14 +32,15 @@ def show_sensors():
 def command_line(argv):
     #Try block
     try:
-    program_name, *arguments = argv
-    if not arguments:
-        show_sensors()
-    elif arguments and arguments[0] == '--help':
-        print(HELP_TEXT.format(program_name=program_name))
-        return
-    else:
-        raise ValueError("Unknown arguments {}".format(arguments))
+        program_name, *arguments = argv
+        if not arguments:
+            show_sensors()
+        elif arguments and arguments[0] == '--help':
+            print(HELP_TEXT.format(program_name=program_name))
+            return
+
+    except ValueError:
+        print("Unknown arguments {}".format(arguments))
 #Setting a flag.
 not_done = False
 #Testing for input.
