@@ -37,5 +37,5 @@ def get_sys_info():
         print(address)
 print(HELP_TEXT)
 #Using the ifmain construct.
-
-get_sys_info()
+if __name__ == '__main__':
+    get_sys_info()
