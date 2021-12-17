@@ -19,7 +19,10 @@ Options and arguments:
 def check_power():
     """
     A function that checks to 
-    see if the power is connected on a system
+    see if the power is connected on a system.
+
+    Function used:
+    - sensors_battery
     """
     return psutil.sensors_battery().power_plugged
 def get_ram():
