@@ -55,6 +55,13 @@ def show_version(user_input):
     sys_version = sys.version_info
     for line in sys_version:
         print(line)
+def show_sensors():
+    """
+    A method that will show the sensor on a system.
+    """
+    print("Python version: {0.major}.{0.minor}".format(show_version()))
+    for address in get_sys_info():
+        print("IP addresses: {0[1]} ({0[0]})".format(address))
 print(HELP_TEXT)
 #Using the ifmain construct.
 if __name__ == '__main__':
