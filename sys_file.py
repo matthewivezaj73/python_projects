@@ -77,7 +77,7 @@ not_done = False
 while not not_done:
     #Asking the user to enter in a choice.
     user_choice = input("Please enter one of the following choices:\n\n    - Please enter \'ss\' to show the sensor information.\n\nPlease enter \'cl\' to show the command line. ")
-    #Handling the case where the user enters.
+    #Handling the case where the user enters ss.
     if user_choice.lower() == "ss":
         #Calling the show sensors function
         show_sensors()
