@@ -45,5 +45,6 @@ while not not_done:
     #Asking the user to enter in a choice.
     user_choice = input("Please enter one of the following choices:\n\n")
     #Handling the case where the user enters.
+    if user_choice.lower() == ""
 if __name__ == '__main__':
     command_line(sys.argv)
