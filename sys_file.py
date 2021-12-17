@@ -38,4 +38,4 @@ def get_sys_info():
 print(HELP_TEXT)
 #Using the ifmain construct.
 if __name__ == '__main__':
-    get_sys_info()
+    sys_info = get_sys_info()
