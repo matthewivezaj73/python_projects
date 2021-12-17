@@ -85,6 +85,9 @@ while not not_done:
     elif user_choice.lower() == "cl":
         #Calling the command_line function
         command_line(sys.argv)
+    elif user_choice.lower() == "cl":
+        #Calling the command_line function
+        command_line(sys.argv)
 
 if __name__ == '__main__':
     command_line(sys.argv)
