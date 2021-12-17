@@ -94,11 +94,8 @@ while not not_done:
         print("Now exiting the system....")
     #Handling the case where the user enters e.
     elif user_choice.lower() == "ac":
-        #Setting flag to true.
-        not_done = True
-        #Printing a message to the user.
-        print("Now exiting the system....")
-ac_connected()
+        ac_connected()
+
 #ifmain construct.
 if __name__ == '__main__':
     print()
