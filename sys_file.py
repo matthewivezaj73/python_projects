@@ -42,6 +42,13 @@ def ac_connected():
     """
     return psutil.sensors_battery().power_plugged
 def show_sensors():
+    """
+    A function the displays the following:
+        - cpu internval
+        - Ram available
+        - ac connection status
+        - IP addresses
+    """
     print("Python version: {0.major}.{0.minor}".format(python_version()))
     for address in ip_addresses():
         print(f"IP addresses: {address})")
