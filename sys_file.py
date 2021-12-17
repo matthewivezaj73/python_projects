@@ -68,6 +68,7 @@ not_done = True
 while not not_done:
     #Printing out the help for the user to see.
     print(HELP_TEXT)
+    #Set a flag.
     not_version = False
 #Using the ifmain construct.
 if __name__ == '__main__':
