@@ -25,8 +25,8 @@ def ac_connected():
 def show_sensors():
     print("Python version: {0.major}.{0.minor}".format(python_version()))
     for address in ip_addresses():
-        print("IP addresses: {0[1]} ({0[0]})".format(address))
-    print("CPU Load: {:.1f}".format(cpu_load()))
+        print(f"IP addresses: {address})")
+    print(f"CPU Load: {cpu_load()}")
     print("RAM Available: {} MiB".format(ram_available() / 1024**2))
     print("AC Connected: {}".format(ac_connected()))
 def command_line(argv):
