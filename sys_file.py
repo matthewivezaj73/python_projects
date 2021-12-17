@@ -36,3 +36,6 @@ def get_sys_info():
     for address in sys_addresses:
         print(address)
 print(HELP_TEXT)
+#Using the ifmain construct.
+
+get_sys_info()
