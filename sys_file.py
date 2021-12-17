@@ -36,14 +36,6 @@ def cpu_load():
     """
     cpu_interval = psutil.cpu_percent(interval=0.1)
     print(cpu_interval)
-def exit_program():
-    """
-    A function that exits the program.
-    """
-    #Setting flag to true.
-    not_done = True
-    #Printing a message to the user.
-    print("Now exiting the system....")
 def ip_addresses():
     """
     A function the gets the hostname, IP address 
@@ -97,7 +89,10 @@ while not not_done:
         command_line(sys.argv)
     #Handling the case where the user enters e.
     elif user_choice.lower() == "e":
-        exit_program()
+        #Setting flag to true.
+        not_done = True
+        #Printing a message to the user.
+        print("Now exiting the system....")    
     #Handling the case where the user enters ac.
     elif user_choice.lower() == "ac":
         #Calling the ac_connected function.
