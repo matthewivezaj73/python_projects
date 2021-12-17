@@ -16,13 +16,7 @@ Displays the values of the sensors
 Options and arguments:
 --help:    Display this message"""
 
-def show_version(user_input):
-    """
-    A function that prints out system version information.
-    """
-    sys_version = sys.version_info
-    for line in sys_version:
-        print(line)
+
 def get_ram():
     """
     A function that gets the ram from a system
@@ -46,6 +40,13 @@ def get_sys_info():
         print(address)
 def load_sys():
     return psutil.cpu_percent(interval=0.2)
+def show_version(user_input):
+    """
+    A function that prints out system version information.
+    """
+    sys_version = sys.version_info
+    for line in sys_version:
+        print(line)
 print(HELP_TEXT)
 #Using the ifmain construct.
 if __name__ == '__main__':
