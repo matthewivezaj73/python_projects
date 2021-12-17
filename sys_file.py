@@ -38,7 +38,6 @@ def command_line(argv):
         elif arguments and arguments[0] == '--help':
             print(HELP_TEXT.format(program_name=program_name))
             return
-
     except ValueError:
         print("Unknown arguments {}".format(arguments))
 #Setting a flag.
