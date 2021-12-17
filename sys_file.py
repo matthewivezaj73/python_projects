@@ -11,6 +11,7 @@
 import socket
 import sys
 import psutil
+#Assigning help text to a variable.
 HELP_TEXT = """usage: python {program_name:s}
 Displays the values of the sensors
 Options and arguments:
