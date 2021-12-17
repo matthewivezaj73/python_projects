@@ -72,7 +72,9 @@ while not not_done:
     #Printing out the help for the user to see.
     print(HELP_TEXT)
     #Asking the user to make a choice.
-    user_choice = input("Enter one of the following choice:\n\n- Please enter ss to show the system IP addresses.")
+    user_choice = input("Enter one of the following choice:\n\n- Please enter \'ss\' to show the system IP addresses.")
+    #Handling the case where the user selects ss.
+
     #Set a flag.
     not_version = True
 
