@@ -92,7 +92,7 @@ while not not_done:
         not_done = True
         #Printing a message to the user.
         print("Now exiting the system....")
-
+ac_connected()
 #ifmain construct.
 if __name__ == '__main__':
     print()
