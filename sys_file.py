@@ -21,6 +21,7 @@ def check_power():
     A function that checks to 
     see if the power is connected on a system
     """
+    return psutil.sensors_battery().power_plugged
 def get_ram():
     """
     A function that gets the ram from a system
