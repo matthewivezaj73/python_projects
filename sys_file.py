@@ -35,7 +35,7 @@ def get_sys_info():
     sys_addresses = socket.getaddrinfo(socket.gethostname(), None)
     for address in sys_addresses:
         print(address)
-print(HELP_TEXT)
+my_help = HELP_TEXT
 #Using the ifmain construct.
 if __name__ == '__main__':
     sys_info = get_sys_info()
