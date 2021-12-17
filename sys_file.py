@@ -42,6 +42,7 @@ def command_line(argv):
 not_done = False
 #Testing for input.
 while not not_done:
+    #Asking the user to enter in a choice.
     user_choice = input("Please enter one of the following choices:\n\n")
 if __name__ == '__main__':
     command_line(sys.argv)
