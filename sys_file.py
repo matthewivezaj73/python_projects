@@ -26,6 +26,10 @@ def check_power():
     - sensors_battery
     """
     return psutil.sensors_battery().power_plugged
+def command_line():
+    """
+    A function that brings up a command line to the user.
+    """
 def get_ram():
     """
     A function that gets the ram from a system
