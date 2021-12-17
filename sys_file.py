@@ -82,7 +82,7 @@ while not not_done:
         #Calling the show sensors function
         show_sensors()
     #Handling the case where the user enters cl.
-    elif user_choice.lower() == "ss":
+    elif user_choice.lower() == "cl":
         #Calling the show sensors function
         show_sensors()
 
