@@ -16,7 +16,7 @@ HELP_TEXT = """usage: python {program_name:s}
 Displays the values of the sensors
 Options and arguments:
 --help:    Display this message"""
-
+################## ---------------------- Begin adding functions. ---------------------- ##################
 def check_power():
     """
     A function that checks to 
@@ -63,6 +63,8 @@ def show_sensors():
     print("Python version: {0.major}.{0.minor}".format(show_version()))
     for address in get_sys_info():
         print("IP addresses: {0[1]} ({0[0]})".format(address))
+################## ---------------------- Ending adding functions. ---------------------- ##################
+
 #Adding a flag.
 not_done = True
 #Testing for user input.
