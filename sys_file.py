@@ -26,7 +26,7 @@ def check_power():
     - sensors_battery
     """
     return psutil.sensors_battery().power_plugged
-def command_line():
+def command_line(argv):
     """
     A function that brings up a command line to the user.
     """
@@ -65,7 +65,7 @@ def get_sys_info():
         print(address)
 def load_sys():
     return psutil.cpu_percent(interval=0.2)
-def show_version(user_input):
+def show_version():
     """
     A function that prints out system version information.
     """
