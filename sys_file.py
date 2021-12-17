@@ -45,6 +45,7 @@ while not not_done:
     #Asking the user to enter in a choice.
     user_choice = input("Please enter one of the following choices:\n\n    - Please enter \'ss\' to show the sensor information.")
     #Handling the case where the user enters.
-    if user_choice.lower() == ""
+    if user_choice.lower() == "ss":
+        show_sensors()
 if __name__ == '__main__':
     command_line(sys.argv)
