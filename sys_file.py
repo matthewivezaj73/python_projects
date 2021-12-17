@@ -16,7 +16,11 @@ Displays the values of the sensors
 Options and arguments:
 --help:    Display this message"""
 
-
+def check_power():
+    """
+    A function that checks to 
+    see if the power is connected on a system
+    """
 def get_ram():
     """
     A function that gets the ram from a system
