@@ -10,6 +10,10 @@ Options and arguments:
 def python_version():
     return sys.version_info
 def ip_addresses():
+    """
+    A function the gets the hostname, IP address 
+    information, and appends everything to a list.
+    """
     hostname = socket.gethostname()
     addresses = socket.getaddrinfo(socket.gethostname(), None)
     address_info = []
