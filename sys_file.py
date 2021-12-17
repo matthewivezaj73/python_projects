@@ -30,6 +30,7 @@ def command_line():
     """
     A function that brings up a command line to the user.
     """
+    program_name, *arguments = sys.argv
 def get_ram():
     """
     A function that gets the ram from a system
