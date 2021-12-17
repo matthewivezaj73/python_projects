@@ -65,6 +65,7 @@ def show_sensors():
         print("IP addresses: {0[1]} ({0[0]})".format(address))
     print("CPU Load: {.1f}".format(load_sys()))
     print("RAM Available: {} MiB".format(get_ram() / 1024**2))
+    print("AC Connected: {}".format(check_power()))
 ################## ---------------------- Ending adding functions. ---------------------- ##################
 
 #Adding a flag.
