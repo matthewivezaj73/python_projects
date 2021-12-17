@@ -64,6 +64,8 @@ def show_sensors():
         print("IP addresses: {0[1]} ({0[0]})".format(address))
 #Adding a flag.
 not_done = True
+#Testing for user input.
+while not not_done:
 #Printing out the help for the user to see.
 print(HELP_TEXT)
 #Using the ifmain construct.
