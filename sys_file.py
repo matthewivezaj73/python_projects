@@ -66,8 +66,9 @@ def show_sensors():
 not_done = True
 #Testing for user input.
 while not not_done:
-#Printing out the help for the user to see.
-print(HELP_TEXT)
+    #Printing out the help for the user to see.
+    print(HELP_TEXT)
+    not_version = False
 #Using the ifmain construct.
 if __name__ == '__main__':
     sys_info = get_sys_info()
