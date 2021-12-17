@@ -35,6 +35,9 @@ def cpu_load():
     """
     return psutil.cpu_percent(interval=0.1)
 def exit_program():
+    """
+    A function that exits the program.
+    """
     #Setting flag to true.
     not_done = True
     #Printing a message to the user.
