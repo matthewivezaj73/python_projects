@@ -40,5 +40,6 @@ def command_line(argv):
         raise ValueError("Unknown arguments {}".format(arguments))
 #Setting a flag.
 not_done = False
+#Testing for input.
 if __name__ == '__main__':
     command_line(sys.argv)
