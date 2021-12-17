@@ -63,6 +63,7 @@ def show_sensors():
     print("Python version: {0.major}.{0.minor}".format(show_version()))
     for address in get_sys_info():
         print("IP addresses: {0[1]} ({0[0]})".format(address))
+    print("CPU Load: {.1f}".format(load_sys())
 ################## ---------------------- Ending adding functions. ---------------------- ##################
 
 #Adding a flag.
