@@ -19,8 +19,13 @@ def ip_addresses():
 def cpu_load():
     return psutil.cpu_percent(interval=0.1)
 def ram_available():
+    """"""
     return psutil.virtual_memory().available
 def ac_connected():
+    """
+    A function that checks to see if the power is connected 
+    to the system. If it is, the function will return true.
+    """
     return psutil.sensors_battery().power_plugged
 def show_sensors():
     print("Python version: {0.major}.{0.minor}".format(python_version()))
