@@ -30,6 +30,8 @@ def show_sensors():
     print("RAM Available: {} MiB".format(ram_available() / 1024**2))
     print("AC Connected: {}".format(ac_connected()))
 def command_line(argv):
+    #Try block
+    try:
     program_name, *arguments = argv
     if not arguments:
         show_sensors()
