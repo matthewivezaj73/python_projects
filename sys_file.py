@@ -41,5 +41,7 @@ def command_line(argv):
 #Setting a flag.
 not_done = False
 #Testing for input.
+while not not_done:
+    
 if __name__ == '__main__':
     command_line(sys.argv)
