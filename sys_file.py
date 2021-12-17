@@ -35,6 +35,7 @@ def command_line():
         show_sensors()
     elif arguments and arguments[0] == '--help':
         print(HELP_TEXT.format(program_name=program_name))
+        return
 def get_ram():
     """
     A function that gets the ram from a system
