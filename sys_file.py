@@ -40,6 +40,7 @@ def command_line(argv):
             return
     except ValueError:
         print("Unknown arguments {}".format(arguments))
+    #End of try block
 #Setting a flag.
 not_done = False
 #Testing for input.
