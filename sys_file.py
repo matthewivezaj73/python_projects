@@ -76,7 +76,7 @@ not_done = False
 #Testing for input.
 while not not_done:
     #Asking the user to enter in a choice.
-    user_choice = input("Please enter one of the following choices:\n\n    - Please enter \'ss\' to show the sensor information.\n\n    - Please enter \'cl\' to show the command line. ")
+    user_choice = input("Please enter one of the following choices:\n\n    - Please enter \'ss\' to show the sensor information.\n\n    - Please enter \'cl\' to show the command line.\n\n    - Please enter \'e\' to exit the program.\n\n")
     #Handling the case where the user enters ss.
     if user_choice.lower() == "ss":
         #Calling the show sensors function
@@ -93,4 +93,4 @@ while not not_done:
         print("Now exiting the system....")
 #ifmain construct.
 if __name__ == '__main__':
-    command_line(sys.argv)
+    print()
