@@ -63,6 +63,7 @@ def show_sensors():
     for address in get_sys_info():
         print("IP addresses: {0[1]} ({0[0]})".format(address))
 #Adding a flag.
+not_done = True
 #Printing out the help for the user to see.
 print(HELP_TEXT)
 #Using the ifmain construct.
