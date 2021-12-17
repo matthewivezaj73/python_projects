@@ -12,7 +12,8 @@ def ac_connected():
     A function that checks to see if the power is connected 
     to the system. If it is, the function will return true.
     """
-    return psutil.sensors_battery().power_plugged
+    ac_power = psutil.sensors_battery().power_plugged
+    print(ac_power)
 def command_line(argv):
     """
     A function that runs other user 
@@ -33,7 +34,8 @@ def cpu_load():
     A function that checks the total amount of ram available 
     on the system and displays it within intercals of a tenth of a percent.
     """
-    return psutil.cpu_percent(interval=0.1)
+    cpu_interval = psutil.cpu_percent(interval=0.1)
+    print(cpu_interval)
 def exit_program():
     """
     A function that exits the program.
@@ -95,11 +97,11 @@ while not not_done:
         command_line(sys.argv)
     #Handling the case where the user enters e.
     elif user_choice.lower() == "e":
-        
+        exit_program()
     #Handling the case where the user enters ac.
     elif user_choice.lower() == "ac":
         #Calling the ac_connected function.
         ac_connected()
 #ifmain construct.
 if __name__ == '__main__':
-    print()
+    exit_program()
