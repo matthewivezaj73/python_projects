@@ -74,7 +74,8 @@ while not not_done:
     #Asking the user to make a choice.
     user_choice = input("Enter one of the following choice:\n\n- Please enter \'ss\' to show the system IP addresses.")
     #Handling the case where the user selects ss.
-
+    if user_choice.lower() == "ss":
+        show_sensors()
     #Set a flag.
     not_version = True
 
