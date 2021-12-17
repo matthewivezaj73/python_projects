@@ -8,6 +8,9 @@ Displays the values of the sensors
 Options and arguments:
 --help:    Display this message"""
 def python_version():
+    """
+    A function that checks the version of python you are running.
+    """
     return sys.version_info
 def ip_addresses():
     """
