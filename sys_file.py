@@ -23,6 +23,10 @@ def cpu_load():
     """
     return psutil.cpu_percent(interval=0.1)
 def ram_available():
+    """
+    A function that shows the user the 
+    total amount of memory available on a system.
+    """
     return psutil.virtual_memory().available
 def ac_connected():
     """
