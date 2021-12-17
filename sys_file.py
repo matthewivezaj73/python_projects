@@ -87,8 +87,7 @@ while not not_done:
         command_line(sys.argv)
     #Handling the case where the user enters e.
     elif user_choice.lower() == "e":
-        #Han
-        command_line(sys.argv)
+        not_done = True
 
 if __name__ == '__main__':
     command_line(sys.argv)
