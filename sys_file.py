@@ -70,7 +70,6 @@ def show_sensors():
     print(f"CPU Load: {cpu_load()}")
     print("RAM Available: {} MiB".format(ram_available() / 1024**2))
     print("AC Connected: {}".format(ac_connected()))
-    #End of try block
 #Setting a flag.
 not_done = False
 #Testing for input.
