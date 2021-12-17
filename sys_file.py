@@ -37,6 +37,9 @@ def get_sys_info():
         print(address)
 #Assigning the help text to a var.
 my_help = HELP_TEXT
+#For loop
+for help in my_help:
+    print(help)
 #Using the ifmain construct.
 if __name__ == '__main__':
     sys_info = get_sys_info()
