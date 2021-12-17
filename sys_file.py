@@ -90,6 +90,7 @@ while not not_done:
         #Setting flag to true.
         not_done = True
         #Printing a message to the user.
+        print("Now exiting the system....")
 #ifmain construct.
 if __name__ == '__main__':
     command_line(sys.argv)
