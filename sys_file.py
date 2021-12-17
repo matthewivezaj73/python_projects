@@ -104,4 +104,4 @@ while not not_done:
         ac_connected()
 #ifmain construct.
 if __name__ == '__main__':
-    exit_program()
+    command_line(sys.argv)
