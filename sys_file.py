@@ -36,6 +36,8 @@ def command_line():
     elif arguments and arguments[0] == '--help':
         print(HELP_TEXT.format(program_name=program_name))
         return
+    else:
+        raise ValueError("Unknown arguments {}".format(arguments))
 def get_ram():
     """
     A function that gets the ram from a system
