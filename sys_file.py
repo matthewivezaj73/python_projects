@@ -59,10 +59,10 @@ def get_sys_info():
     - addresses
     """
     hostname = socket.gethostname
-    print(hostname)
+    address_info = []
     sys_addresses = socket.getaddrinfo(socket.gethostname(), None)
     for address in sys_addresses:
-        print(address)
+        address_info.append((address[0].name, address[4][0]))
 def load_sys():
     return psutil.cpu_percent(interval=0.2)
 def show_version():
@@ -70,8 +70,7 @@ def show_version():
     A function that prints out system version information.
     """
     sys_version = sys.version_info
-    for line in sys_version:
-        print(line)
+    return sys_version
 def show_sensors():
     """
     A method that will show the sensor on a system.
@@ -85,19 +84,6 @@ def show_sensors():
 
 ################## ---------------------- Ending adding functions. ---------------------- ##################
 
-#Adding a flag.
-not_done = True
-#Testing for user input.
-while not not_done:
-    #Printing out the help for the user to see.
-    print(HELP_TEXT)
-    #Asking the user to make a choice.
-    user_choice = input("Enter one of the following choice:\n\n- Please enter \'ss\' to show the system IP addresses.")
-    #Handling the case where the user selects ss.
-    if user_choice.lower() == "ss":
-        show_sensors()
-    #Set a flag.
-    not_version = True
 
 #Using the ifmain construct.
 if __name__ == '__main__':
