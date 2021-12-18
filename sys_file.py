@@ -108,6 +108,10 @@ while not not_done:
     elif user_choice.lower() == "ac":
         #Calling the ac_connected function.
         ac_connected()
+    #Handling the case where the user enters ac.
+    elif user_choice.lower() == "vm":
+        #Calling the ac_connected function.
+        ram_available()
 #ifmain construct.
 if __name__ == '__main__':
     command_line(sys.argv)
