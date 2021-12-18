@@ -78,11 +78,11 @@ def show_sensors():
         - ac connection status
         - IP addresses
     """
-    print("Python version: {0.major}.{0.minor}".format(python_version()))
+    click.echo("Python version: {0.major}.{0.minor}".format(python_version()))
     for address in ip_addresses():
-        print(f"IP addresses: {address})")
-    print(f"CPU Load: {cpu_load()}")
-    print("RAM Available: {} MiB".format(ram_available() / 1024**2))
+        click.echo(f"IP addresses: {address})")
+    click.echo(f"CPU Load: {cpu_load()}")
+    click.echo("RAM Available: {} MiB".format(ram_available() / 1024**2))
     
 
 #Setting a flag.
