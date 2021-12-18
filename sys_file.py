@@ -100,8 +100,6 @@ while not not_done:
         print(show_sensor_data)
         #Asking the user if they would like to record the data on an excel sheet.
         record_response = input("Would you like to record the data on a spreadsheet? Y/N")
-        #Handling the case where the user enters y for yes.
-        if record_response.lower() == "y":
             #Creating a blank list.
             my_data_list = []
             #Handling the case where None is in the data.
