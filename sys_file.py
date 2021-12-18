@@ -89,7 +89,8 @@ while not not_done:
         record_response = input("Would you like to record the data on a spreadsheet? Y/N")
         #Handling the case where the user enters y for yes.
         if record_response.lower() == "y":
-
+            for line in show_sensor_data:
+                print(line)
     #Handling the case where the user enters cl.
     elif user_choice.lower() == "cl":
         #Calling the command_line function
