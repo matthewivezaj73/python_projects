@@ -16,6 +16,7 @@ while not not_done:
         #Creating a while loop.
         while not not_list:
             #Printing directions to the user.
+            print("Each line you add will be applied to a column in the table")
             #Asking the user to input text.
             content = input("Please enter the text that you would like to enter into the csv file for the first row: ")
             #Handling the case where the user would like to add content to the list.
