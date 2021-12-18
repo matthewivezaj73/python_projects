@@ -119,7 +119,7 @@ while not not_done:
                     #Writing each data entry to the file.
                     sensor_data_csv.write(data)
         except:
-            print()
+            print("Sorry, but we can't do that.")
         #Printing a message to the user.
         print("Now exiting the system....") 
         #Setting flag to true.
