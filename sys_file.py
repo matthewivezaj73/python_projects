@@ -16,7 +16,7 @@ def ac_connected():
     """
     ac_power = psutil.sensors_battery().power_plugged
     if ac_power is True:
-        print("The ac adapter is connected.")
+        click.echo("The ac adapter is connected.")
     else:
         print("The ac adapter is not connected.")
 def command_line(argv):
