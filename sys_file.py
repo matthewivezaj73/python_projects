@@ -119,6 +119,7 @@ while not not_done:
                 for data in ram:
                     #Writing each data entry to the file.
                     sensor_data_csv.write(data)
+        #except block to handle the alternative case.
         except:
             print("Sorry, but we can't do that.")
         #Printing a message to the user.
