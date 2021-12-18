@@ -98,14 +98,7 @@ while not not_done:
     elif user_choice.lower() == "cl":
         #Calling the command_line function
         cmd_line = command_line(sys.argv)
-    #Handling the case where the user enters e.
-    elif user_choice.lower() == "e":
-        with open("sensor_data.csv","w") as sesonr_data_csv:
-            sesonr_data_csv.write()
-        #Printing a message to the user.
-        print("Now exiting the system....") 
-        #Setting flag to true.
-        not_done = True   
+
     #Handling the case where the user enters ac.
     elif user_choice.lower() == "ac":
         #Calling the ac_connected function.
@@ -116,6 +109,14 @@ while not not_done:
         ram = ram_available()
         #Printing out the contents.
         print(f"The system currently has {ram} ram available.")
+    #Handling the case where the user enters e.
+    elif user_choice.lower() == "e":
+        with open("sensor_data.csv","w") as sesonr_data_csv:
+            sesonr_data_csv.write()
+        #Printing a message to the user.
+        print("Now exiting the system....") 
+        #Setting flag to true.
+        not_done = True   
 #ifmain construct.
 if __name__ == '__main__':
     command_line(sys.argv)
