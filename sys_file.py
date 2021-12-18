@@ -105,7 +105,8 @@ while not not_done:
             #Creating a blank list.
             my_data_list = []
             #Handling the case where None is in the data.
-            for data in show_sensor_data:        
+            for data in show_sensor_data:
+                #Appending each value to the list.        
                 my_data_list.append(data)
         #Handling the alternative case.
             else:
