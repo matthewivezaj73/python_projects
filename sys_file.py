@@ -132,8 +132,8 @@ while not not_done:
         # try:
         #Opening the csv file for writing.
         with open("sensor_data.csv","w") as sensor_data_csv:
-                #Writing each data entry to the file.
-                sensor_data_csv.write(data)
+            #Writing each data entry to the file.
+            sensor_data_csv.write(str(my_ram))
         # #except block to handle the alternative case.
         # except:
         #     print("Sorry, but we can't do that.")
