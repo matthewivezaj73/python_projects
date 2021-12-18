@@ -107,6 +107,8 @@ while not not_done:
             #Appending each value to the list.        
             my_data_list.append(data)
             #Handling the case if None is found in the list.
+            if None in my_data_list:
+                my_data_list.remove(None)
         #Handling the case where the user enters y for yes.
         if record_response.lower() == "y":
             #Opening the csv file for writing.
