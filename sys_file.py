@@ -115,6 +115,7 @@ while not not_done:
         with open("sensor_data.csv","w") as sensor_data_csv:
             #For loop to run through the data.
             for data in ram:
+                #Writing each data entry to the file.
                 sensor_data_csv.write(data)
         #Printing a message to the user.
         print("Now exiting the system....") 
