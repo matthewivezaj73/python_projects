@@ -76,6 +76,7 @@ def show_sensors():
 not_done = False
 #Testing for input.
 while not not_done:
+    #Opening a text file.
     #Asking the user to enter in a choice.
     user_choice = input("Please enter one of the following choices:\n\n    - Please enter \'ss\' to show the sensor information.\n\n"+
     "    - Please enter \'cl\' to show the command line.\n\n    - Please enter \'e\' to exit the program.\n\n   - Please enter \'ac\' to show the adapter connection status.\n\n   - Please enter \'vm\' to show the virtual memory available.")
