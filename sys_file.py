@@ -82,7 +82,7 @@ def show_sensors():
         print(f"IP addresses: {address})")
     print(f"CPU Load: {cpu_load()}")
     print("RAM Available: {} MiB".format(ram_available() / 1024**2))
-    print("AC Connected: {}".format(ac_connected()))
+    
 
 #Setting a flag.
 not_done = False
@@ -97,19 +97,13 @@ while not not_done:
         #Calling the show sensors function
         show_sensor_data = show_sensors()
         #Printing out show_sensor_data.
-        print(show_sensor_data)
+        # print(show_sensor_data)
         #Asking the user if they would like to record the data on an excel sheet.
         record_response = input("Would you like to record the data on a spreadsheet? Y/N")
         #Creating a blank list.
         my_data_list = []
-        print(show_sensor_data[1])
-        #Handling the case where None is in the data.
-        for data in show_sensor_data:
-            if data != None:
-                #Appending each value to the list.        
-                my_data_list.append(data)
-            else:
-                print("This is a bad value.")
+        print(show_sensor_data)
+        # print(show_sensor_data[1])
         #Handling the case where the user enters y for yes.
         if record_response.lower() == "y":
             #Opening the csv file for writing.
