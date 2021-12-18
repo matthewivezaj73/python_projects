@@ -111,12 +111,15 @@ while not not_done:
         print(f"The system currently has {ram} ram available.")
     #Handling the case where the user enters e.
     elif user_choice.lower() == "e":
-        #Opening the csv file for writing.
-        with open("sensor_data.csv","w") as sensor_data_csv:
-            #For loop to run through the data.
-            for data in ram:
-                #Writing each data entry to the file.
-                sensor_data_csv.write(data)
+        try:
+            #Opening the csv file for writing.
+            with open("sensor_data.csv","w") as sensor_data_csv:
+                #For loop to run through the data.
+                for data in ram:
+                    #Writing each data entry to the file.
+                    sensor_data_csv.write(data)
+        except:
+            print()
         #Printing a message to the user.
         print("Now exiting the system....") 
         #Setting flag to true.
