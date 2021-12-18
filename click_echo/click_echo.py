@@ -14,3 +14,5 @@ while not not_done:
         click.echo("processing your csv file...")
         #Opening a file for reading.
         with open("text_files/click_output.txt") as output_txt:
+            #Creating a csv file for writing.
+            with open("text_files/click_output.csv","w+")
