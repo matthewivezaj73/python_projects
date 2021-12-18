@@ -106,6 +106,9 @@ while not not_done:
             for data in show_sensor_data:
                 #Appending each value to the list.        
                 my_data_list.append(data)
+        #Handling the case where the user enters y for yes.
+        if record_response.lower() == "y":
+
         #Handling the alternative case.
             else:
                 #Opening the csv file for writing.
