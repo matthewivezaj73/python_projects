@@ -4,6 +4,7 @@ import socket
 import sys
 import argparse
 import psutil
+import click
 HELP_TEXT = """usage: python {program_name:s}
 Displays the values of the sensors
 Options and arguments:
