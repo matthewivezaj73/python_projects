@@ -93,11 +93,13 @@ while not not_done:
         record_response = input("Would you like to record the data on a spreadsheet? Y/N")
         #Handling the case where the user enters y for yes.
         if record_response.lower() == "y":
+            #Adding a try block.
             try:
                 #Opening the csv file for writing.
                 with open("sensor_data.csv","w") as sensor_data:
                     for line in show_sensor_data:
                         print(line)
+            #Adding an except to handle alternative case.
             except:
                 print("Sorry, but we can't do that at the moment.")
     #Handling the case where the user enters cl.
