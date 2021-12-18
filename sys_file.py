@@ -100,7 +100,8 @@ while not not_done:
         cmd_line = command_line(sys.argv)
     #Handling the case where the user enters e.
     elif user_choice.lower() == "e":
-
+        with open("sensor_data.csv","w") as sesonr_data_csv:
+            sesonr_data_csv.write()
         #Printing a message to the user.
         print("Now exiting the system....") 
         #Setting flag to true.
