@@ -68,6 +68,7 @@ def show_arg(argv):
         add_help=True,
     )
     arguments = parser.parse_args()
+    show_sensors()
 def show_sensors():
     """
     A function the displays the following:
