@@ -112,6 +112,7 @@ while not not_done:
     elif user_choice.lower() == "vm":
         #Calling the ac_connected function.
         ram = ram_available()
+        #Printing out the contents.
         print(ram)
 #ifmain construct.
 if __name__ == '__main__':
