@@ -17,6 +17,7 @@ while not not_done:
         with open("text_files/click_output.txt") as output_txt:
             #Assigning a file path to a variable.
             csv_file = "text_files/click_output.csv"
+            #Handling case where the file does not exist.
             if os.ispath(csv_file):
                     
                 #Creating a csv file for writing.
