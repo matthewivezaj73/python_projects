@@ -102,10 +102,13 @@ while not not_done:
         record_response = input("Would you like to record the data on a spreadsheet? Y/N")
         #Handling the case where the user enters y for yes.
         if record_response.lower() == "y":
-            #Opening the csv file for writing.
-            with open("sensor_data.csv","w+") as sensor_data:
-                for line in show_sensor_data:
-                    print(line)
+            #Handling the case where None is in the data.
+            if (None in show_sensor_data.replace(None,"The AC Adapter is not connected")):        
+
+                #Opening the csv file for writing.
+                with open("sensor_data.csv","w+") as sensor_data:
+                    for line in show_sensor_data:
+                        print(line)
     #Handling the case where the user enters cl.
     elif user_choice.lower() == "cl":
         #Calling the command_line function
