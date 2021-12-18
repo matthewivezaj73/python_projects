@@ -107,6 +107,7 @@ while not not_done:
     elif user_choice.lower() == "vm":
         #Calling the ac_connected function.
         my_ram = ram_available()
+        #Starting for loop.
         #Printing out the contents.
         print(f"The system currently has {ram} ram available.")
     #Handling the case where the user enters e.
