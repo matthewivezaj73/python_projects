@@ -20,19 +20,19 @@ while not not_done:
             #Giving the user a choice of what to do.
             user_choice = input("Enter 1 to enter a value in the csv file.\n\nEnter 2 to read each line in the csv file.\n\nEnter 3 to edit a line in the csv file.\n\n")
             #Handling case 1.
-            #Asking the user to input text.
-            content = input("Please enter the text that you would like to enter into the csv file for the first row: ")
-            #Handling the case where the user would like to add content to the list.
+            if user_choice == "1":
+                #Asking the user to input text.
+                content = input("Please enter the text that you would like to enter into the csv file for the first row: ")
             
-        #Printing out a line to tell the user that we are processing their csv file.
-        click.echo("processing your csv file...")
-        #Opening a file for reading.
-        with open("text_files/click_output.txt") as output_txt:
-            #Assigning a file path to a variable.
-            csv_file = "text_files/click_output.csv"
-            #Handling case where the file does not exist.
-            if os.ispath(csv_file):
-                    
-                #Creating a csv file for writing.
-                with open("text_files/click_output.csv","w+") as csv_output:
-                    csv_output.write(content)
+                #Printing out a line to tell the user that we are processing their csv file.
+                click.echo("processing your csv file...")
+                #Opening a file for reading.
+                with open("text_files/click_output.txt") as output_txt:
+                    #Assigning a file path to a variable.
+                    csv_file = "text_files/click_output.csv"
+                    #Handling case where the file does not exist.
+                    if os.ispath(csv_file):
+                            
+                        #Creating a csv file for writing.
+                        with open("text_files/click_output.csv","w+") as csv_output:
+                            csv_output.write(content)
