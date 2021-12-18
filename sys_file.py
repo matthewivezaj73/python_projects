@@ -98,17 +98,6 @@ while not not_done:
         show_sensor_data = show_sensors()
         print(show_sensor_data)
         # print(show_sensor_data[1])
-        #Handling the case where the user enters y for yes.
-        if record_response.lower() == "y":
-            #Opening the csv file for writing.
-            with open("sensor_data.csv","w") as sensor_data:
-                for line in show_sensor_data:
-                    print(line)        #Handling the alternative case.
-        else:
-            #Opening the csv file for writing.
-            with open("sensor_data.csv","w+") as sensor_data:
-                for line in show_sensor_data:
-                    print(line)
             
     #Handling the case where the user enters cl.
     elif user_choice.lower() == "cl":
