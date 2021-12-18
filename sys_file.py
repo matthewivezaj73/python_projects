@@ -110,8 +110,7 @@ while not not_done:
         #Calling the ac_connected function.
         my_connection = ac_connected()
         #Starting a for loop.
-        for connection in my_connection:
-            print(connection)
+        print(my_connection)
     #Handling the case where the user enters ac.
     elif user_choice.lower() == "vm":
         #Calling the ac_connected function.
