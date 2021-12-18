@@ -76,37 +76,36 @@ def show_sensors():
 not_done = False
 #Testing for input.
 while not not_done:
-    #Opening a text file.
-    with open ("text_files/sys_data.txt") as sys_data:
-        #Asking the user to enter in a choice.
-        user_choice = input("Please enter one of the following choices:\n\n    - Please enter \'ss\' to show the sensor information.\n\n"+
-        "    - Please enter \'cl\' to show the command line.\n\n    - Please enter \'e\' to exit the program.\n\n   - Please enter \'ac\' to show the adapter connection status.\n\n   - Please enter \'vm\' to show the virtual memory available.")
-        #Handling the case where the user enters ss.
-        if user_choice.lower() == "ss":
-            #Calling the show sensors function
-            show_sensor_data = show_sensors()
-            #Printing out show_sensor_data.
-            print(show_sensor_data)
-            #Asking the user if they would like to record the data on an excel sheet.
-            record_response = input("Would you like to record the data on a spreadsheet? Y/N")
-            #Handling the case where the user enters y for yes.
-            if record_response.lower() == "y":
+    #Asking the user to enter in a choice.
+    user_choice = input("Please enter one of the following choices:\n\n    - Please enter \'ss\' to show the sensor information.\n\n"+
+    "    - Please enter \'cl\' to show the command line.\n\n    - Please enter \'e\' to exit the program.\n\n   - Please enter \'ac\' to show the adapter connection status.\n\n   - Please enter \'vm\' to show the virtual memory available.")
+    #Handling the case where the user enters ss.
+    if user_choice.lower() == "ss":
+        #Calling the show sensors function
+        show_sensor_data = show_sensors()
+        #Printing out show_sensor_data.
+        print(show_sensor_data)
+        #Asking the user if they would like to record the data on an excel sheet.
+        record_response = input("Would you like to record the data on a spreadsheet? Y/N")
+        #Handling the case where the user enters y for yes.
+        if record_response.lower() == "y":
+            with open("sensor_data.csv","w") as sensor_data:
                 for line in show_sensor_data:
                     print(line)
-        #Handling the case where the user enters cl.
-        elif user_choice.lower() == "cl":
-            #Calling the command_line function
-            command_line(sys.argv)
-        #Handling the case where the user enters e.
-        elif user_choice.lower() == "e":
-            #Setting flag to true.
-            not_done = True
-            #Printing a message to the user.
-            print("Now exiting the system....")    
-        #Handling the case where the user enters ac.
-        elif user_choice.lower() == "ac":
-            #Calling the ac_connected function.
-            ac_connected()
+    #Handling the case where the user enters cl.
+    elif user_choice.lower() == "cl":
+        #Calling the command_line function
+        command_line(sys.argv)
+    #Handling the case where the user enters e.
+    elif user_choice.lower() == "e":
+        #Setting flag to true.
+        not_done = True
+        #Printing a message to the user.
+        print("Now exiting the system....")    
+    #Handling the case where the user enters ac.
+    elif user_choice.lower() == "ac":
+        #Calling the ac_connected function.
+        ac_connected()
 #ifmain construct.
 if __name__ == '__main__':
     command_line(sys.argv)
