@@ -30,7 +30,7 @@ def command_line(argv):
         if not arguments:
             show_sensors()
         elif arguments and arguments[0] == '--help':
-            print(HELP_TEXT.format(program_name=program_name))
+            click.echo(HELP_TEXT.format(program_name=program_name))
             return
     except ValueError:
         print("Unknown arguments {}".format(arguments))
