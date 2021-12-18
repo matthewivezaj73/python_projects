@@ -112,6 +112,7 @@ while not not_done:
         #If the ac adapter is connected, do this.
         if my_connection == True:
             print("The adapter is connected.")
+        #Handling the alternative case.
         else:
             print("The adapter is not connected.")
         #Starting a for loop.
