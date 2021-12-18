@@ -110,7 +110,8 @@ while not not_done:
     elif user_choice.lower() == "cl":
         #Calling the command_line function
         cmd_line = command_line(sys.argv)
-
+        if cmd_line == None:
+            print("The AC Adapter is not connected.")
     #Handling the case where the user enters ac.
     elif user_choice.lower() == "ac":
         #Calling the ac_connected function.
