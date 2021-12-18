@@ -109,6 +109,9 @@ while not not_done:
     elif user_choice.lower() == "ac":
         #Calling the ac_connected function.
         my_connection = ac_connected()
+        #If the ac adapter is connected, do this.
+        if my_connection == True:
+            print("The adapter is connected.")
         #Starting a for loop.
         print(my_connection)
     #Handling the case where the user enters ac.
