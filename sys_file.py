@@ -82,12 +82,12 @@ while not not_done:
     #Handling the case where the user enters ss.
     if user_choice.lower() == "ss":
         #Calling the show sensors function
-        show_sensors()
+        show_sensor_data = show_sensors()
         #Asking the user if they would like to record the data on an excel sheet.
         record_response = input("Would you like to record the data on a spreadsheet? Y/N")
         #Handling the case where the user enters y for yes.
         if record_response.lower() == "y":
-            
+
     #Handling the case where the user enters cl.
     elif user_choice.lower() == "cl":
         #Calling the command_line function
