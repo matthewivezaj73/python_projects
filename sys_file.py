@@ -124,10 +124,8 @@ while not not_done:
     elif user_choice.lower() == "vm":
         #Calling the ac_connected function.
         my_ram = ram_available()
-        #Starting for loop.
-        for ram in my_ram:
-            #Printing out the contents.
-            print(f"The system currently has {ram} ram available.")
+        #Printing out a formated string.
+        print(f"The system currently has {my_ram} ram available.")
     #Handling the case where the user enters e.
     elif user_choice.lower() == "e":
         #Try block.
@@ -135,7 +133,7 @@ while not not_done:
             #Opening the csv file for writing.
             with open("sensor_data.csv","w") as sensor_data_csv:
                 #For loop to run through the data.
-                for data in ram:
+                for data in my_ram:
                     #Writing each data entry to the file.
                     sensor_data_csv.write(data)
         #except block to handle the alternative case.
