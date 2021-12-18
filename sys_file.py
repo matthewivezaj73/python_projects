@@ -83,6 +83,7 @@ while not not_done:
     if user_choice.lower() == "ss":
         #Calling the show sensors function
         show_sensors()
+        #Asking the user if they would like to record the data on an excel sheet.
     #Handling the case where the user enters cl.
     elif user_choice.lower() == "cl":
         #Calling the command_line function
