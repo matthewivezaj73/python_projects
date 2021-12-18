@@ -18,7 +18,7 @@ while not not_done:
             #Printing directions to the user.
             print("Each line you add will be applied to a column in the table")
             #Giving the user a choice of what to do.
-            user_choice = input("Enter 1 to enter a value in the csv file.\n\nEnter 2 to read each line in the csv file.\n\n")
+            user_choice = input("Enter 1 to enter a value in the csv file.\n\nEnter 2 to read each line in the csv file.\n\nEnter 3 to edit a line in the csv file.\n\n")
             #Asking the user to input text.
             content = input("Please enter the text that you would like to enter into the csv file for the first row: ")
             #Handling the case where the user would like to add content to the list.
