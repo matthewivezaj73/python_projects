@@ -129,16 +129,14 @@ while not not_done:
     #Handling the case where the user enters e.
     elif user_choice.lower() == "e":
         #Try block.
-        try:
-            #Opening the csv file for writing.
-            with open("sensor_data.csv","w") as sensor_data_csv:
-                #For loop to run through the data.
-                for data in my_ram:
-                    #Writing each data entry to the file.
-                    sensor_data_csv.write(data)
-        #except block to handle the alternative case.
-        except:
-            print("Sorry, but we can't do that.")
+        # try:
+        #Opening the csv file for writing.
+        with open("sensor_data.csv","w") as sensor_data_csv:
+                #Writing each data entry to the file.
+                sensor_data_csv.write(data)
+        # #except block to handle the alternative case.
+        # except:
+        #     print("Sorry, but we can't do that.")
         #Printing a message to the user.
         print("Now exiting the system....") 
         #Setting flag to true.
