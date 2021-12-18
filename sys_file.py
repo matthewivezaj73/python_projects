@@ -103,14 +103,14 @@ while not not_done:
         #Handling the case where the user enters y for yes.
         if record_response.lower() == "y":
             #Handling the case where None is in the data.
-            if (None in show_sensor_data):        
+            for data in show_sensor_data:        
                 pass
         #Handling the alternative case.
-        else:
-            #Opening the csv file for writing.
-            with open("sensor_data.csv","w+") as sensor_data:
-                for line in show_sensor_data:
-                    print(line)
+            else:
+                #Opening the csv file for writing.
+                with open("sensor_data.csv","w+") as sensor_data:
+                    for line in show_sensor_data:
+                        print(line)
             
     #Handling the case where the user enters cl.
     elif user_choice.lower() == "cl":
