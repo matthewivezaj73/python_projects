@@ -97,7 +97,7 @@ while not not_done:
     #Handling the case where the user enters cl.
     elif user_choice.lower() == "cl":
         #Calling the command_line function
-        command_line(sys.argv)
+        cmd_line = command_line(sys.argv)
     #Handling the case where the user enters e.
     elif user_choice.lower() == "e":
         #Setting flag to true.
