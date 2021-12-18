@@ -106,7 +106,7 @@ while not not_done:
             my_data_list = []
             #Handling the case where None is in the data.
             for data in show_sensor_data:        
-                pass
+                my_data_list.append(data)
         #Handling the alternative case.
             else:
                 #Opening the csv file for writing.
