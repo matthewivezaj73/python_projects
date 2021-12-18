@@ -6,3 +6,6 @@ class Metrics:
             - metric_value
             - quantity_of_metrics
         """
+        self.metric_name = metric_name
+        self.metric_value = metric_value
+        self.quantity_of_metrics = quantity_of_metrics
