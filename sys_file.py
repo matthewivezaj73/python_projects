@@ -61,6 +61,12 @@ def ram_available():
     total amount of memory available on a system.
     """
     return psutil.virtual_memory().available
+def show_arg(argv):
+    parser = argparse.ArgumentParser(
+        description='Displays the values of the sensors',
+        add_help=True,
+    )
+    arguments = parser.parse_args()
 def show_sensors():
     """
     A function the displays the following:
@@ -75,6 +81,7 @@ def show_sensors():
     print(f"CPU Load: {cpu_load()}")
     print("RAM Available: {} MiB".format(ram_available() / 1024**2))
     print("AC Connected: {}".format(ac_connected()))
+
 #Setting a flag.
 not_done = False
 #Testing for input.
