@@ -102,16 +102,14 @@ while not not_done:
         record_response = input("Would you like to record the data on a spreadsheet? Y/N")
         #Creating a blank list.
         my_data_list = []
+        print(show_sensor_data[1])
         #Handling the case where None is in the data.
         for data in show_sensor_data:
-            #Appending each value to the list.        
-            my_data_list.append(data)
-            #Handling the case if None is found in the list.
-            if None in my_data_list:
-                my_data_list.remove(None)
-            #Adding an alternative case.
+            if data != None:
+                #Appending each value to the list.        
+                my_data_list.append(data)
             else:
-                print("This value looks good.")
+                print("This is a bad value.")
         #Handling the case where the user enters y for yes.
         if record_response.lower() == "y":
             #Opening the csv file for writing.
