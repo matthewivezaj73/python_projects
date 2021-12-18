@@ -111,6 +111,7 @@ while not not_done:
         print(f"The system currently has {ram} ram available.")
     #Handling the case where the user enters e.
     elif user_choice.lower() == "e":
+        #Try block.
         try:
             #Opening the csv file for writing.
             with open("sensor_data.csv","w") as sensor_data_csv:
