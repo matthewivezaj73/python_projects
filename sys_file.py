@@ -33,7 +33,7 @@ def command_line(argv):
             click.echo(HELP_TEXT.format(program_name=program_name))
             return
     except ValueError:
-        print("Unknown arguments {}".format(arguments))
+        click.echo("Unknown arguments {}".format(arguments))
 def cpu_load():
     """
     A function that checks the total amount of ram available 
