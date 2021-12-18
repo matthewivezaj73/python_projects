@@ -1,5 +1,6 @@
 #Importing libraries.
 import click
+import os
 #Adding a flag.
 not_done = False
 #Testing for user input.
@@ -16,5 +17,6 @@ while not not_done:
         with open("text_files/click_output.txt") as output_txt:
             #Assigning a file path to a variable.
             csv_file = "text_files/click_output.csv"
+            if
             #Creating a csv file for writing.
             with open("text_files/click_output.csv","w+")
