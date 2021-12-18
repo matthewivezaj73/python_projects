@@ -10,6 +10,7 @@ while not not_done:
     #Handling the case where the user enters csv.
     if do_something.lower() == "csv":
         #Creating a blank list.
+        csv_content_list = []
         #Setting a flag.
         not_list = False
         #Creating a while loop.
