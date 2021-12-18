@@ -10,10 +10,11 @@ while not not_done:
     #Handling the case where the user enters csv.
     if do_something.lower() == "csv":
         #Setting a flag.
-        not_csv = False
+        not_list = False
         #Creating a while loop.
-        #Asking the user to input text.
-        content = input("Please enter the text that you would like to enter into the csv file for the first row: ")
+        while not not_list:
+            #Asking the user to input text.
+            content = input("Please enter the text that you would like to enter into the csv file for the first row: ")
         #Printing out a line to tell the user that we are processing their csv file.
         click.echo("processing your csv file...")
         #Opening a file for reading.
