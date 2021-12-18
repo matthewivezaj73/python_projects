@@ -9,7 +9,7 @@ class Metrics:
         self.metric_name = metric_name
         self.metric_value = metric_value
         self.quantity_of_metrics = quantity_of_metrics
-    def ac_connected():
+    def ac_connected(self):
         """
         A function that checks to see if the power is connected 
         to the system. If it is, the function will return true.
@@ -19,7 +19,7 @@ class Metrics:
             print("The ac adapter is connected.")
         else:
             print("The ac adapter is not connected.")
-    def command_line(argv):
+    def command_line(self,argv):
         """
         A function that runs other user 
         defined functions inside of it.
@@ -34,14 +34,14 @@ class Metrics:
                 return
         except ValueError:
             print("Unknown arguments {}".format(arguments))
-    def cpu_load():
+    def cpu_load(self):
         """
         A function that checks the total amount of ram available 
         on the system and displays it within intercals of a tenth of a percent.
         """
         cpu_interval = psutil.cpu_percent(interval=0.1)
         print(cpu_interval)
-    def ip_addresses():
+    def ip_addresses(self):
         """
         A function the gets the hostname, IP address 
         information, and appends everything to a list.
@@ -52,12 +52,12 @@ class Metrics:
         for address in addresses:
             address_info.append((address[0].name, address[4][0]))
         return address_info
-    def python_version():
+    def python_version(self):
         """
         A function that checks the version of python you are running.
         """
         return sys.version_info
-    def ram_available():
+    def ram_available(self):
         """
         A function that shows the user the 
         total amount of memory available on a system.
@@ -70,7 +70,7 @@ class Metrics:
         )
         arguments = parser.parse_args()
         show_sensors()
-    def show_sensors():
+    def show_sensors(self):
         """
         A function the displays the following:
             - cpu internval
