@@ -102,7 +102,7 @@ while not not_done:
     #Handling the case where the user enters ac.
     elif user_choice.lower() == "ac":
         #Calling the ac_connected function.
-        ac_connected()
+        my_connection = ac_connected()
     #Handling the case where the user enters ac.
     elif user_choice.lower() == "vm":
         #Calling the ac_connected function.
