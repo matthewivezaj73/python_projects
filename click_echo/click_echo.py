@@ -12,3 +12,4 @@ while not not_done:
         content = input("Please enter the text that you would like to enter into the csv file for the first row: ")
         #Printing out a line to tell the user that we are processing their csv file.
         click.echo("processing your csv file...")
+        with open("text_files/click_output.txt") as output_txt:
