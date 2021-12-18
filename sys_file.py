@@ -108,8 +108,9 @@ while not not_done:
         #Calling the ac_connected function.
         my_ram = ram_available()
         #Starting for loop.
-        #Printing out the contents.
-        print(f"The system currently has {ram} ram available.")
+        for ram in my_ram:
+            #Printing out the contents.
+            print(f"The system currently has {ram} ram available.")
     #Handling the case where the user enters e.
     elif user_choice.lower() == "e":
         #Try block.
