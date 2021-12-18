@@ -113,7 +113,7 @@ while not not_done:
         #Calling the ac_connected function.
         ram = ram_available()
         #Printing out the contents.
-        print(ram)
+        print(f"The system currently has {ram} ram available.")
 #ifmain construct.
 if __name__ == '__main__':
     command_line(sys.argv)
