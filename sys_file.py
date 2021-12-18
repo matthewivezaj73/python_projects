@@ -100,10 +100,11 @@ while not not_done:
         cmd_line = command_line(sys.argv)
     #Handling the case where the user enters e.
     elif user_choice.lower() == "e":
-        #Setting flag to true.
-        not_done = True
+
         #Printing a message to the user.
-        print("Now exiting the system....")    
+        print("Now exiting the system....") 
+        #Setting flag to true.
+        not_done = True   
     #Handling the case where the user enters ac.
     elif user_choice.lower() == "ac":
         #Calling the ac_connected function.
