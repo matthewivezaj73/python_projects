@@ -113,10 +113,8 @@ while not not_done:
         if my_connection == True:
             print("The adapter is connected.")
         #Handling the alternative case.
-        else:
+        elif my_connection == None:
             print("The adapter is not connected.")
-        #Starting a for loop.
-        print(my_connection)
     #Handling the case where the user enters ac.
     elif user_choice.lower() == "vm":
         #Calling the ac_connected function.
