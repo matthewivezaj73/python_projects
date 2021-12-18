@@ -17,9 +17,11 @@ while not not_done:
         while not not_list:
             #Printing directions to the user.
             print("Each line you add will be applied to a column in the table")
+            user_choice = input("Enter 1 to enter a value in the csv file.")
             #Asking the user to input text.
             content = input("Please enter the text that you would like to enter into the csv file for the first row: ")
             #Handling the case where the user would like to add content to the list.
+            
         #Printing out a line to tell the user that we are processing their csv file.
         click.echo("processing your csv file...")
         #Opening a file for reading.
