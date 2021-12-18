@@ -18,7 +18,7 @@ def ac_connected():
     if ac_power is True:
         click.echo("The ac adapter is connected.")
     else:
-        print("The ac adapter is not connected.")
+        click.echo("The ac adapter is not connected.")
 def command_line(argv):
     """
     A function that runs other user 
