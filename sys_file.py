@@ -13,7 +13,8 @@ def ac_connected():
     to the system. If it is, the function will return true.
     """
     ac_power = psutil.sensors_battery().power_plugged
-    print(ac_power)
+    if ac_power is True:
+        print("The ac adapter is connected.")
 def command_line(argv):
     """
     A function that runs other user 
