@@ -115,6 +115,9 @@ while not not_done:
         #Handling the alternative case.
         elif my_connection == None:
             print("The adapter is not connected.")
+        #Handling the last case where something wrong happened.
+        else:
+            print("Something wrong happened.")
     #Handling the case where the user enters ac.
     elif user_choice.lower() == "vm":
         #Calling the ac_connected function.
