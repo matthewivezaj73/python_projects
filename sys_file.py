@@ -113,6 +113,7 @@ while not not_done:
     elif user_choice.lower() == "e":
         #Opening the csv file for writing.
         with open("sensor_data.csv","w") as sensor_data_csv:
+            #For loop to run through the data.
             for data in ram:
                 sensor_data_csv.write(data)
         #Printing a message to the user.
