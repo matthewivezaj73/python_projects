@@ -96,9 +96,7 @@ while not not_done:
     if user_choice.lower() == "ss":
         #Calling the show sensors function
         show_sensor_data = show_sensors()
-        print(show_sensor_data)
-        # print(show_sensor_data[1])
-            
+        print(show_sensor_data)            
     #Handling the case where the user enters cl.
     elif user_choice.lower() == "cl":
         #Calling the command_line function
