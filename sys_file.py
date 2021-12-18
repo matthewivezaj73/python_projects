@@ -96,12 +96,6 @@ while not not_done:
     if user_choice.lower() == "ss":
         #Calling the show sensors function
         show_sensor_data = show_sensors()
-        #Printing out show_sensor_data.
-        # print(show_sensor_data)
-        #Asking the user if they would like to record the data on an excel sheet.
-        record_response = input("Would you like to record the data on a spreadsheet? Y/N")
-        #Creating a blank list.
-        my_data_list = []
         print(show_sensor_data)
         # print(show_sensor_data[1])
         #Handling the case where the user enters y for yes.
