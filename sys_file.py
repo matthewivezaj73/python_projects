@@ -2,6 +2,7 @@
 # coding: utf-8
 import socket
 import sys
+import argparse
 import psutil
 HELP_TEXT = """usage: python {program_name:s}
 Displays the values of the sensors
