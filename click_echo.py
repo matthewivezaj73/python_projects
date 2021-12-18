@@ -4,3 +4,4 @@ import click
 not_done = False
 #Testing for user input.
 while not not_done:
+    do_something = input("")
