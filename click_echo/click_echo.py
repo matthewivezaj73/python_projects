@@ -10,4 +10,4 @@ while not not_done:
     if do_something.lower() == "csv":
         #Asking the user to input text.
         content = input("Please enter the text that you would like to enter into the csv file for the first row: ")
-        click.echo("processing your csv file")
+        click.echo("processing your csv file...")
