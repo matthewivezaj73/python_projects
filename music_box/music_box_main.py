@@ -9,7 +9,7 @@ playlist = []
 #Testing for user input.
 while not not_done:
     #Asking the user to enter a choice.
-    user_action = input("Enter \'a\' to add an entry.\n\nEnter \'s\' to show all entries.\n\nEnter \'e\' to edit an entry.\n\nEnter \'x\' to exit.")
+    user_action = input("Enter \'a\' to add an entry.\n\nEnter \'s\' to show all entries.\n\nEnter \'x\' to exit.")
     #Handling the case where the user enters a.
     if user_action.lower() == "a":
         #Creating a flag.
