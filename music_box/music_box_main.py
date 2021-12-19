@@ -48,3 +48,4 @@ while not not_done:
     #Handling the case where the user selects x.
     elif user_action.lower() == "x":
         #Setting flag to true.
+        not_done = True
