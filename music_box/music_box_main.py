@@ -23,7 +23,7 @@ while not not_done:
         #Adding a flag.
         not_album = False
         #Testing for the artist.
-        while not not_artist:
+        while not not_album:
             #Asking the user for the artist name.
             artist_name = input("Please enter the artist's name: ")
             #Validating the artist name.
