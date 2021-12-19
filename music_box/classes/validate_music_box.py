@@ -15,3 +15,7 @@ class ValidateMusic:
         Listing the attrbutes from the main method.
         """
         return f'the musician {self.artist_name}\n\nthe Album name is {self.album_name}\n\nThe Song title is {self.song_title}'
+    def play_song(self,song_name):
+        """
+        
+        """
