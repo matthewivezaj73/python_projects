@@ -42,6 +42,6 @@ while not not_done:
         playlist.append({"Arist Name: ": artist_name, "Album Name: ": album_name, "Song Title: ":song_name})
     #Handling the case where the user enters s.
     if user_action.lower() == "s":
-        #A for loop that will run through each dictionary in the list.
+        #A for loop that will run through each dictionary in the list and print it.
         for plist in playlist:
             print(plist+ "\n")
