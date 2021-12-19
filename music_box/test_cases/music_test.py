@@ -14,9 +14,9 @@ class TestMusic(unittest.TestCase):
         """
         A method that will ensure that validate_album returns false.
         """
-        invalid_artist_list = [" Rocky", "Rocky "," Rocky ", " ", "   ","                 "]
-        for artist in invalid_artist_list:
-            self.new_music.validate_album(artist)
+        invalid_album_list = [" Rocky", "Rocky "," Rocky ", " ", "   ","                 "]
+        for album in invalid_album_list:
+            self.new_music.validate_album(album)
     def test_validate_album_true(self):
         """
         A method that will ensure that validate_album returns true.
