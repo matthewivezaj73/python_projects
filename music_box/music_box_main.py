@@ -38,9 +38,8 @@ while not not_done:
             song_name = input("Please enter the song name: ")
             #Validating the song name.
             not_song = new_music.validate_album(song_name)
-        #Appending the data in dictionary format per entry to the list.
-        playlist.append[{"Arist Name: ": artist_name, "Album Name: ": album_name, "Song Title: ":song_name}]
+        playlist.append({"Arist Name: ": artist_name, "Album Name: ": album_name, "Song Title: ":song_name})
     #Handling the case where the user enters s.
     if user_action.lower() == "s":
         for plist in playlist:
-            print(plist)
+            print(plist+ "\n")
