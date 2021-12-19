@@ -4,5 +4,5 @@ from classes.validate_music_box import ValidateMusic
 not_done = False
 #Testing for user input.
 while not not_done:
-
+    #Asking the user to enter a choice.
     user_action = input("Enter a to add ")
