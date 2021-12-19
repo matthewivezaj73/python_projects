@@ -21,7 +21,7 @@ class ValidateMusic:
 
         Takes the song name as parameters.
         """
-        print(f'Now playing {self.song_title} by {self.artist_name} from the album {self.album_name}')
+        print(f'Now playing {song_name} by {artist_name} from the album {album_name}')
     def validate_artist(self,artist_name):
         """
         Creating a method that validates the artist name.
