@@ -12,5 +12,5 @@ class TestMusic(unittest.TestCase):
         new_music = ValidateMusic("Mike L", "Omega", "Sprigal")
     def test_validate_artist_false(self):
         """
-        
+        A method that will ensure that validate_artist returns false.
         """
