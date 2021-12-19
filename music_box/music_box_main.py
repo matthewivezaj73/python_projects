@@ -12,3 +12,4 @@ while not not_done:
         not_artist = False
         #Testing for the artist.
         while not not_artist:
+            #Asking the user for the artist name.
