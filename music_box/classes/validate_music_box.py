@@ -10,3 +10,7 @@ class ValidateMusic:
         self.artist_name = artist_name
         self.album_name = album_name
         self.song_title = song_title
+    def __str__(self):
+        """
+        
+        """
