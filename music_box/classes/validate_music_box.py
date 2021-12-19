@@ -17,7 +17,9 @@ class ValidateMusic:
         return f'The musician is {self.artist_name}\n\nThe Album name is {self.album_name}\n\nThe Song title is {self.song_title}'
     def play_song(self,song_name):
         """
-        
+        Created a method that represents the act of playing a song.
+
+        Takes the song name as parameters.
         """
     def validate_artist(self,artist_name):
         """
