@@ -12,5 +12,6 @@ class ValidateMusic:
         self.song_title = song_title
     def __str__(self):
         """
-        
+        Listing the attrbutes from the main method.
         """
+        return f'the musician {self.artist_name}\n\nthe Album name is {self.album_name}\n\nThe Song title is {self.song_title}'
