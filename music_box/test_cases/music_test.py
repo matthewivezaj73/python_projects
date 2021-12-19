@@ -14,3 +14,4 @@ class TestMusic(unittest.TestCase):
         """
         A method that will ensure that validate_artist returns false.
         """
+        self.new_music.validate_artist()
