@@ -28,7 +28,7 @@ class ValidateMusic:
 
         The method takes in artist_name as a passed parameter.
         """
-        if ("'" in artist_name) and (artist_name.replace("'","").isalpha()) or artist_name.isalpha():
+        if (("'" in artist_name) and (artist_name.replace("'","").isalpha())) or artist_name.isalpha() or (("$" in artist_name) and (artist_name.replace("$","").isalpha())) or (("-" in artist_name) and (artist_name.replace("-","").isalpha())) or (("." in artist_name) and (artist_name.replace(".","").isalpha())):
             return True
         else:
             return False
