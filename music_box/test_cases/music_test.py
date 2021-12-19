@@ -10,3 +10,7 @@ class TestMusic(unittest.TestCase):
         """
         #Creating an instance of the class.
         new_music = ValidateMusic("Mike L", "Omega", "Sprigal")
+    def test_validate_artist_false(self):
+        """
+        
+        """
