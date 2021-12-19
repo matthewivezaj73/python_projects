@@ -15,4 +15,5 @@ class TestMusic(unittest.TestCase):
         A method that will ensure that validate_artist returns false.
         """
         invalid_artist_list = ["R0cky!", "!R0cky", "R0*cky!", "#R0cky!", " Rocky", "Rocky "," Rocky ", " ", "   ","&*@*$&#$","%","%*","1_2","                 "]
-        self.new_music.validate_artist()
+        for artist in invalid_artist_list:
+            self.new_music.validate_artist(artist)
