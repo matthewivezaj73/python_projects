@@ -1,6 +1,7 @@
 #Importing the validate_music_box file. 
 from classes.validate_music_box import ValidateMusic
 #Instantiating the class.
+new_music = ValidateMusic("Mike L", "Omega", "Sprigal")
 #Creating a flag.
 not_done = False
 #Testing for user input.
