@@ -41,7 +41,10 @@ while not not_done:
         #Adding a dictionary of data collected to the list.
         playlist.append({"Arist Name: ": artist_name, "Album Name: ": album_name, "Song Title: ":song_name})
     #Handling the case where the user enters s.
-    if user_action.lower() == "s":
+    elif user_action.lower() == "s":
         #A for loop that will run through each dictionary in the list and print it.
         for plist in playlist:
             print(plist+ "\n")
+    #Handling the case where the user selects x.
+    elif user_action.lower() == "x":
+        #Setting flag to true.
