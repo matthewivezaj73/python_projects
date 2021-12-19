@@ -12,6 +12,7 @@ while not not_done:
     if user_action.lower() == "a":
         #Creating a flag.
         not_artist = False
+        print(new_music.__str__())
         #Testing for the artist.
         while not not_artist:
             #Asking the user for the artist name.
