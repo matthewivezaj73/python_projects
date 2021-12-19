@@ -9,7 +9,7 @@ class TestMusic(unittest.TestCase):
         Creating an instance of the Validate Music class.
         """
         #Creating an instance of the class.
-        new_music = ValidateMusic("Mike L", "Omega", "Sprigal")
+        self.new_music = ValidateMusic("Mike L", "Omega", "Sprigal")
     def test_validate_artist_false(self):
         """
         A method that will ensure that validate_artist returns false.
