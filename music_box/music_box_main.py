@@ -42,3 +42,5 @@ while not not_done:
         playlist.append[{"Arist Name: ": artist_name, "Album Name: ": album_name, "Song Title: ":song_name}]
     #Handling the case where the user enters s.
     if user_action.lower() == "s":
+        for plist in playlist:
+            print(plist)
