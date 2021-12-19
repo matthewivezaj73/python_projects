@@ -27,4 +27,4 @@ while not not_done:
             #Asking the user for the name of the album.
             album_name = input("Please enter the album name: ")
             #Validating the album name.
-            not_album = new_music.validate_artist(artist_name)
+            not_album = new_music.validate_artist(album_name)
