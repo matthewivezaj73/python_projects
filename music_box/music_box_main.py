@@ -16,3 +16,4 @@ while not not_done:
         while not not_artist:
             #Asking the user for the artist name.
             artist_name = input("Please enter the artist's name: ")
+            #Validating the artist name.
