@@ -39,4 +39,4 @@ while not not_done:
             #Validating the song name.
             not_song = new_music.validate_album(song_name)
 
-        
+        playlist.append[{"Arist Name:": artist_name, "Album Name": album_name}]
