@@ -17,3 +17,10 @@ class TestMusic(unittest.TestCase):
         invalid_artist_list = ["R0cky!", "!R0cky", "R0*cky!", "#R0cky!", " Rocky", "Rocky "," Rocky ", " ", "   ","&*@*$&#$","%","%*","1_2","                 "]
         for artist in invalid_artist_list:
             self.new_music.validate_artist(artist)
+    def test_validate_artist_true(self):
+        """
+        A method that will ensure that validate_artist returns true.
+        """
+        invalid_artist_list = ["R0cky","Monty", "1Monty", "Monty3","A$AP R0CKY","Monty$","$Monty","$Monty$"]
+        for artist in invalid_artist_list:
+            self.new_music.validate_artist(artist)
