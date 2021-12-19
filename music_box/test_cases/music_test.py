@@ -14,14 +14,14 @@ class TestMusic(unittest.TestCase):
         """
         A method that will ensure that validate_album returns false.
         """
-        invalid_artist_list = ["R0cky!", "!R0cky", "R0*cky!", "#R0cky!", " Rocky", "Rocky "," Rocky ", " ", "   ","&*@*$&#$","%","%*","1_2","                 "]
+        invalid_artist_list = [" Rocky", "Rocky "," Rocky ", " ", "   ","                 "]
         for artist in invalid_artist_list:
             self.new_music.validate_album(artist)
     def test_validate_album_true(self):
         """
         A method that will ensure that validate_album returns true.
         """
-        invalid_artist_list = ["R0cky","Monty", "1Monty", "Monty3","A$AP R0CKY","Monty$","$Monty","$Monty$"]
+        invalid_artist_list = ["R0cky","Monty", "1Monty", "Monty3","A$AP R0CKY","Monty$","$Monty","$Monty$","@&(*$@*&$"]
         for artist in invalid_artist_list:
             self.new_music.validate_album(artist)
 
