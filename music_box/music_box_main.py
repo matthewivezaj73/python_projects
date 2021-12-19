@@ -5,6 +5,7 @@ new_music = ValidateMusic("Mike L", "Omega", "Sprigal")
 #Creating a flag.
 not_done = False
 #Creating a blank list.
+playlist = []
 #Testing for user input.
 while not not_done:
     #Asking the user to enter a choice.
