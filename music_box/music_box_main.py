@@ -4,6 +4,7 @@ from classes.validate_music_box import ValidateMusic
 new_music = ValidateMusic("Mike L", "Omega", "Sprigal")
 #Creating a flag.
 not_done = False
+#Creating a blank list.
 #Testing for user input.
 while not not_done:
     #Asking the user to enter a choice.
@@ -36,3 +37,5 @@ while not not_done:
             song_name = input("Please enter the song name: ")
             #Validating the song name.
             not_song = new_music.validate_album(song_name)
+
+        
