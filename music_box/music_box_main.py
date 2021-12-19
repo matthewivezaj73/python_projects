@@ -47,6 +47,7 @@ while not not_done:
             #A for loop that will run through each dictionary in the list and print it.
             for plist in playlist:
                 print(plist+ "\n")
+        #Handling the alternative case.
         except:
             print("You must have data to sort through first!")
     #Handling the case where the user selects x.
