@@ -7,3 +7,6 @@ class ValidateMusic:
         """
         Creating a main method that initilzes the attributes.
         """
+        self.artist_name = artist_name
+        self.album_name = album_name
+        self.song_title = song_title
