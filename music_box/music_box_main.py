@@ -9,4 +9,5 @@ while not not_done:
     #Handling the case where the user enters a.
     if user_action.lower() == "a":
         #Creating a flag.
+        not_artist = False
         
