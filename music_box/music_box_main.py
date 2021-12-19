@@ -13,7 +13,7 @@ while not not_done:
         #Creating a flag.
         not_artist = False
         #Notifying the user they will make a profile.
-        print(new_music.__str__())
+        print(f"Please ensure that you follow this format when creating the list:\n\n{new_music.__str__()}")
         #Testing for the artist.
         while not not_artist:
             #Asking the user for the artist name.
