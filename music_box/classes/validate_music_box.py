@@ -19,3 +19,9 @@ class ValidateMusic:
         """
         
         """
+    def validate_artist(self,artist_name):
+        """
+        Creating a method that validates the artist name.
+
+        The method takes in artist_name as a passed parameter.
+        """
