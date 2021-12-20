@@ -1,5 +1,5 @@
 #Importing libraries.
-import numpy
+import numpy as num
 #Setting a flag.
 not_done = False
 #Testing for user input.
@@ -8,4 +8,4 @@ while not not_done:
     user_choice = input("Please enter cf if you would like to convert Celsius to Fahrenheit.")
     #Handing the case if the user selects cf.
     if user_choice.lower() == "cf":
-        
+        celsius_to_fahrenheit(numpy.identity(3))
