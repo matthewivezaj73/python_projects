@@ -39,6 +39,10 @@ def cpu_load():
     cpu_interval = psutil.cpu_percent(interval=0.1)
     print(cpu_interval)
 def get_relative_humidity():
+    """
+    A function that gets the humidity of a machine.
+    """
+    
 def ip_addresses():
     """
     A function the gets the hostname, IP address 
