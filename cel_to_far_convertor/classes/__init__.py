@@ -1,3 +1,4 @@
 #Importing libraries.
 import numpy
 #Setting a flag.
+not_done = False
