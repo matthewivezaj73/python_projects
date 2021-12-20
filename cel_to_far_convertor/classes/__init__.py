@@ -6,3 +6,4 @@ not_done = False
 while not not_done:
     #Asking the user what they would like to do.
     user_choice = input("Please enter cf if you would like to convert Celsius to Fahrenheit.")
+    #Handing the case if the user selects cf.
