@@ -7,3 +7,4 @@ class converter:
         Initializing attributes.
         """
         self.temperature = temperature
+    def celcius_fahrenheit_converter(self,celsius):
