@@ -8,4 +8,5 @@ class TestConverter(unittest.TestCase):
         """
         Creating an instance of the converter class.
         """
-        
+        #Creating an instance of the class.
+        my_converter = converter(98.33)
