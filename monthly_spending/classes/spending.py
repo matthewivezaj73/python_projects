@@ -4,5 +4,11 @@ class Spending:
     """
     def __init__(self,account_name,account_remaining,account_life,account_increase,account_decrease,account_closure):
         """
-        
+        Initializing the following attributes:
+            - account_name
+            - account_remaining
+            - account_life
+            - account_increase
+            - account_decrease
+            - account_closure
         """
