@@ -17,3 +17,7 @@ class TestConverter(unittest.TestCase):
         """
         Testing the celsius_fahrenheit_converter method
         """
+    def test_celsius_fahrenheit_converter_true(self):
+        """
+        Testing the celsius_fahrenheit_converter method
+        """
