@@ -20,4 +20,8 @@ class Spending:
         self.account_closure = account_closure
     def add_amount(self,amount_to_add):
         """
+        A method that takes the amount a user wants to add
+        to the database.
+
+        Parameters: amount_to_add
         """
