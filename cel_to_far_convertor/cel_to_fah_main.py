@@ -9,7 +9,7 @@ not_done = False
 #Testing for user input.
 while not not_done:
     #Asking the user to make a choice.
-    user_choice = input("Please enter \'cf\' if you would like to convert Celsius to Fahrenheit.\n\nPlease enter cf if you would like to convert Celsius to kelvin.")
+    user_choice = input("Please enter \'cf\' if you would like to convert Celsius to Fahrenheit.\n\nPlease enter \'kc\' if you would like to convert Celsius to kelvin.")
     #Handling the case where the user enters cf.
     if user_choice.lower() == "cf":
         #Setting a flag.
