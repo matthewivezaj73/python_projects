@@ -1,5 +1,7 @@
 #Importing libraries.
 import numpy as num
+#Importing module.
+from classes.converter import converter
 #Setting a flag.
 not_done = False
 #Testing for user input.
