@@ -15,5 +15,6 @@ while not not_done:
         #Setting a flag.
         not_cf = False
         #Testing for input.
-        #Calling the celcius_fahrenheit_converter method.
-        my_converter.celcius_fahrenheit_converter(user_choice)
+        while not not_cf:
+            #Calling the celcius_fahrenheit_converter method.
+            my_converter.celcius_fahrenheit_converter(user_choice)
