@@ -11,7 +11,7 @@ class converter:
         """
         Takes in a value in celsius and converts it into fahrenheit.
         """
-        if ("." in celsius) (celsius.replace('.','')).isdigit() or celsius.isdigit():
+        if ("." in celsius) and (celsius.replace('.','')).isdigit() or celsius.isdigit():
             return celsius * 9 / 5 + 32
     def celcius_kelvin_converter(self,celsius):
         """
