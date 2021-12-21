@@ -4,7 +4,7 @@ import unittest
 from classes.converter import converter
 #Creating the class.
 class TestConverter(unittest.TestCase):
-    def __init__(self):
+    def setup(self):
         """
         Creating an instance of the converter class.
         """
@@ -14,4 +14,3 @@ class TestConverter(unittest.TestCase):
         """
         Testing the celsius_fahrenheit_converter method
         """
-        

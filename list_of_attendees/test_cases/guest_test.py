@@ -4,7 +4,10 @@ import unittest
 from classes.validate_guests import Guests
 #Creating the class.
 class TestCrypto(unittest.TestCase):
-    def __init__(self):
+    """
+    Creating a class for unittesting.
+    """
+    def setup(self):
         """
         Creating an instance of the Guests class.
         """
