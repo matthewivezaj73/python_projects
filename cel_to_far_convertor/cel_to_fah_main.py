@@ -31,3 +31,4 @@ while not not_done:
             not_cf = my_converter.celsius_kelvin_converter(degree_celsius_kelvin)
     elif user_choice.choice.lower() == "e":
         #Setting a flag.
+        not_done = False
