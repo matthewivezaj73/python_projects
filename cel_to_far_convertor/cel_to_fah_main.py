@@ -29,6 +29,7 @@ while not not_done:
             degree_celsius_kelvin = input("Please enter the degrees celsius: ")
             #Calling the celsius_kelvin_converter method.
             not_cf = my_converter.celsius_kelvin_converter(degree_celsius_kelvin)
+    #Handling the case where the user selects e to exit.
     elif user_choice.choice.lower() == "e":
         #Setting a flag.
         not_done = False
