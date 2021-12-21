@@ -17,5 +17,6 @@ while not not_done:
         #Testing for input.
         while not not_cf:
             #Asking for user on what degree celsius they would like to input.
+            degree_celsius = input("Please enter the degrees celsius: ")
             #Calling the celcius_fahrenheit_converter method.
             my_converter.celcius_fahrenheit_converter(user_choice)
