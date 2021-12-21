@@ -4,6 +4,9 @@ import unittest
 from classes.converter import converter
 #Creating the class.
 class TestConverter(unittest.TestCase):
+    """
+    Creating a class for unittesting.
+    """
     def setup(self):
         """
         Creating an instance of the converter class.
