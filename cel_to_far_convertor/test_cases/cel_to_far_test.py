@@ -6,6 +6,6 @@ from classes.converter import converter
 class TestConverter(unittest.TestCase):
     def __init__(self):
         """
-        Creating an instance of the Converter class.
+        Creating an instance of the converter class.
         """
         
