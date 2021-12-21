@@ -12,5 +12,6 @@ while not not_done:
     user_choice = input("Please enter cf if you would like to convert Celsius to Fahrenheit.")
     #Handling the case where the user enters cf.
     if user_choice.lower() == "cf":
+        not_cf = False
         #Calling the celcius_fahrenheit_converter method.
         my_converter.celcius_fahrenheit_converter(user_choice)
