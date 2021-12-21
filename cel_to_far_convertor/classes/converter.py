@@ -7,7 +7,7 @@ class converter:
         Initializing attributes.
         """
         self.temperature = temperature
-    def celcius_fahrenheit_converter(self,celsius):
+    def celsius_fahrenheit_converter(self,celsius):
         """
         Takes in a value in celsius and converts it into fahrenheit.
         """
@@ -17,7 +17,7 @@ class converter:
         else:
             print(f"\'{celsius}\' is not a numerical value!")
             return False
-    def celcius_kelvin_converter(self,celsius):
+    def celsius_kelvin_converter(self,celsius):
         """
         Takes in a value in celsius and converts it into kelvin.
         """
