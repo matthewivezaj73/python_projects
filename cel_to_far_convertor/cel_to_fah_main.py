@@ -20,3 +20,12 @@ while not not_done:
             degree_celsius = input("Please enter the degrees celsius: ")
             #Calling the celcius_fahrenheit_converter method.
             not_cf = my_converter.celcius_fahrenheit_converter(degree_celsius)
+    elif user.choice.lower() == "kc":
+        #Setting a flag.
+        not_kv = False
+        #Testing for input.
+        while not not_kv:
+            #Asking for user on what degree kelvin they would like to input.
+            degree_celsius_kelvin = input("Please enter the degrees celsius: ")
+            #Calling the celsius_kelvin_converter method.
+            not_cf = my_converter.celsius_kelvin_converter(degree_celsius_kelvin)
