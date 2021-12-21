@@ -5,4 +5,5 @@ from classes.converter import converter
 #Creating an instance of the class.
 my_converter = converter(98.33)
 #Setting a flag.
+not_done = False
 #Testing for user input.
