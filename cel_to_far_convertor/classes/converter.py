@@ -14,6 +14,6 @@ class converter:
         return celsius * 9 / 5 + 32
     def celcius_kelvin_converter(self,celsius):
         """
-        Takes in a value in celsius and converts it into fahrenheit.
+        Takes in a value in celsius and converts it into kelvin.
         """
-        return celsius * 9 / 5 + 32
+        return 273.15 + celsius
