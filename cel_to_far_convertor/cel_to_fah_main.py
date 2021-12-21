@@ -13,3 +13,4 @@ while not not_done:
     #Handling the case where the user enters cf.
     if user_choice.lower() == "cf":
         #Calling the celcius_fahrenheit_converter method.
+        my_converter.celcius_fahrenheit_converter(user_choice)
