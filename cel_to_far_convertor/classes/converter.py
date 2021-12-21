@@ -12,9 +12,10 @@ class converter:
         Takes in a value in celsius and converts it into fahrenheit.
         """
         if ("." in celsius) and (celsius.replace('.','')).isdigit() or celsius.isdigit():
-            print(celsius * 9 / 5 + 32)
+            print(float(celsius) * 9 / 5 + 32)
             return True
         else:
+            print(f"\'{celsius}\' is not a numerical value!")
             return False
     def celcius_kelvin_converter(self,celsius):
         """
