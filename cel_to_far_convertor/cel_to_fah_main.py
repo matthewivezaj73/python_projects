@@ -32,3 +32,5 @@ while not not_done:
     elif user_choice.choice.lower() == "e":
         #Setting a flag.
         not_done = False
+    else:
+        print(f"Sorry, I did not understand \'{user_choice}\', please try again.")
