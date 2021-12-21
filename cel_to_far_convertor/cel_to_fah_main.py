@@ -14,5 +14,6 @@ while not not_done:
     if user_choice.lower() == "cf":
         #Setting a flag.
         not_cf = False
+        #Testing for input.
         #Calling the celcius_fahrenheit_converter method.
         my_converter.celcius_fahrenheit_converter(user_choice)
