@@ -18,7 +18,7 @@ class Spending:
         self.account_increase = account_increase
         self.account_decrease = account_decrease
         self.account_closure = account_closure
-    def add_amount(self,amount_to_add):
+    def validate_amount(self,amount_to_add):
         """
         A method that takes the amount a user wants to add
         to the database.
