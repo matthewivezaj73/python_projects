@@ -4,3 +4,4 @@ import numpy
 from classes.converter import converter
 #Creating an instance of the class.
 my_converter = converter(98.33)
+#Testing for user input.
