@@ -9,4 +9,6 @@ not_done = False
 #Testing for user input.
 while not not_done:
     #Asking the user to make a choice.
-    user_choice = input("Please enter c to access the celsius fahrenheit calculator.")
+    user_choice = input("Please enter cf if you would like to convert Celsius to Fahrenheit.")
+
+
