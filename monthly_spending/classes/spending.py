@@ -26,3 +26,6 @@ class Spending:
         Parameters: amount_to_add
         """
         if ('.' in amount_to_add) and (amount_to_add.replace(".","").isdigit()):
+            return True
+        else:
+            return False
