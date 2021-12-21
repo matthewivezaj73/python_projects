@@ -4,4 +4,5 @@ import numpy
 from classes.converter import converter
 #Creating an instance of the class.
 my_converter = converter(98.33)
+#Setting a flag.
 #Testing for user input.
