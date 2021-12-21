@@ -11,4 +11,4 @@ class converter:
         """
         Takes in a value in celsius and converts it into fahrenheit.
         """
-        
+        return celsius * 9 / 5 + 32
