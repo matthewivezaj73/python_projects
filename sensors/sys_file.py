@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 from functions.sys_functions import *
-    
-
 #Setting a flag.
 not_done = False
 #Testing for input.
