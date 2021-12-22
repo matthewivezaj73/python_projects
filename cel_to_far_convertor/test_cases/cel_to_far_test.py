@@ -1,7 +1,7 @@
 #Importing the unittest module.
 import unittest
 #Importing the converter module.
-from classes.converter import CelsiusConverter
+from classes.Converter import CelsiusConverter
 #Creating the class.
 class TestConverter(unittest.TestCase):
     """
@@ -24,5 +24,5 @@ class TestConverter(unittest.TestCase):
         """
         Testing the celsius_fahrenheit_converter method
         """
-# if __name__ == '__main__':
-#     unittest.main()
+if __name__ == '__main__':
+    unittest.main()
