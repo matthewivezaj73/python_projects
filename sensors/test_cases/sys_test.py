@@ -9,3 +9,8 @@ class TestCrypto(unittest.TestCase):
     to evaluate the functions in a program.
     """
     def test_sys_ac_connected_assert_False(self):
+        """
+        A test to see if the ac_connected function will evaluate to false.
+
+        Test used: assert false.
+        """
