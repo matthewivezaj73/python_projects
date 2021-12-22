@@ -22,7 +22,7 @@ class TestCrypto(unittest.TestCase):
         """
         age_list = ["1a4", "a1j", "1 3", "sfdjsdlkjflsd", " ", "  ", "   ", "^&*$@$@#", "a!#@*&!h", "*@&$u@$@#", "", "gjksdljgklsdgkld3kgjgkljklsdgkljsdfklgj"]
         for age in age_list:
-            self.my_guest.validate_guest_age(age)
+            self.assertFalse(self.my_guest.validate_guest_age(age))
     def test_validate_guest_age_true(self):
         """
         A unittest to test the age of the guest.
@@ -32,4 +32,4 @@ class TestCrypto(unittest.TestCase):
         """
         age_list = ["14", "1", "163", "27948293", "32", "323", "938", 5743, 213, 43, 0, 7348959832757934]
         for age in age_list:
-            self.my_guest.validate_guest_age(age)
+            self.assertTrue(self.my_guest.validate_guest_age(age))
