@@ -14,4 +14,4 @@ class TestCrypto(unittest.TestCase):
 
         Test used: assert false.
         """
-        assert_false(ac_connected()
+        self.assertFalse(ac_connected())
