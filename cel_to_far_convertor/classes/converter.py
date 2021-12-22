@@ -24,4 +24,11 @@ class converter:
         """
         Takes in a value in celsius and converts it into kelvin.
         """
-        return 273.15 + celsius
+            if ("." in celsius) and (celsius.replace('.','')).isdigit() or celsius.isdigit():
+                print(273.15 + float(celsius))
+                return True
+            else:
+                print(f"\'{celsius}\' is not a numerical value!")
+                return False
+
+        
