@@ -24,5 +24,7 @@ class TestConverter(unittest.TestCase):
         """
         Testing the celsius_fahrenheit_converter method
         """
+        good_list = ["2", "21", ".21", ".2", "1.2","4.34","32.2","214312","312.32132313","23.123",".12",".2","."]
+
 if __name__ == '__main__':
     unittest.main()
