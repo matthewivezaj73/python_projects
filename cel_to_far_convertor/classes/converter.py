@@ -1,4 +1,4 @@
-class converter:
+class CelsiusConverter:
     """
     A class that converts different values.
     """
