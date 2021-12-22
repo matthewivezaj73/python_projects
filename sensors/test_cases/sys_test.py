@@ -28,6 +28,7 @@ class TestCrypto(unittest.TestCase):
 
         Test used: assert false.
         """
+        argv_list = ["12", "afd", "Ajs", "AJS", "dsad123", "FSD76", "HJjh234","2sd4","g231h","G342J","1HJK6"]
         self.assertFalse(command_line())
     def test_sys_command_line_assert_True(self):
         """
