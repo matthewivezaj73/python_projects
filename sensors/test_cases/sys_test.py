@@ -28,11 +28,11 @@ class TestCrypto(unittest.TestCase):
 
         Test used: assert false.
         """
-        self.assertFalse(ac_connected())
+        self.assertFalse(command_line())
     def test_sys_command_line_assert_True(self):
         """
         A test to see if the ac_connected function will evaluate to true.
 
         Test used: assert true.
         """
-        self.assertTrue(ac_connected())
+        self.assertTrue(command_line())
