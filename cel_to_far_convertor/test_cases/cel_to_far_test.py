@@ -7,12 +7,12 @@ class TestConverter(unittest.TestCase):
     """
     Creating a class for unittesting.
     """
-    def setup(self):
+    def setUp(self):
         """
         Creating an instance of the converter class.
         """
         #Creating an instance of the class.
-        my_converter = converter(98.33)
+        self.my_converter = converter(98.33)
     def test_celsius_fahrenheit_converter_false(self):
         """
         Testing the celsius_fahrenheit_converter method
