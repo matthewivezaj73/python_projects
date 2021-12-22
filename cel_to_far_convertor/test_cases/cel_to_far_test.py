@@ -17,7 +17,7 @@ class TestConverter(unittest.TestCase):
         """
         Testing the celsius_fahrenheit_converter method
         """
-        bad_list = ["98.22", "asa"," ", "", "342243", "34", "2",".3",".33", ".321",".sdsa", "dad.", "s.", ".y"]
+        bad_list = [" ", "", "a", "a.D", "32423akfhdasjkhkfas321","eqw.qew","KJ.AW","e1w.q3w","21a","as1"]
         for bad in bad_list:
             self.assertFalse(self.my_converter.celsius_fahrenheit_converter(bad))
     def test_celsius_fahrenheit_converter_true(self):
