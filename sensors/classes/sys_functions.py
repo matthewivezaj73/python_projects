@@ -4,6 +4,7 @@ import sys
 import argparse
 import psutil
 import click
+class Temperature()
 HELP_TEXT = """usage: python {program_name:s}
 Displays the values of the sensors
 Options and arguments:
