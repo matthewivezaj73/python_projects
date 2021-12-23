@@ -8,7 +8,7 @@ class TestCrypto(unittest.TestCase):
     A representation of test cases written 
     to evaluate the functions in a program.
     """
-    def test_sys_ac_connected_assert_False(self):
+    def test_sys_ac_connected_assertEqual(self):
         """
         A test to see if the ac_connected function will evaluate to itself.
 
