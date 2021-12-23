@@ -19,7 +19,7 @@ class TestCrypto(unittest.TestCase):
         self.assertEqual(ac_connected(),ac_connected())
     def test_sys_ac_connected_assert_assertNotEqual(self):
         """
-        A test to see if the ac_connected function will evaluate to true.
+        A test to see if the ac_connected function will evaluate to Not Equal.
 
         Test used: assertNotEqual.
         """
