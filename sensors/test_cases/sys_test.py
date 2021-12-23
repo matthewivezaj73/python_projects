@@ -6,7 +6,7 @@ from functions.sys_functions import *
 class TestCrypto(unittest.TestCase):
     """
     A representation of test cases written 
-    to evaluate the functions in a program.
+    to evaluate the method in a program.
     """
     def test_sys_ac_connected_assertEqual(self):
         """
