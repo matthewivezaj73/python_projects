@@ -40,4 +40,4 @@ class TestCrypto(unittest.TestCase):
 
         Test used: assertNotIn.
         """
-        self.assertNotEqual(command_line("12"), "command_line()")
+        self.assertNotEqual(command_line("12"), "command_line(12)")
