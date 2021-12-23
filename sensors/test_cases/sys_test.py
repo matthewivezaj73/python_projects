@@ -34,7 +34,6 @@ class TestCrypto(unittest.TestCase):
         """
         command_line_content = command_line
         for line in command_line_content:
-
             self.assertNotIn(line,"jh325432")
     def test_sys_command_line_assert_In(self):
         """
