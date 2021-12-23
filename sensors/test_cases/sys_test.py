@@ -21,9 +21,9 @@ class TestCrypto(unittest.TestCase):
         """
         A test to see if the ac_connected function will evaluate to true.
 
-        Test used: assert true.
+        Test used: assertNotEqual.
         """
-        self.assertTrue(ac_connected())
+        self.assertNotEqual(ac_connected(), "5")
     def test_sys_command_line_assert_NotIn(self):
         """
         A test to see if the ac_connected function will 
