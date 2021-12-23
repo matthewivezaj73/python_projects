@@ -10,11 +10,13 @@ class TestCrypto(unittest.TestCase):
     """
     def test_sys_ac_connected_assert_False(self):
         """
-        A test to see if the ac_connected function will evaluate to false.
+        A test to see if the ac_connected function will evaluate to it's opposite.
 
-        Test used: assert false.
+        Test used: assertEqual.
         """
-        self.assertFalse(ac_connected())
+        ac_power = not ac_connected()
+        if ac_power == True:
+            self.assertNotEqual(ac_connected(),ac_power)
     def test_sys_ac_connected_assert_True(self):
         """
         A test to see if the ac_connected function will evaluate to true.
