@@ -32,13 +32,12 @@ class TestCrypto(unittest.TestCase):
 
         Test used: assertIn.
         """
-        command_line_content = command_line
-        for line in command_line_content:
-            self.assertNotIn(line,"jh325432")
+        
+        self.assertEqual(command_line("12"),command_line("jh325432"))
     def test_sys_command_line_assert_In(self):
         """
         A test to see if the ac_connected function will evaluate to true.
 
         Test used: assertNotIn.
         """
-        self.assertIn("4", "31413")
+        self.assertNotEqual(command_line("12"), "command_line()")
