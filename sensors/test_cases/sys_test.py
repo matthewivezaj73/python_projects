@@ -36,8 +36,8 @@ class TestCrypto(unittest.TestCase):
         self.assertEqual(command_line("12"),command_line("jh325432"))
     def test_sys_command_line_assert_In(self):
         """
-        A test to see if the ac_connected function will evaluate to true.
+        A test to see if the ac_connected function is Not Equal.
 
-        Test used: assertNotIn.
+        Test used: assertNotEqual.
         """
         self.assertNotEqual(command_line("12"), "command_line(12)")
