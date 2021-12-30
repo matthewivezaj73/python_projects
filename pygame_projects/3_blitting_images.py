@@ -8,6 +8,8 @@ WINDOW_HEIGHT = 300
 DISPLAY_SURFACE = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Blitting Images!")
 
+#Creating images, returns a surface object.
+
 #The main game loop.
 not_running = False
 #Testing for reaction.
