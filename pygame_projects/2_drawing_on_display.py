@@ -8,7 +8,7 @@ pygame.init()
 WINDOW_WIDTH = 600
 WINDOW_HEIGHT = 600
 #Displaying a surface and assigning it to a variable.
-display_surface = pygame.display.set_mode([WINDOW_WIDTH, WINDOW_HEIGHT])
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 #Setting a caption.
 pygame.display.set_caption("Drawing objects")
 
@@ -22,17 +22,15 @@ YELLOW = (255, 255, 0)
 CYAN = (0, 255, 255)
 MAGENTA = (255, 0, 255)
 #Setting a flag.
-not_running = False
+running = True
 #Starting a while loop
-while not not_running:
+while running:
     #Running through each event in event.
     for event in pygame.event.get():
         #Printing the events.
-        print(str(event))
+        print(event)
         #Checking if the event types happening are equal to what is happening in pygame.
-        if event.type == pygame.QUIT():
-            #Set a flag to true.
-            not_running = False
-
+        if event == pygame.QUIT:
+            running = False
 #Ending the game.
 pygame.quit()
