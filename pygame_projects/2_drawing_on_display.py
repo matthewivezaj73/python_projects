@@ -40,6 +40,7 @@ pygame.draw.circle(display_surface, YELLOW, (WINDOW_WIDTH//2, WINDOW_HEIGHT//2),
 Rectangle(surface, color, (top-left x, top-left y, width, height))
 """
 pygame.draw.rect(display_surface, CYAN, (500, 0, 100, 100))
+#Adding another rectangle.
 #Setting a flag.
 running = True
 #Starting a while loop
