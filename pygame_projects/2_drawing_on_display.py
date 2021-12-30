@@ -21,6 +21,8 @@ BLUE = (0, 0, 255)
 YELLOW = (255, 255, 0)
 CYAN = (0, 255, 255)
 MAGENTA = (255, 0, 255)
+
+#Giving a background color to the display.
 #Setting a flag.
 running = True
 #Starting a while loop
