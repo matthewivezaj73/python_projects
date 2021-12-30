@@ -41,6 +41,8 @@ Rectangle(surface, color, (top-left x, top-left y, width, height))
 """
 pygame.draw.rect(display_surface, CYAN, (500, 0, 100, 100))
 #Adding another rectangle.
+pygame.draw.rect(display_surface, MAGENTA, (500, 100, 50, 100))
+
 #Setting a flag.
 running = True
 #Starting a while loop
