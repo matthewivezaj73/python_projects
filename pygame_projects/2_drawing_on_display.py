@@ -24,8 +24,6 @@ MAGENTA = (255, 0, 255)
 
 #Giving a background color to the display.
 display_surface.fill(BLUE)
-#Updating the display.
-pygame.display.update()
 #Setting a flag.
 running = True
 #Starting a while loop
@@ -37,5 +35,8 @@ while running:
         #Checking if the event types happening are equal to what is happening in pygame.
         if event == pygame.QUIT:
             running = False
+    #Updating the display.
+    pygame.display.update()
+
 #Ending the game.
 pygame.quit()
