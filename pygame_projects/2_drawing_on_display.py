@@ -22,3 +22,5 @@ while not not_running:
         if event.type == pygame():
             #Set a flag to true.
             not_running = True
+
+#Ending the game.
