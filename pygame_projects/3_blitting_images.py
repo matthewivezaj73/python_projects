@@ -12,6 +12,7 @@ pygame.display.set_caption("Blitting Images!")
 not_running = False
 #Testing for reaction.
 while not not_running:
+    #Starting a for loop.
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             #Setting the flag to true.
