@@ -14,3 +14,4 @@ pygame.display.set_caption("Drawing objects")
 
 #Setting a flag.
 not_running = False
+#Starting a while loop
