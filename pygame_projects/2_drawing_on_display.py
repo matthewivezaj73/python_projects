@@ -24,6 +24,7 @@ MAGENTA = (255, 0, 255)
 
 #Giving a background color to the display.
 display_surface.fill(BLUE)
+#Updating the display.
 pygame.display.update()
 #Setting a flag.
 running = True
