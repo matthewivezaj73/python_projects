@@ -20,3 +20,4 @@ while not not_running:
             not_running = True
 
 #End the game.
+pygame.quit()
