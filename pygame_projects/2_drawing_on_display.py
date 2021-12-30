@@ -7,6 +7,7 @@ pygame.init()
 #Create a display surface and set its caption.
 WINDOW_WIDTH = 600
 WINDOW_HEIGHT = 600
+#Displaying a surface and assigning it to a variable.
 display_surface = pygame.display.set_mode([WINDOW_WIDTH, WINDOW_HEIGHT])
 #Setting a caption.
 pygame.display.set_caption("Drawing objects")
