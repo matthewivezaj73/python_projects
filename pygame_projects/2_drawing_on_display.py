@@ -16,4 +16,6 @@ pygame.display.set_caption("Drawing objects")
 not_running = False
 #Starting a while loop
 while not not_running:
-    for event in pygame.event.get()
+    for event in pygame.event.get():
+        if event.type == pygame():
+            
