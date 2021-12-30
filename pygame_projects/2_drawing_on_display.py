@@ -28,6 +28,7 @@ display_surface.fill(BLUE)
 """
 Line(surface, color, stating point, ending point,thickness)
 """
+pygame.draw.ling(display_surface, RED)
 #Setting a flag.
 running = True
 #Starting a while loop
