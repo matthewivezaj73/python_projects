@@ -18,3 +18,5 @@ while not not_running:
         if event.type == pygame.QUIT:
             #Setting the flag to true.
             not_running = True
+
+#End the game.
