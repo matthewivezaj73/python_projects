@@ -28,6 +28,7 @@ while not not_running:
     #Running through each event in event.
     for event in pygame.event.get():
         #Printing the events.
+        print(event)
         #Checking if the event types happening are equal to what is happening in pygame.
         if event.type == pygame.QUIT():
             #Set a flag to true.
