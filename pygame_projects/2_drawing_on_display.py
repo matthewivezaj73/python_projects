@@ -18,4 +18,5 @@ not_running = False
 while not not_running:
     for event in pygame.event.get():
         if event.type == pygame():
+            #Set a flag to true.
             not_running = True
