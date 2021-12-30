@@ -33,6 +33,7 @@ pygame.draw.line(display_surface, GREEN, (100,100), (200,300), 5)
 """
 Circle(surface, color, center, radius, thickness...0 for fill)
 """
+pygame.draw.circle(display_surface)
 #Setting a flag.
 running = True
 #Starting a while loop
