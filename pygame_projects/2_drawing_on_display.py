@@ -30,6 +30,9 @@ Line(surface, color, stating point, ending point,thickness)
 """
 pygame.draw.line(display_surface, RED, (0,0), (100,100), 5)
 pygame.draw.line(display_surface, GREEN, (100,100), (200,300), 5)
+"""
+Circle(surface, color, center, radius, thickness...0 for fill)
+"""
 #Setting a flag.
 running = True
 #Starting a while loop
