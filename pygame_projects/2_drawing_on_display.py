@@ -17,6 +17,7 @@ not_running = False
 #Starting a while loop
 while not not_running:
     for event in pygame.event.get():
+        #Checking if the event types happening are equal to what is happening in pygame.
         if event.type == pygame():
             #Set a flag to true.
             not_running = True
