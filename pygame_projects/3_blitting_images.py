@@ -13,4 +13,5 @@ not_running = False
 #Testing for reaction.
 while not not_running:
     for event in pygame.event.get():
-        if event.type == pygame.QUIT
+        if event.type == pygame.QUIT:
+            not_running = True
