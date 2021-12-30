@@ -14,6 +14,7 @@ pygame.display.set_caption("Drawing objects")
 
 #Defining colors as RGB tuples.
 BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
 #Setting a flag.
 not_running = False
 #Starting a while loop
