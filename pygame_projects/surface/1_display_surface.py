@@ -15,3 +15,5 @@ display_surface = pygame.display.set_mode([WINDOW_WIDTH, WINDOW_HEIGHT])
 #Creating a flag.
 not_looping = False
 #The main loop for the game
+while not not_looping:
+    
