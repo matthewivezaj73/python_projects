@@ -18,3 +18,7 @@ not_looping = False
 while not not_looping:
     #Looping through a list of event objects that have occurred.
     for event in pygame.event.get():
+        print(event)
+        if event.type == pygame.QUIT:
+            #Setting not_looping to true so we can break out of the game when the user clicks exit.
+            not_looping = True
