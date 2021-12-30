@@ -13,7 +13,7 @@ display_surface = pygame.display.set_mode([WINDOW_WIDTH, WINDOW_HEIGHT])
 pygame.display.set_caption("Drawing objects")
 
 #Defining colors as RGB tuples.
-
+BLACK = (0, 0, 0)
 #Setting a flag.
 not_running = False
 #Starting a while loop
