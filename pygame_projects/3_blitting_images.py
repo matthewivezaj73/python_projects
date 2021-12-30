@@ -9,7 +9,7 @@ DISPLAY_SURFACE = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Blitting Images!")
 
 #Creating images, returns a surface object.
-
+dragon_left_image = pygame.image.load
 #The main game loop.
 not_running = False
 #Testing for reaction.
