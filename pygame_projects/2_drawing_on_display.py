@@ -37,6 +37,7 @@ pygame.draw.circle(display_surface, WHITE, (WINDOW_WIDTH//2, WINDOW_HEIGHT//2), 
 #Drawing another circle.
 pygame.draw.circle(display_surface, YELLOW, (WINDOW_WIDTH//2, WINDOW_HEIGHT//2), 195, 0)
 """
+Rectangle(surface, color, (top-left x, top-left y, width, height))
 """
 
 #Setting a flag.
