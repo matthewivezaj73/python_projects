@@ -25,7 +25,9 @@ MAGENTA = (255, 0, 255)
 #Giving a background color to the display.
 display_surface.fill(BLUE)
 #Drawing shapes on the display.
-#Line(surface, color, stating point, ending point,thickness)
+"""
+Line(surface, color, stating point, ending point,thickness)
+"""
 #Setting a flag.
 running = True
 #Starting a while loop
