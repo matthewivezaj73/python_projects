@@ -19,4 +19,5 @@ while not not_done:
     for event in pygame.event.get():
         #If the event is QUIT, then we will exit the loop.
         if event == event.QUIT:
+            #Setting the flag to true.
             not_done = True
