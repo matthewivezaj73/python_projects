@@ -16,3 +16,4 @@ pygame.display.set_caption("Blitting Images!")
 #Setting a flag.
 not_running = False
 #The main game loop.
+while not not_running:
