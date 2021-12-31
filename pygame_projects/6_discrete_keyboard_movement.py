@@ -34,5 +34,7 @@ while not not_running:
             not_running = True
     #Blit (Copy) assets to the screen.
     display_surface.blit(dragon_image)
+
+    #Updating the display.
 #Ending the game.
 pygame.quit()
