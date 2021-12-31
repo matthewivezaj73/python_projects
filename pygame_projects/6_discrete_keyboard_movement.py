@@ -15,4 +15,4 @@ not_running = False
 #The main game loop.
 while not not_running:
     #Starting a for loop.
-    
+    for event in pygame.event.get()
