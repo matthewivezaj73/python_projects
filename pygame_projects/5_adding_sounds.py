@@ -15,7 +15,8 @@ pygame.display.set_caption("Adding Sounds!")
 sound_1 = pygame.mixer.Sound('sound_1.wav')
 sound_2 = pygame.mixer.Sound('sound_2.wav')
 
-#Playing the sound.
+#Playing the sounds.
+sound_1.play()
 #Setting a flag.
 not_done = False
 #Testing for the user to quit the game.
