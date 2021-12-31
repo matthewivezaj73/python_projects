@@ -36,5 +36,6 @@ while not not_running:
     display_surface.blit(dragon_image)
 
     #Updating the display.
+    pygame.display.update()
 #Ending the game.
 pygame.quit()
