@@ -16,16 +16,20 @@ dragon_left_image = pygame.image.load("dragon_left.png")
 #Creating a rectangle.
 dragon_left_rect = dragon_left_image.get_rect()
 #Creating images, returns a surface object.
-dragon_right_image = pygame.image.load("dragon_left.png")
+dragon_right_center_image = pygame.image.load("dragon_right.png")
 #Creating a rectangle.
-dragon_right_rect = dragon_right_image.get_rect()
+dragon_right_center_rect = dragon_right_center_image.get_rect()
+#Positioning the image.
+dragon_right_center_rect.topright = (1000,0)
 #Positioning the image.
 dragon_left_rect.topleft = (0,0)
 #Creating images, returns a surface object.
 dragon_left_center_image = pygame.image.load("dragon_left_center.png")
 #Creating a rectangle.
+dragon_left_rect = dragon_left_image.get_rect()
+#Creating a rectangle.
 dragon_left_center_rect = dragon_left_center_image.get_rect()
-dragon_left_rect.topleft = (500,0)
+dragon_left_center_rect.topleft = (500,0)
 #Setting a caption.
 pygame.display.set_caption("Blitting Images!")
 #Creating a caption.
@@ -104,7 +108,7 @@ while not not_running:
     #Blit (copy) a surface left object at the given cooridnates to our display.
     DISPLAY_SURFACE.blit(dragon_left_image, dragon_left_rect)
     #Blit (copy) a surface right object at the given cooridnates to our display.
-    DISPLAY_SURFACE.blit(dragon_right_image, dragon_right_rect)
+    DISPLAY_SURFACE.blit(dragon_right_center_image, dragon_right_center_rect)
     #Blit (copy) a surface right object at the given cooridnates to our display.
     DISPLAY_SURFACE.blit(dragon_left_center_image, dragon_left_center_rect)
     #Drawing a line.
