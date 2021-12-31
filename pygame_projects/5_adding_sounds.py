@@ -13,7 +13,7 @@ display_surface = pygame.display.set_mode((WINDOW_WIDTH,WINDOW_HEIGHT))
 pygame.display.set_caption("Adding Sounds!")
 #Loading the sounds.
 sound_1 = pygame.mixer.Sound('Jump.wav')
-sound_2 = pygame.mixer.Sound('Jump.wav')
+sound_2 = pygame.mixer.Sound('powerup.wav')
 
 #Playing the sounds.
 sound_1.play()
