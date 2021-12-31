@@ -13,6 +13,9 @@ pygame.display.set_caption("Discrete Movement!")
 
 #Creating a game value.
 VELOCITY = 10
+
+#Load in images.
+
 #Setting a flag.
 not_running = False
 #The main game loop.
