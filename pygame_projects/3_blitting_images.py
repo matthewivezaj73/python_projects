@@ -14,6 +14,12 @@ dragon_left_image = pygame.image.load("dragon_left.png")
 dragon_left_rect = dragon_left_image.get_rect()
 #Positioning the image.
 dragon_left_rect.topleft = (0,0)
+#Creating images, returns a surface object.
+dragon_right_image = pygame.image.load("dragon_right.png")
+#Creating a rectangle.
+dragon_right_rect = dragon_right_image.get_rect()
+#Positioning the image.
+dragon_right_rect.topright = (0,0)
 #The main game loop.
 not_running = False
 #Testing for reaction.
