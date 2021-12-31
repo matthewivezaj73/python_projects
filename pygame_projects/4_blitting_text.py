@@ -20,3 +20,4 @@ while not not_running:
     #Looping through the list of events.
     for event in pygame.event.get():
         #Setting the flag to true.
+        not_running = True
