@@ -45,8 +45,9 @@ while not not_running:
     #Looping through the list of events.
     for event in pygame.event.get():
         #Adding the if in case the user wants to quit.
-        #Setting the flag to true.
-        not_running = True
+        if event.type == pygame.QUIT:
+            #Setting the flag to true.
+            not_running = True
 
     #Blit (copy) the text surfaces to the display surface.
     display_surface.blit(system_text, system_text_rect)
