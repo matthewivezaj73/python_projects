@@ -10,6 +10,8 @@ WINDOW_HEIGHT = 300
 display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 #Adding a caption.
 pygame.display.set_caption("Discrete Movement!")
+
+#Creating a game value.
 #Setting a flag.
 not_running = False
 #The main game loop.
