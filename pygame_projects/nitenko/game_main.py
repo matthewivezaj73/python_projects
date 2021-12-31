@@ -115,8 +115,10 @@ while not not_running:
     #Blit (copy) a surface left object at the given cooridnates to our display.
     DISPLAY_SURFACE.blit(dragon_left_image, dragon_left_rect)
     #Blit (copy) a surface right object at the given cooridnates to our display.
+    DISPLAY_SURFACE.blit(dragon_right_image, dragon_right_rect)
+    #Blit (copy) a surface right-center object at the given cooridnates to our display.
     DISPLAY_SURFACE.blit(dragon_right_center_image, dragon_right_center_rect)
-    #Blit (copy) a surface right object at the given cooridnates to our display.
+    #Blit (copy) a surface left-center object at the given cooridnates to our display.
     DISPLAY_SURFACE.blit(dragon_left_center_image, dragon_left_center_rect)
     #Drawing a line.
     pygame.draw.line(DISPLAY_SURFACE, (255, 255, 255), (0, 300), (WINDOW_WIDTH, 300), 4)
