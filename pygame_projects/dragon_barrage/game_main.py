@@ -114,6 +114,9 @@ while not not_running:
         #Setting a place counter.
         place_counter = 0
         #Checking if the place_counter is equal to 1.
+        if place_counter == 1:
+            #Stopping the music.
+            pygame.mixer.music.stop()
 
     #Blit (copy) the text surfaces to the display surface.
     display_surface.blit(system_text, system_text_rect)
