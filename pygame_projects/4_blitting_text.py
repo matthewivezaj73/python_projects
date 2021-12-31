@@ -19,7 +19,7 @@ DARKGREEN = (10, 50, 10)
 BLACK = (0, 0, 0)
 
 #See all available system fonts.
-
+fonts = pygame.font.get_fonts()
 
 #Setting a flag.
 not_running = False
