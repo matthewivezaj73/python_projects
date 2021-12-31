@@ -36,7 +36,7 @@ while not not_running:
     #Blit (copy) a surface right object at the given cooridnates to our display.
     DISPLAY_SURFACE.blit(dragon_right_image, dragon_right_rect)
     #Drawing a line.
-    pygame.draw.line(DISPLAY_SURFACE, (255, 255, 255), (0, 75), (WINDOW_WIDTH, 75), 4)
+    pygame.draw.line(DISPLAY_SURFACE, (255, 255, 255), (0, 300), (WINDOW_WIDTH, 300), 4)
     #Updating the display.
     pygame.display.update()
 #End the game.
