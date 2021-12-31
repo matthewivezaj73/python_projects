@@ -31,7 +31,7 @@ while not not_running:
             #Setting the flag to true.
             not_running = True
 
-    #Blit (copy) a surface object at the given cooridnates to our display.
+    #Blit (copy) a surface left object at the given cooridnates to our display.
     DISPLAY_SURFACE.blit(dragon_left_image, dragon_left_rect)
     #Blit (copy) a surface right object at the given cooridnates to our display.
     DISPLAY_SURFACE.blit(dragon_left_image, dragon_left_rect)
