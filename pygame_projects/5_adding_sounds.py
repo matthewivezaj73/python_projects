@@ -17,6 +17,7 @@ sound_2 = pygame.mixer.Sound('sound_2.wav')
 
 #Playing the sounds.
 sound_1.play()
+sound_2.play()
 #Setting a flag.
 not_done = False
 #Testing for the user to quit the game.
