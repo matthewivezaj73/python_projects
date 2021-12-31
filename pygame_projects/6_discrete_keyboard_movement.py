@@ -21,6 +21,7 @@ dragon_rect = dragon_image.get_rect()
 #Centering the dragon.
 dragon_rect.centerx = WINDOW_WIDTH//2
 #Setting the rect height at the bottom.
+dragon_rect.bottom = WINDOW_HEIGHT
 #Setting a flag.
 not_running = False
 #The main game loop.
