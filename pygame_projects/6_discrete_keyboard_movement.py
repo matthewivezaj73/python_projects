@@ -34,6 +34,10 @@ while not not_running:
         if event.type == pygame.QUIT:
             #Setting flag to true to break out of the loop.
             not_running = True
+
+        #Checking for discrete movement.
+        
+        
     #Blit (Copy) assets to the screen.
     display_surface.blit(dragon_image, dragon_rect)
 
