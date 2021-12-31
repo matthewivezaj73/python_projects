@@ -20,7 +20,7 @@ dragon_right_center_image = pygame.image.load("dragon_right_center.png")
 #Creating a rectangle.
 dragon_right_center_rect = dragon_right_center_image.get_rect()
 #Positioning the image.
-dragon_right_center_rect.topright = (1200,0)
+dragon_right_center_rect.topright = (1300,0)
 #Creating images, returns a surface object.
 dragon_right_image = pygame.image.load("dragon_right.png")
 #Creating a rectangle.
@@ -100,7 +100,7 @@ custom_text = system_font.render("Move the dragon soon!", True, GREEN)
 custom_text_rect = system_text.get_rect()
 custom_text_rect.center = (WINDOW_WIDTH//2, WINDOW_HEIGHT//2+100)
 #Adding a text render.
-custom_text = custom_font.render("Move the dragon soon!", True, GREEN)
+custom_text = custom_font.render("By Matthew Ivezaj", True, GREEN)
 #Setting a flag.
 not_running = False
 #The main game loop.
