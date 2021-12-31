@@ -3,7 +3,40 @@ import pygame
 
 #Initializing pygame.
 pygame.init()
+#Creating a caption.
+pygame.display.set_caption("Adding Sounds!")
+#Loading the sounds.
+sound_1 = pygame.mixer.Sound('Jump.wav')
+sound_2 = pygame.mixer.Sound('powerup.wav')
 
+#Playing the sounds.
+sound_1.play()
+#Delaying the sound by 5 seconds (5000 milliseconds)
+pygame.time.delay(5000)
+#Playing the other sound.
+sound_2.play()
+#Delaying the sound by 2 seconds (2000 milliseconds)
+pygame.time.delay(2000)
+#Changing the volume of the outputted sound.
+sound_2.set_volume(.1)
+#Playing the other sound.
+sound_2.play()
+#Delaying the sound by 2 seconds (2000 milliseconds)
+pygame.time.delay(2000)
+#Changing the volume of the outputted sound.
+sound_2.set_volume(.01)
+#Playing the other sound.
+sound_2.play()
+#Delaying the sound by 2 seconds (2000 milliseconds)
+pygame.time.delay(2000)
+
+#Loading the pygame.mixer and playing background music.
+pygame.mixer.music.load("background_music.wav")
+#Playing the background music.
+"""
+Starting at -1 so it plays repeatedly, nonstop.
+"""
+pygame.mixer.music.play(-1)
 #Creating a display surface.
 WINDOW_WIDTH = 1800
 WINDOW_HEIGHT = 900
