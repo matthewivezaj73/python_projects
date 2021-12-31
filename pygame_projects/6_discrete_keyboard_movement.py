@@ -32,6 +32,7 @@ while not not_running:
         if event.type == pygame.QUIT:
             #Setting flag to true to break out of the loop.
             not_running = True
-
+    #Blit (Copy) assets to the screen.
+    
 #Ending the game.
 pygame.quit()
