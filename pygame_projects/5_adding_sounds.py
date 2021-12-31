@@ -25,6 +25,8 @@ sound_2.play()
 pygame.time.delay(2000)
 #Changing the volume of the outputted sound.
 sound_2.set_volume(.1)
+#Playing the other sound.
+sound_2.play()
 #Setting a flag.
 not_done = False
 #Testing for the user to quit the game.
