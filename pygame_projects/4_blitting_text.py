@@ -14,6 +14,7 @@ display_surface = pygame.display.set_mode(WINDOW_WIDTH, WINDOW_HEIGHT)
 pygame.display.set_caption("Blitting Images!")
 
 #Defining colors.
+GREEN = (0, 255, 0)
 
 #Setting a flag.
 not_running = False
