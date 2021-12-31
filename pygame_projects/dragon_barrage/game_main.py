@@ -112,6 +112,7 @@ while not not_running:
             #Setting the flag to true.
             not_running = True
         #Setting a place counter.
+        place_counter = 0
 
     #Blit (copy) the text surfaces to the display surface.
     display_surface.blit(system_text, system_text_rect)
