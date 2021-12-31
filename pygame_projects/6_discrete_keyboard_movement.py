@@ -1,5 +1,6 @@
 #Importing the pygame lib.
 import pygame
+import pygame.key
 
 #Initializing the pygame.
 pygame.init()
