@@ -48,6 +48,7 @@ while not not_running:
         not_running = True
 
     #Blit (copy) the text surfaces to the display surface.
+    display_surface.blit(system_text)
     #Updating the display.
     pygame.display.update()
 
