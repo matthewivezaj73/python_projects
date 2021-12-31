@@ -23,3 +23,4 @@ while not not_done:
             not_done = True
     #Updating the game.
     pygame.display.update()
+#Quitting the game.
