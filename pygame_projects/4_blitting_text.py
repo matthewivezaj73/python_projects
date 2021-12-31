@@ -49,6 +49,7 @@ while not not_running:
 
     #Blit (copy) the text surfaces to the display surface.
     display_surface.blit(system_text, system_text_rect)
+    display_surface.blit(custom_text, custom_text_rect)
     #Updating the display.
     pygame.display.update()
 
