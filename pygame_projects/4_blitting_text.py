@@ -17,5 +17,5 @@ pygame.display.set_caption("Blitting Images!")
 not_running = False
 #The main game loop.
 while not not_running:
+    #Looping through the list of events.
     for event in pygame.event.get():
-        
