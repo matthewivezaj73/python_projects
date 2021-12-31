@@ -35,6 +35,7 @@ sound_2.set_volume(.01)
 sound_2.play()
 #Loading the pygame.mixer and playing background music.
 pygame.mixer.music.load("background_music.wav")
+#Playing the background music.
 #Setting a flag.
 not_done = False
 #Testing for the user to quit the game.
