@@ -11,7 +11,7 @@ WINDOW_HEIGHT = 300
 display_surface = pygame.display.set_mode((WINDOW_WIDTH,WINDOW_HEIGHT))
 #Creating a caption.
 pygame.display.set_caption("Adding Sounds!")
-#Defining the sounds.
+#Loading the sounds.
 sound_1 = pygame.mixer.Sound('sound_1.wav')
 sound_2 = pygame.mixer.Sound('sound_2.wav')
 #Setting a flag.
