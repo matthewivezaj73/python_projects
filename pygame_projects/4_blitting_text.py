@@ -31,6 +31,11 @@ custom_font = pygame.font.Font("AttackGraffiti.otf", 32)
 system_text = system_font.render("Dragons Rule!", True, GREEN, DARKGREEN)
 system_text_rect = system_text.get_rect()
 system_text_rect.center = (WINDOW_WIDTH//2, WINDOW_HEIGHT//2)
+
+#Define the text.
+custom_text = system_font.render("Move the dragon soon!", True, GREEN)
+custom_text_rect = system_text.get_rect()
+custom_text_rect.center = (WINDOW_WIDTH//2, WINDOW_HEIGHT//2+100)
 #Adding a text render.
 custom_text = custom_font.render("Move the dragon soon!", True, GREEN)
 #Setting a flag.
@@ -41,6 +46,8 @@ while not not_running:
     for event in pygame.event.get():
         #Setting the flag to true.
         not_running = True
+
+    #Blit (copy) the text surfaces to the display surface.
     #Updating the display.
     pygame.display.update()
 
