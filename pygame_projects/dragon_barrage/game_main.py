@@ -111,6 +111,7 @@ while not not_running:
         if event.type == pygame.QUIT:
             #Setting the flag to true.
             not_running = True
+        #Setting a place counter.
 
     #Blit (copy) the text surfaces to the display surface.
     display_surface.blit(system_text, system_text_rect)
