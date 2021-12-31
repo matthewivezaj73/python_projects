@@ -2,3 +2,4 @@
 import pygame
 
 #Initializing pygame.
+pygame.init()
