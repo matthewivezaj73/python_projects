@@ -30,6 +30,8 @@ while not not_running:
         if event.type == pygame.QUIT:
             #Setting the flag to true.
             not_running = True
+
+    #Blit a surface object at the given cooridnates to our display.
     #Updating the display.
     pygame.display.update()
 #End the game.
