@@ -113,6 +113,7 @@ while not not_running:
             not_running = True
         #Setting a place counter.
         place_counter = 0
+        #Checking if the place_counter is equal to 1.
 
     #Blit (copy) the text surfaces to the display surface.
     display_surface.blit(system_text, system_text_rect)
