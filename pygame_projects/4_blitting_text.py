@@ -28,7 +28,7 @@ for font in fonts:
 system_font = pygame.font.SysFont('calibri', 64)
 custom_font = pygame.font.Font("AttackGraffiti.otf", 32)
 #Define the text.
-system_text = system_font.render()
+system_text = system_font.render("Dragons Rule!", True, GREEN, DARKGREEN)
 #Setting a flag.
 not_running = False
 #The main game loop.
