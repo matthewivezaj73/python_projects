@@ -18,9 +18,9 @@ dragon_left_rect = dragon_left_image.get_rect()
 #Positioning the image.
 dragon_left_rect.topleft = (0,0)
 #Creating images, returns a surface object.
-dragon_right_image = pygame.image.load("dragon_right.png")
+dragon_left_center_image = pygame.image.load("dragon_left_center.png")
 #Creating a rectangle.
-dragon_right_rect = dragon_right_image.get_rect()
+dragon_left_center_rect = dragon_left_center_image.get_rect()
 dragon_left_rect.topleft = (500,0)
 #Setting a caption.
 pygame.display.set_caption("Blitting Images!")
