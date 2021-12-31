@@ -36,7 +36,7 @@ while not not_running:
             not_running = True
 
         #Checking for discrete movement.
-        
+        if event.type == pygame.KEYDOWN:
         
     #Blit (Copy) assets to the screen.
     display_surface.blit(dragon_image, dragon_rect)
