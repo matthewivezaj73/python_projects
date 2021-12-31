@@ -44,6 +44,7 @@ not_running = False
 while not not_running:
     #Looping through the list of events.
     for event in pygame.event.get():
+        #Adding the if in case the user wants to quit.
         #Setting the flag to true.
         not_running = True
 
