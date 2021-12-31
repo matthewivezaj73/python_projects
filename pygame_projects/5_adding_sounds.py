@@ -31,10 +31,11 @@ sound_2.play()
 pygame.time.delay(2000)
 #Changing the volume of the outputted sound.
 sound_2.set_volume(.01)
-#Delaying the sound by 2 seconds (2000 milliseconds)
-pygame.time.delay(2000)
 #Playing the other sound.
 sound_2.play()
+#Delaying the sound by 2 seconds (2000 milliseconds)
+pygame.time.delay(2000)
+
 #Loading the pygame.mixer and playing background music.
 pygame.mixer.music.load("background_music.wav")
 #Playing the background music.
