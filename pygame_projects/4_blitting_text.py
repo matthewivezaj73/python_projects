@@ -37,6 +37,9 @@ while not not_running:
     for event in pygame.event.get():
         #Setting the flag to true.
         not_running = True
+    #Updating the display.
+    pygame.display.update()
+
 
 #Ending the game.
 pygame.quit()
