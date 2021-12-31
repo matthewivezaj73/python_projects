@@ -40,6 +40,8 @@ while not not_running:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_LEFT:
                 dragon_rect.x -= VELOCITY
+            elif event.key == pygame.K_RIGHT:
+                dragon_rect.x += VELOCITY
     #Blit (Copy) assets to the screen.
     display_surface.blit(dragon_image, dragon_rect)
 
