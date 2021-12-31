@@ -17,6 +17,7 @@ sound_2 = pygame.mixer.Sound('powerup.wav')
 
 #Playing the sounds.
 sound_1.play()
+#Delaying the sound by 5 seconds (5000 milliseconds)
 pygame.time.delay()
 sound_2.play()
 #Setting a flag.
