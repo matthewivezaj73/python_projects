@@ -21,3 +21,5 @@ while not not_done:
         if event == pygame.QUIT:
             #Setting the flag to true.
             not_done = True
+    #Updating the game.
+    pygame.display.update()
