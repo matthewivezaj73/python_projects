@@ -13,3 +13,5 @@ pygame.display.set_caption("Discrete Movement!")
 #Setting a flag.
 not_running = False
 #The main game loop.
+while not not_running:
+    
