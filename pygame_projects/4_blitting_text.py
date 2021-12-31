@@ -16,6 +16,7 @@ pygame.display.set_caption("Blitting Images!")
 #Defining colors.
 GREEN = (0, 255, 0)
 DARKGREEN = (10, 50, 10)
+BLACK = (0, 0, 0)
 
 #Setting a flag.
 not_running = False
