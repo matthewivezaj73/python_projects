@@ -33,7 +33,7 @@ while not not_running:
             #Setting flag to true to break out of the loop.
             not_running = True
     #Blit (Copy) assets to the screen.
-    display_surface.blit(dragon_image)
+    display_surface.blit(dragon_image, dragon_rect)
 
     #Updating the display.
     pygame.display.update()
