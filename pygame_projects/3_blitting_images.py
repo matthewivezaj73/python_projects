@@ -31,7 +31,8 @@ while not not_running:
             #Setting the flag to true.
             not_running = True
 
-    #Blit a surface object at the given cooridnates to our display.
+    #Blit (copy) a surface object at the given cooridnates to our display.
+    DISPLAY_SURFACE.blig(dragon_left_image, dragon_left_rect)
     #Updating the display.
     pygame.display.update()
 #End the game.
