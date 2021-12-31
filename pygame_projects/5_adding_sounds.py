@@ -15,3 +15,5 @@ pygame.display.set_caption("Adding Sounds!")
 not_done = False
 #Testing for the user to quit the game.
 while not not_done:
+    #Creating the for loop.
+    for event in pygame.event.get():
