@@ -2,6 +2,6 @@
 import pygame
 
 #Initializing the pygame.
-
+pygame.init()
 #Creating the display surface.
 WINDOW_WIDTH = 600
