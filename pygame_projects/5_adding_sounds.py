@@ -18,7 +18,8 @@ sound_2 = pygame.mixer.Sound('powerup.wav')
 #Playing the sounds.
 sound_1.play()
 #Delaying the sound by 5 seconds (5000 milliseconds)
-pygame.time.delay()
+pygame.time.delay(5000)
+#Playing the other sound.
 sound_2.play()
 #Setting a flag.
 not_done = False
