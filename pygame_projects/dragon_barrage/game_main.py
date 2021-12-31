@@ -73,6 +73,8 @@ pygame.mixer.music.load("background_music.wav")
 Starting at -1 so it plays repeatedly, nonstop.
 """
 pygame.mixer.music.play(-1)
+#Delaying the sound by 5 seconds (5000 milliseconds)
+pygame.time.delay(5000)
 #Defining colors.
 GREEN = (0, 255, 0)
 DARKGREEN = (10, 50, 10)
