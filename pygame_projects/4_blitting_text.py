@@ -23,6 +23,7 @@ fonts = pygame.font.get_fonts()
 #looping through the list of fonts.
 for font in fonts:
     print(font)
+#Defining fonts.
 #Setting a flag.
 not_running = False
 #The main game loop.
