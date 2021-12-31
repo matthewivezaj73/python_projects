@@ -33,6 +33,7 @@ pygame.time.delay(2000)
 sound_2.set_volume(.01)
 #Playing the other sound.
 sound_2.play()
+#Loading the pygame.mixer and playing background music.
 #Setting a flag.
 not_done = False
 #Testing for the user to quit the game.
