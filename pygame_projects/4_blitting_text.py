@@ -24,6 +24,7 @@ fonts = pygame.font.get_fonts()
 for font in fonts:
     print(font)
 #Defining fonts.
+system_font = pygame.font.SysFont('calibri', 64)
 #Setting a flag.
 not_running = False
 #The main game loop.
