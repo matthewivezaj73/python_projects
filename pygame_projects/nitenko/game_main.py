@@ -16,11 +16,11 @@ dragon_left_image = pygame.image.load("dragon_left.png")
 #Creating a rectangle.
 dragon_left_rect = dragon_left_image.get_rect()
 #Creating images, returns a surface object.
-dragon_right_center_image = pygame.image.load("dragon_right.png")
+dragon_right_center_image = pygame.image.load("dragon_right_center.png")
 #Creating a rectangle.
 dragon_right_center_rect = dragon_right_center_image.get_rect()
 #Positioning the image.
-dragon_right_center_rect.topright = (1000,0)
+dragon_right_center_rect.topright = (1200,0)
 #Positioning the image.
 dragon_left_rect.topleft = (0,0)
 #Creating images, returns a surface object.
