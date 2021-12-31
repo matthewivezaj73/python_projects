@@ -3,6 +3,15 @@ import pygame
 
 #Initializing pygame.
 pygame.init()
+
+#Creating a display surface.
+WINDOW_WIDTH = 1800
+WINDOW_HEIGHT = 900
+#Setting the mode of the window.
+display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+
+#Setting a caption.
+pygame.display.set_caption("Blitting Images!")
 #Creating a caption.
 pygame.display.set_caption("Adding Sounds!")
 #Loading the sounds.
@@ -37,15 +46,6 @@ pygame.mixer.music.load("background_music.wav")
 Starting at -1 so it plays repeatedly, nonstop.
 """
 pygame.mixer.music.play(-1)
-#Creating a display surface.
-WINDOW_WIDTH = 1800
-WINDOW_HEIGHT = 900
-#Setting the mode of the window.
-display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-
-#Setting a caption.
-pygame.display.set_caption("Blitting Images!")
-
 #Defining colors.
 GREEN = (0, 255, 0)
 DARKGREEN = (10, 50, 10)
