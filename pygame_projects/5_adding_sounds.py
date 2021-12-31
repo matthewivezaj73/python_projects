@@ -11,6 +11,7 @@ WINDOW_HEIGHT = 300
 display_surface = pygame.display.set_mode((WINDOW_WIDTH,WINDOW_HEIGHT))
 #Creating a caption.
 pygame.display.set_caption("Adding Sounds!")
+#Defining the sounds.
 #Setting a flag.
 not_done = False
 #Testing for the user to quit the game.
