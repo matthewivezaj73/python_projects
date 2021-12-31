@@ -19,7 +19,7 @@ dragon_right_image = pygame.image.load("dragon_right.png")
 #Creating a rectangle.
 dragon_right_rect = dragon_right_image.get_rect()
 #Positioning the image.
-dragon_right_rect.topright = (0,0)
+dragon_right_rect.topright = (WINDOW_WIDTH,0)
 #The main game loop.
 not_running = False
 #Testing for reaction.
