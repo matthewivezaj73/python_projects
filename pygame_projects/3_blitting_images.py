@@ -12,6 +12,7 @@ pygame.display.set_caption("Blitting Images!")
 dragon_left_image = pygame.image.load("dragon_left.png")
 #Creating a rectangle.
 dragon_left_rect = dragon_left_image.get_rect()
+#Positioning the image.
 #The main game loop.
 not_running = False
 #Testing for reaction.
