@@ -36,6 +36,10 @@ sound_2.play()
 #Loading the pygame.mixer and playing background music.
 pygame.mixer.music.load("background_music.wav")
 #Playing the background music.
+"""
+Starting at -1 so it plays repeatedly, nonstop.
+"""
+pygame.mixer.music.play(-1)
 #Setting a flag.
 not_done = False
 #Testing for the user to quit the game.
