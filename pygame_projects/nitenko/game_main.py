@@ -7,9 +7,20 @@ pygame.init()
 #Creating a display surface.
 WINDOW_WIDTH = 1800
 WINDOW_HEIGHT = 900
+#Creating display durface.
+DISPLAY_SURFACE = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 #Setting the mode of the window.
 display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-
+#Creating images, returns a surface object.
+dragon_left_image = pygame.image.load("dragon_left.png")
+#Creating a rectangle.
+dragon_left_rect = dragon_left_image.get_rect()
+#Positioning the image.
+dragon_left_rect.topleft = (0,0)
+#Creating images, returns a surface object.
+dragon_right_image = pygame.image.load("dragon_right.png")
+#Creating a rectangle.
+dragon_right_rect = dragon_right_image.get_rect(100,100)
 #Setting a caption.
 pygame.display.set_caption("Blitting Images!")
 #Creating a caption.
@@ -85,6 +96,13 @@ while not not_running:
     #Blit (copy) the text surfaces to the display surface.
     display_surface.blit(system_text, system_text_rect)
     display_surface.blit(custom_text, custom_text_rect)
+    #Blit (copy) a surface left object at the given cooridnates to our display.
+    DISPLAY_SURFACE.blit(dragon_left_image, dragon_left_rect)
+    #Blit (copy) a surface right object at the given cooridnates to our display.
+    DISPLAY_SURFACE.blit(dragon_right_image, dragon_right_rect)
+    #Drawing a line.
+    pygame.draw.line(DISPLAY_SURFACE, (255, 255, 255), (0, 300), (WINDOW_WIDTH, 300), 4)
+
     #Updating the display.
     pygame.display.update()
 
