@@ -25,6 +25,7 @@ for font in fonts:
     print(font)
 #Defining fonts.
 system_font = pygame.font.SysFont('calibri', 64)
+custom_font = pygame.font.Font("AttackGraffiti.otf", 32)
 #Setting a flag.
 not_running = False
 #The main game loop.
