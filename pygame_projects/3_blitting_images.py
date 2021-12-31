@@ -34,7 +34,7 @@ while not not_running:
     #Blit (copy) a surface left object at the given cooridnates to our display.
     DISPLAY_SURFACE.blit(dragon_left_image, dragon_left_rect)
     #Blit (copy) a surface right object at the given cooridnates to our display.
-    DISPLAY_SURFACE.blit(dragon_left_image, dragon_left_rect)
+    DISPLAY_SURFACE.blit(dragon_right_image, dragon_right_rect)
     #Updating the display.
     pygame.display.update()
 #End the game.
