@@ -3,8 +3,8 @@ import pygame
 #Initialize pygame.
 pygame.init()
 #Create a display surface.
-WINDOW_WIDTH = 600
-WINDOW_HEIGHT = 300
+WINDOW_WIDTH = 1200
+WINDOW_HEIGHT = 600
 DISPLAY_SURFACE = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Blitting Images!")
 
@@ -32,7 +32,7 @@ while not not_running:
             not_running = True
 
     #Blit (copy) a surface object at the given cooridnates to our display.
-    DISPLAY_SURFACE.blig(dragon_left_image, dragon_left_rect)
+    DISPLAY_SURFACE.blit(dragon_left_image, dragon_left_rect)
     #Updating the display.
     pygame.display.update()
 #End the game.
