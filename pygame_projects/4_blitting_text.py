@@ -21,7 +21,7 @@ BLACK = (0, 0, 0)
 #See all available system fonts.
 fonts = pygame.font.get_fonts()
 #looping through the list of fonts.
-
+for font in fonts:
 #Setting a flag.
 not_running = False
 #The main game loop.
