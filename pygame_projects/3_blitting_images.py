@@ -10,7 +10,7 @@ pygame.display.set_caption("Blitting Images!")
 
 #Creating images, returns a surface object.
 dragon_left_image = pygame.image.load("dragon_left.png")
-
+#Creating a rectangle.
 
 #The main game loop.
 not_running = False
