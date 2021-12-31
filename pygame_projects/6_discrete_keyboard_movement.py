@@ -18,6 +18,7 @@ VELOCITY = 10
 dragon_image = pygame.image.load("dragon_right.png")
 #Creating a rectangle to hold the image.
 dragon_rect = dragon_image.get_rect()
+dragon_rect.centerx = WINDOW_WIDTH//2
 #Setting a flag.
 not_running = False
 #The main game loop.
