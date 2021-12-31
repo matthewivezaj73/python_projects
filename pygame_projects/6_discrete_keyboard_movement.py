@@ -15,7 +15,7 @@ pygame.display.set_caption("Discrete Movement!")
 VELOCITY = 10
 
 #Load in images.
-
+dragon_image = pygame.image.load("dragon_right.png")
 #Setting a flag.
 not_running = False
 #The main game loop.
