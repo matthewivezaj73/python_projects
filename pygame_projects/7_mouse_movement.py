@@ -31,5 +31,7 @@ while not not_running:
                 not_running = True
     #Filling the display.
     display_surface.fill((0, 0, 0))
+
+    #Blitting the assets.
 #Calling pygame.quit() to exit the game.
 pygame.quit()
