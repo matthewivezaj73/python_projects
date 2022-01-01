@@ -46,6 +46,7 @@ while not not_running:
                 dragon_rect.y -= VELOCITY
             elif event.key == pygame.K_DOWN:
                 dragon_rect.y += VELOCITY
+        #Handling the case where the user enters the right key.
         if event.key == pygame.K_RIGHT
     #Fill the display surface to cover old images.
     display_surface.fill((0, 0, 0))
