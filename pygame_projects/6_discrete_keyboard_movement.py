@@ -40,6 +40,7 @@ while not not_running:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_LEFT:
                 dragon_rect.x -= VELOCITY
+            #Handling the case where the user presses the right arrow.
             elif event.key == pygame.K_RIGHT:
                 dragon_rect.x += VELOCITY
             #Handling the case where the user presses the up arrow.
