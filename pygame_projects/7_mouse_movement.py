@@ -40,7 +40,7 @@ while not not_running:
             #Adding the rect for the x coordinate.
             hero_rect.x = mouse_x
             #Adding the rect for the y coordinate.
-
+            hero_rect.y = mouse_y
     #Filling the display.
     display_surface.fill((0, 0, 0))
 
