@@ -12,3 +12,4 @@ display_surface = pygame.display.set_mode(WINDOW_WIDTH, WINDOW_HEIGHT)
 pygame.display.set_caption("Mouse Movement!")
 #Setting a flag.
 not_running = False
+#Testing for user interaction.
