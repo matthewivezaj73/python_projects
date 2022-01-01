@@ -3,7 +3,7 @@ import pygame
 #Initializing pygame.
 pygame.init()
 
-#Creating a game surface.
+#Creating parameters of the game surface.
 WINDOW_WIDTH = 600
 WINDOW_HEIGHT = 300
 #Creating a display surface.
