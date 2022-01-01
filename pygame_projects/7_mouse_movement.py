@@ -29,6 +29,8 @@ while not not_running:
         if event.type == pygame.QUIT:
             #Changing the flag to get out of the loop.
                 not_running = True
+
+        #Moving based on mouse clicks.
     #Filling the display.
     display_surface.fill((0, 0, 0))
 
