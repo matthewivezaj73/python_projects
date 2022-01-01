@@ -15,6 +15,7 @@ pygame.display.set_caption("Mouse Movement!")
 hero_image = pygame.image.load("hero.png")
 #Creating a rect for the hero image.
 hero_rect = hero_image.get_rect()
+hero_rect.top_lect(25,25)
 #Setting a flag.
 not_running = False
 #Testing for user interaction.
