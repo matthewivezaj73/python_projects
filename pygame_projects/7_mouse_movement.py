@@ -17,6 +17,7 @@ hero_image = pygame.image.load("hero.png")
 hero_rect = hero_image.get_rect()
 #Positioning the hero rect.
 hero_rect.top_left = (25,25)
+#Enabling movement of the object with the mouse.
 #Setting a flag.
 not_running = False
 #Testing for user interaction.
