@@ -14,3 +14,4 @@ pygame.display.set_caption("Mouse Movement!")
 not_running = False
 #Testing for user interaction.
 while not not_running:
+    for event in pygame.event.get():
