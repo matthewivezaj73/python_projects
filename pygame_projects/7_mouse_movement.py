@@ -36,6 +36,7 @@ while not not_running:
             #Added an x coordinate.
             mouse_x = event.pos[0]
             #Added an y coordinate.
+            mouse_y = event.pos[1]
     #Filling the display.
     display_surface.fill((0, 0, 0))
 
