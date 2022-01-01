@@ -33,6 +33,7 @@ while not not_running:
         if event.type == pygame.MOUSEBUTTONDOWN:
             #Printing the events to monitor on screen.
             print(event)
+            mouse_x = event.pos[0]
     #Filling the display.
     display_surface.fill((0, 0, 0))
 
