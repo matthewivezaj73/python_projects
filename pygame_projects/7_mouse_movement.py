@@ -36,6 +36,8 @@ while not not_running:
     display_surface.blit(hero_image, hero_rect)
 
     #Updating the display.
+
+    #Updating the display.
     pygame.display.update()
 #Calling pygame.quit() to exit the game.
 pygame.quit()
