@@ -29,6 +29,6 @@ while not not_running:
         if event.type == pygame.QUIT:
             #Changing the flag to get out of the loop.
                 not_running = True
-
+    #Filling the display.
 #Calling pygame.quit() to exit the game.
 pygame.quit()
