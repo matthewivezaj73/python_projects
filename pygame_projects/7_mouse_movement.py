@@ -4,3 +4,4 @@ import pygame
 pygame.init()
 
 #Creating a game surface.
+WINDOW_WIDTH = 600
