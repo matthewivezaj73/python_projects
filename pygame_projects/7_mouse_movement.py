@@ -22,3 +22,4 @@ while not not_running:
                 not_running = True
 
 #Calling pygame.quit() to exit the game.
+pygame.quit()
