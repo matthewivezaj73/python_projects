@@ -9,3 +9,4 @@ WINDOW_HEIGHT = 300
 #Creating a display surface.
 display_surface = pygame.display.set_mode(WINDOW_WIDTH, WINDOW_HEIGHT)
 #Setting a caption.
+pygame.display.set_caption("Mouse Movement!")
