@@ -16,7 +16,7 @@ hero_image = pygame.image.load("hero.png")
 #Creating a rect for the hero image.
 hero_rect = hero_image.get_rect()
 #Positioning the hero rect.
-hero_rect.top_lect(25,25)
+hero_rect.top_left = (25,25)
 #Setting a flag.
 not_running = False
 #Testing for user interaction.
