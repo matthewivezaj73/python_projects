@@ -41,7 +41,7 @@ while not not_running:
             hero_rect.centerx = mouse_x
             #Adding the rect for the y coordinate.
             hero_rect.centery = mouse_y
-        #Checking if the mouse is being moved.
+        #Dragging the object when the mouse button is clicked.
         if event.type == pygame.MOUSEMOTION:
             #Printing the events to monitor on screen.
             print(event)
