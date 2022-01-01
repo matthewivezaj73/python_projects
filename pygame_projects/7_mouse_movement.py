@@ -2,3 +2,5 @@
 import pygame
 #Initializing pygame.
 pygame.init()
+
+#Creating a game surface.
