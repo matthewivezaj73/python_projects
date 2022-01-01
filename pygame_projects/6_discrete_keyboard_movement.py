@@ -46,6 +46,7 @@ while not not_running:
                 dragon_rect.y -= VELOCITY
             elif event.key == pygame.K_DOWN:
                 dragon_rect.y += VELOCITY
+    #Fill the display surface to cover old images.
     #Blit (Copy) assets to the screen.
     display_surface.blit(dragon_image, dragon_rect)
 
