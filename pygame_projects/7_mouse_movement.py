@@ -43,6 +43,16 @@ while not not_running:
             hero_rect.centery = mouse_y
         #Checking if the mouse is being moved.
         if event.type == pygame.MOUSEMOTION:
+            #Printing the events to monitor on screen.
+            print(event)
+            #Added an x coordinate.
+            mouse_x = event.pos[0]
+            #Added an y coordinate. 
+            mouse_y = event.pos[1]
+            #Adding the rect for the x coordinate.
+            hero_rect.centerx = mouse_x
+            #Adding the rect for the y coordinate.
+            hero_rect.centery = mouse_y
     #Filling the display.
     display_surface.fill((0, 0, 0))
 
