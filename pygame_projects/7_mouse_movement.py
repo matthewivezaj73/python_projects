@@ -30,5 +30,6 @@ while not not_running:
             #Changing the flag to get out of the loop.
                 not_running = True
     #Filling the display.
+    display_surface.fill((0, 0, 0))
 #Calling pygame.quit() to exit the game.
 pygame.quit()
