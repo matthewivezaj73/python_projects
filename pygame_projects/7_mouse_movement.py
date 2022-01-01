@@ -16,3 +16,4 @@ not_running = False
 while not not_running:
     #Creating a for loop to grab each event that happens.
     for event in pygame.event.get():
+        if event.type == pygame.QUIT:
