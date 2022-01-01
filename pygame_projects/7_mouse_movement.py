@@ -38,6 +38,7 @@ while not not_running:
             #Added an y coordinate. 
             mouse_y = event.pos[1]
             #Adding the rect for the x coordinate.
+            hero_rect.x = mouse_x
     #Filling the display.
     display_surface.fill((0, 0, 0))
 
