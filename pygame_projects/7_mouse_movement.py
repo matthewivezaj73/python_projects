@@ -24,6 +24,7 @@ not_running = False
 while not not_running:
     #Creating a for loop to grab each event that happens.
     for event in pygame.event.get():
+        print(event)
         #Checking if the user wants to quit the game.
         if event.type == pygame.QUIT:
             #Changing the flag to get out of the loop.
