@@ -34,5 +34,7 @@ while not not_running:
 
     #Blitting the assets.
     display_surface.blit(hero_image, hero_rect)
+
+    #Updating the display.
 #Calling pygame.quit() to exit the game.
 pygame.quit()
