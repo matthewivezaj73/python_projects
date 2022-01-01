@@ -31,6 +31,7 @@ while not not_running:
                 not_running = True
 
         #Moving based on mouse clicks.
+        if event.type == pygame.MOUSEBUTTONDOWN:
     #Filling the display.
     display_surface.fill((0, 0, 0))
 
