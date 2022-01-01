@@ -10,10 +10,11 @@ WINDOW_HEIGHT = 300
 display_surface = pygame.display.set_mode(WINDOW_WIDTH, WINDOW_HEIGHT)
 #Setting a caption.
 pygame.display.set_caption("Mouse Movement!")
-#Creating a rect for the hero image.
 
 #Load images.
 hero_image = pygame.image.load("hero.png")
+#Creating a rect for the hero image.
+hero_rect = hero_image.get_rect()
 #Setting a flag.
 not_running = False
 #Testing for user interaction.
