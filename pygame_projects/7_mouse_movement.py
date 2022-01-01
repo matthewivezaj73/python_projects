@@ -4,7 +4,7 @@ import pygame
 pygame.init()
 
 #Creating parameters of the game surface.
-WINDOW_WIDTH = 2400
+WINDOW_WIDTH = 1800
 WINDOW_HEIGHT = 1200
 #Creating a display surface.
 display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
