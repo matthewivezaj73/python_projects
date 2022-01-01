@@ -5,3 +5,4 @@ pygame.init()
 
 #Creating a game surface.
 WINDOW_WIDTH = 600
+WINDOW_HEIGHT = 300
