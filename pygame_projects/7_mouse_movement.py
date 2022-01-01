@@ -41,6 +41,7 @@ while not not_running:
             hero_rect.centerx = mouse_x
             #Adding the rect for the y coordinate.
             hero_rect.centery = mouse_y
+        if event.type == pygame.MOUSEMOTION
     #Filling the display.
     display_surface.fill((0, 0, 0))
 
