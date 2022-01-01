@@ -38,6 +38,7 @@ while not not_running:
 
         #Checking for discrete movement.
         if event.type == pygame.KEYDOWN:
+            #Handling the case where the user presses the left arrow.
             if event.key == pygame.K_LEFT:
                 dragon_rect.x -= VELOCITY
             #Handling the case where the user presses the right arrow.
