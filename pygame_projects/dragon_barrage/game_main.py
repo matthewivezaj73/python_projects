@@ -76,12 +76,6 @@ pygame.mixer.music.play(-1)
 #Delaying the sound by 5 seconds (5000 milliseconds)
 pygame.time.delay(5000) 
 
-#Load images.
-hero_image = pygame.image.load("hero.png")
-#Creating a rect for the hero image.
-hero_rect = hero_image.get_rect()
-#Positioning the hero rect.
-hero_rect.topleft = (25,25)
 #Defining colors.
 GREEN = (0, 255, 0)
 DARKGREEN = (10, 50, 10)
@@ -114,40 +108,9 @@ while not not_running:
     #Looping through the list of events.
     for event in pygame.event.get():
         #Adding the if in case the user wants to quit.
-        #Checking if the user wants to quit the game.
         if event.type == pygame.QUIT:
-            #Changing the flag to get out of the loop.
-                not_running = True
-
-        #Moving based on mouse clicks.
-        if event.type == pygame.MOUSEBUTTONDOWN:
-            #Printing the events to monitor on screen.
-            print(event)
-            #Added an x coordinate.
-            mouse_x = event.pos[0]
-            #Added an y coordinate. 
-            mouse_y = event.pos[1]
-            #Adding the rect for the x coordinate.
-            hero_rect.centerx = mouse_x
-            #Adding the rect for the y coordinate.
-            hero_rect.centery = mouse_y
-        #Dragging the object when the mouse button is clicked.
-        if event.type == pygame.MOUSEMOTION and event.buttons[0] == 1:
-            #Printing the events to monitor on screen.
-            print(event)
-            #Added an x coordinate.
-            mouse_x = event.pos[0]
-            #Added an y coordinate. 
-            mouse_y = event.pos[1]
-            #Adding the rect for the x coordinate.
-            hero_rect.centerx = mouse_x
-            #Adding the rect for the y coordinate.
-            hero_rect.centery = mouse_y
-    #Filling the display.
-    display_surface.fill((0, 0, 0))
-
-    #Blitting the assets.
-    display_surface.blit(hero_image, hero_rect)
+            #Setting the flag to true.
+            not_running = True
         #Setting a place counter.
         place_counter = 0
         #Checking if the place_counter is equal to 1.
