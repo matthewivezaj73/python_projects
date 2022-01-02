@@ -76,6 +76,12 @@ pygame.mixer.music.play(-1)
 #Delaying the sound by 5 seconds (5000 milliseconds)
 pygame.time.delay(5000) 
 
+#Load images.
+hero_image = pygame.image.load("hero.png")
+#Creating a rect for the hero image.
+hero_rect = hero_image.get_rect()
+#Positioning the hero rect.
+hero_rect.topleft = (25,25)
 #Defining colors.
 GREEN = (0, 255, 0)
 DARKGREEN = (10, 50, 10)
