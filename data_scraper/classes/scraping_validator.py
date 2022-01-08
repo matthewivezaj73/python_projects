@@ -11,3 +11,4 @@ class ScrapingValidator:
         """
         self.sitename = sitename
         self.wordcount = wordcount
+    def validateSite(self,site)
