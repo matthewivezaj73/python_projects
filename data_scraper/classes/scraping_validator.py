@@ -19,3 +19,5 @@ class ScrapingValidator:
         This method accepts the following parameter(s):
         - sitename
         """
+        #Creating a mock representation of a site.
+        
