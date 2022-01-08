@@ -14,6 +14,7 @@ while not not_scraped:
     while not not_site_entered:
         #Asking for input from the user.
         site_entered = input("Please enter the name of a site whose data you would like scaped: ")
+        #Validating the site_entered variable.
 
 #Creating a variable that points to a site.
 my_site = "http://olympus.realpython.org/profiles/aphrodite"
