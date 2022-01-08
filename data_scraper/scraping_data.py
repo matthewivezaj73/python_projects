@@ -6,6 +6,7 @@ not_scraped = False
 while not not_scraped:
     #Asking for input from the user.
     site_entered = input("Please enter the name of a site whose data you would like scaped: ")
+    #Testing to ensure the data is ok.
 #Creating a variable that points to a site.
 my_site = "http://olympus.realpython.org/profiles/aphrodite"
 #Creating a variable that grabs the text from a site.
