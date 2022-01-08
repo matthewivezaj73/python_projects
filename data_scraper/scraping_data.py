@@ -8,6 +8,7 @@ my_site_scraper = ScrapingValidator("https://www.google.com/",23)
 not_scraped = False
 #Testing for input from the user.
 while not not_scraped:
+    #Printing a message to the user.
     #Setting a flag.
     not_site_entered = False
     #Testing to ensure the data is ok.
