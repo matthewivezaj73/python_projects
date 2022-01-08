@@ -5,5 +5,7 @@ class ScrapingValidator:
     """
     def __init__(self,sitename,wordcount):
         """
-        
+        Initializing the following attributes:
+            - sitename
+            - wordcount 
         """
