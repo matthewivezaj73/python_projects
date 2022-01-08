@@ -19,5 +19,7 @@ class ScrapingValidator:
         This method accepts the following parameter(s):
         - sitename
         """
-        #Creating a mock representation of a site.
-        
+        if (('http' or "https") and '.' and "://" in sitename) and (sitename.replace('.', '').isalnum()) and (len(sitename.replace('://', '')) >= 2 and len(sitename.replace('-', '')) <= 80):  
+            return True    
+        else:
+            return False
