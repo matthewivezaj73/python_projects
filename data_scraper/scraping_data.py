@@ -2,6 +2,7 @@
 from urllib.request import urlopen
 #Setting a flag.
 not_scraped = False
+#Testing for input from the user.
 #Creating a variable that points to a site.
 my_site = "http://olympus.realpython.org/profiles/aphrodite"
 #Creating a variable that grabs the text from a site.
