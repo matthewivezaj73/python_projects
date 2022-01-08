@@ -3,7 +3,7 @@ from urllib.request import urlopen
 #Importing class.
 from classes.scraping_validator import ScrapingValidator
 #Creating an instance of a class.
-my_site_scraper = ScrapingValidator()
+my_site_scraper = ScrapingValidator("https://www.google.com/",23)
 #Setting a flag.
 not_scraped = False
 #Testing for input from the user.
