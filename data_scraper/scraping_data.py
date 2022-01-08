@@ -15,6 +15,7 @@ while not not_scraped:
         #Asking for input from the user.
         site_entered = input("Please enter the name of a site whose data you would like scaped: ")
         #Validating the site_entered variable.
+        not_site_entered = my_site_scraper.validateSite(site_entered)
 
 #Creating a variable that points to a site.
 my_site = "http://olympus.realpython.org/profiles/aphrodite"
