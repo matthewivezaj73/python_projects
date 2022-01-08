@@ -1,6 +1,7 @@
 #Importing the library.
 from urllib.request import urlopen
 #Setting a flag.
+not_scraped = False
 #Creating a variable that points to a site.
 my_site = "http://olympus.realpython.org/profiles/aphrodite"
 #Creating a variable that grabs the text from a site.
