@@ -11,4 +11,11 @@ class ScrapingValidator:
         """
         self.sitename = sitename
         self.wordcount = wordcount
-    def validateSite(self,site)
+    def validateSite(self,sitename):
+        """
+        A method that will validate a site name before
+        it can be used by the program.
+
+        This method accepts the following parameter(s):
+        - sitename
+        """
