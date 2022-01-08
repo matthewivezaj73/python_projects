@@ -10,3 +10,4 @@ class ScrapingValidator:
             - wordcount 
         """
         self.sitename = sitename
+        self.wordcount = wordcount
