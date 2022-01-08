@@ -5,6 +5,7 @@ not_scraped = False
 #Testing for input from the user.
 while not not_scraped:
     #Setting a flag.
+    not_site_entered = False
     #Asking for input from the user.
     site_entered = input("Please enter the name of a site whose data you would like scaped: ")
     #Testing to ensure the data is ok.
