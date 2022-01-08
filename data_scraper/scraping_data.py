@@ -1,6 +1,7 @@
 #Importing the library.
 from urllib.request import urlopen
 #Importing class.
+from classes.scraping_validator import ScrapingValidator
 #Creating an instance of a class.
 my_site_scraper = ScrapingValidator()
 #Setting a flag.
