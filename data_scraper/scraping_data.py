@@ -15,6 +15,7 @@ while not not_scraped:
     user_choice = input("Please enter \'r\' if you would like to read the contents of a website.\n\nPlease enter \'csv\' if you would like to read the contents of the csv file.\n\nPlease enter \'rem\' if you would like to remove characters from the csv.")
     #Handling the case where the user enters r.
     if user_choice.lower() == "r":
+        #Adding a try block in case there is an error with the html request.
         #Setting a flag.
         not_site_entered = False
         #Testing to ensure the data is ok.
