@@ -19,7 +19,7 @@ while not not_scraped:
         site_entered = my_site_scraper.validateSite(site_entered)
         #Validating the site_entered variable.
         not_site_entered = my_site_scraper.validateSite(site_entered)
-
+    #Opening a file.
 #Creating a variable that points to a site.
 my_site = "http://olympus.realpython.org/profiles/aphrodite"
 #Creating a variable that grabs the text from a site.
