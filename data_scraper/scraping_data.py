@@ -23,12 +23,6 @@ while not not_scraped:
         while not not_site_entered:
             #Asking for input from the user.
             site_entered = input("Please enter the name of a site whose data you would like scraped: ")
-
-            #Validating the site_entered variable.
-            # not_site_entered = my_site_scraper.validateSite(site_entered)
-            #Opening a file.
-            #Creating a variable that points to a site.
-            # my_site = "http://olympus.realpython.org/profiles/aphrodite"
             #Creating a variable that grabs the text from a site.
             read_site = urlopen(site_entered)
             #Creating a blank list.
