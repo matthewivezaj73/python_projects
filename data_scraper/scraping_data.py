@@ -26,7 +26,7 @@ while not not_scraped:
 my_site = "http://olympus.realpython.org/profiles/aphrodite"
 #Creating a variable that grabs the text from a site.
 read_site = urlopen(my_site)
-#Creating a variable that reads the content.
+#Opening the text file.
 
 #Reading each line on the site
 for line in read_site:
