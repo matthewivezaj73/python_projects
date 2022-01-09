@@ -20,7 +20,7 @@ while not not_scraped:
         #Testing to ensure the data is ok.
         while not not_site_entered:
             #Asking for input from the user.
-            site_entered = input("Please enter the name of a site whose data you would like scraped: ")
+            site_entered = input("Please enter the name of a site whose data you would like scraped or \'q\' to quit: ")
             #Creating a variable that grabs the text from a site.
             read_site = urlopen(site_entered)
             #Creating a blank list.
