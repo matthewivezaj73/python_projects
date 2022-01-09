@@ -10,6 +10,7 @@ my_site_scraper = ScrapingValidator("https://www.google.com/",23)
 not_scraped = False
 #Testing for input from the user.
 while not not_scraped:
+    
     #Printing a message to the user.
     #Setting a flag.
     not_site_entered = False
@@ -27,15 +28,15 @@ while not not_scraped:
         read_site = urlopen(site_entered)
         for line in read_site:
             print(line)
-        #Opening the text file to work with.
-        with open(my_file) as fold:
+    #Opening the text file to work with.
+    with open(my_file) as fold:
 
-            fold.write(read_site)
-            with open("text_files/site_text.csv","w+") as fawn:
-                # Going through each line in the list.
-                for line in fold:
-                    #Writing each line to the file.
-                    fawn.write(line)             
+        fold.write(read_site)
+        with open("text_files/site_text.csv","w+") as fawn:
+            # Going through each line in the list.
+            for line in fold:
+                #Writing each line to the file.
+                fawn.write(line)             
 
 
 
