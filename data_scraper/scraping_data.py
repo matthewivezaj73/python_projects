@@ -15,6 +15,8 @@ while not not_scraped:
     while not not_site_entered:
         #Asking for input from the user.
         site_entered = input("Please enter the name of a site whose data you would like scaped: ")
+        #Grabbing content from the site.
+        site_entered = my_site_scraper.validateSite(site_entered)
         #Validating the site_entered variable.
         not_site_entered = my_site_scraper.validateSite(site_entered)
 
