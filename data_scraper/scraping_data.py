@@ -15,8 +15,6 @@ while not not_scraped:
     user_choice = input("Please enter \'r\' if you would like to read the contents of a website.")
     #Handling the case where the user enters r.
     if user_choice.lower() == "r":
-
-        #Printing a message to the user.
         #Setting a flag.
         not_site_entered = False
         #Testing to ensure the data is ok.
