@@ -1,5 +1,6 @@
 #Importing the library.
 from urllib.request import urlopen
+#Assinging a variable to the path of the text file.
 #Importing class.
 from classes.scraping_validator import ScrapingValidator
 #Creating an instance of a class.
