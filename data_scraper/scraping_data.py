@@ -34,6 +34,7 @@ while not not_scraped:
             #Creating a blank list.
             my_list = []
             for line in read_site:
+                #Appending each line along with "," to the list.
                 my_list.append(str(line)+",")             
 
                 print(line)
