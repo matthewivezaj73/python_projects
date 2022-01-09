@@ -28,7 +28,7 @@ my_site = "http://olympus.realpython.org/profiles/aphrodite"
 read_site = urlopen(my_site)
 #Opening the text file.
         #Opening the text file to work with.
-        with open(filename) as fold:
+        with open(my_file) as fold:
 
 
 
