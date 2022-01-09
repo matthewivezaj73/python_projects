@@ -27,6 +27,10 @@ my_site = "http://olympus.realpython.org/profiles/aphrodite"
 #Creating a variable that grabs the text from a site.
 read_site = urlopen(my_site)
 #Opening the text file.
+        #Opening the text file to work with.
+        with open(filename) as fold:
+
+
 
 #Reading each line on the site
 for line in read_site:
