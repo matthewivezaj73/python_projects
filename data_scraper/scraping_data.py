@@ -26,9 +26,8 @@ while not not_scraped:
 my_site = "http://olympus.realpython.org/profiles/aphrodite"
 #Creating a variable that grabs the text from a site.
 read_site = urlopen(my_site)
-#Opening the text file.
-        #Opening the text file to work with.
-        with open(my_file) as fold:
+#Opening the text file to work with.
+with open(my_file) as fold:
 
 
 
