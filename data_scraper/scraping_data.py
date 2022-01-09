@@ -48,3 +48,6 @@ while not not_scraped:
         #Opening the file for reading.
         with open("text_files/site_text.csv","r") as fawn:
             read_lines = fawn.readlines()
+            for line in read_lines:
+                line = line.replace("b'","")
+                print(line)
