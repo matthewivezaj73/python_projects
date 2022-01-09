@@ -45,6 +45,7 @@ while not not_scraped:
                 print(line)
     #Handling the case where the user wants to remove a character from the csv file.
     elif user_choice.lower() == "rem":
+        #Asking the user what character they would like to remove.
         #Opening the file for reading.
         with open("text_files/site_text.csv","r") as fawn:
             read_lines = fawn.readlines()
