@@ -38,4 +38,9 @@ while not not_scraped:
                         fawn.write(str(line))
     #Handling the case where the user wants to read the contents of the csv file.
     elif user_choice.lower() == "csv":
+        with open("text_files/site_text.csv") as fawn:
+            # Going through each line in the list.
+            for line in fawn:
+                #Writing each line to the file.
+                print(line)
 
