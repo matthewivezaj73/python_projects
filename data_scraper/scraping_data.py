@@ -28,17 +28,14 @@ while not not_scraped:
         for line in read_site:
             print(line)
         #Opening the text file to work with.
-    #     with open(my_file) as fold:
+        with open(my_file) as fold:
 
-    #         fold.write(read_site)
-    # # with open("text_files/site_text.csv","w+") as fawn:
-    #     #Going through each line in the list.
-    #     for line in fold:
-    #         #Writing each line to the file.
-    #         fawn.write(line)             
+            fold.write(read_site)
+            with open("text_files/site_text.csv","w+") as fawn:
+                # Going through each line in the list.
+                for line in fold:
+                    #Writing each line to the file.
+                    fawn.write(line)             
 
 
 
-#Reading each line on the site
-for line in read_site:
-    print(line)
