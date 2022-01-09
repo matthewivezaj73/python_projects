@@ -11,15 +11,3 @@ class ScrapingValidator:
         """
         self.sitename = sitename
         self.wordcount = wordcount
-    def validateSite(self,sitename):
-        """
-        A method that will validate a site name before
-        it can be used by the program.
-
-        This method accepts the following parameter(s):
-        - sitename
-        """
-        if (('http' or "https") and '.' and "://" in sitename) and (sitename.replace('.', '').isalnum()) and (len(sitename.replace('://', '')) >= 2 and len(sitename.replace('-', '')) <= 80):  
-            return True    
-        else:
-            return False
