@@ -22,6 +22,8 @@ while not not_scraped:
             #Asking for input from the user.
             site_entered = input("Please enter the name of a site whose data you would like scraped or \'q\' to quit: ")
             #Handling the case where the user enters q.
+            if site_entered.lower() == "q":
+                not_site_entered = True
             #Creating a variable that grabs the text from a site.
             read_site = urlopen(site_entered)
             #Creating a blank list.
