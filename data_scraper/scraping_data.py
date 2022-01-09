@@ -31,6 +31,7 @@ while not not_scraped:
             #Creating a variable that grabs the text from a site.
             read_site = urlopen(site_entered)
             #Creating a blank list.
+            my_list = []
             for line in read_site:
                 print(line)
             #Opening the text file to work with.
