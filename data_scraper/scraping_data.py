@@ -41,7 +41,7 @@ while not not_scraped:
                     # Going through each line in the list.
                     for line in fold:
                         #Writing each line to the file.
-                        fawn.write(line)             
+                        my_list.append(line)             
 
 
 
