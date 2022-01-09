@@ -36,8 +36,6 @@ while not not_scraped:
             for line in read_site:
                 #Appending each line along with "," to the list.
                 my_list.append(str(line)+",")             
-
-                print(line)
             #Opening the text file to work with.
             with open(my_file) as fold:
 
