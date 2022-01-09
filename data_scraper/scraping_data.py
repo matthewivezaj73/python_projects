@@ -44,5 +44,5 @@ while not not_scraped:
                 #Writing each line to the file.
                 print(line)
     #Handling the case where the user wants to remove a character from the csv file.
-    elif user_choice.lower() == "csv":
+    elif user_choice.lower() == "rem":
 
