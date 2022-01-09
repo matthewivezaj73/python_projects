@@ -30,6 +30,7 @@ while not not_scraped:
             # my_site = "http://olympus.realpython.org/profiles/aphrodite"
             #Creating a variable that grabs the text from a site.
             read_site = urlopen(site_entered)
+            #Creating a blank list.
             for line in read_site:
                 print(line)
             #Opening the text file to work with.
