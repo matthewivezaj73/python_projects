@@ -36,6 +36,7 @@ while not not_scraped:
                     for line in my_list:
                         #Writing each line to the file.
                         fawn.write(str(line))
+            #Setting flag to true.
             not_site_entered = True
     #Handling the case where the user wants to read the contents of the csv file.
     elif user_choice.lower() == "csv":
