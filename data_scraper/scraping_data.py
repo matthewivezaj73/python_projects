@@ -42,5 +42,5 @@ while not not_scraped:
             # Going through each line in the list.
             for line in fawn:
                 #Writing each line to the file.
-                print(line + "\n")
-
+                print(line)
+                
