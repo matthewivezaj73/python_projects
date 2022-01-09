@@ -12,7 +12,7 @@ not_scraped = False
 #Testing for input from the user.
 while not not_scraped:
     #Asking the user what they want to do.
-    user_choice = input("Please enter \'r\' if you would like to read the contents of a website.")
+    user_choice = input("Please enter \'r\' if you would like to read the contents of a website.\n\nPlease enter \'csv\' if you would like to read the contents of the csv file.")
     #Handling the case where the user enters r.
     if user_choice.lower() == "r":
         #Setting a flag.
@@ -37,4 +37,5 @@ while not not_scraped:
                         #Writing each line to the file.
                         fawn.write(str(line))
     #Handling the case where the user wants to read the contents of the csv file.
+    elif user_choice.lower() == "csv":
 
