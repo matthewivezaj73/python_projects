@@ -1,4 +1,5 @@
 #Importing the library.
+from os import read
 from urllib.request import urlopen
 #Assinging a variable to the path of the text file.
 my_file = "text_files/site_text.txt"
@@ -33,15 +34,16 @@ while not not_scraped:
             #Creating a blank list.
             my_list = []
             for line in read_site:
+                my_list.append(line)             
+
                 print(line)
             #Opening the text file to work with.
             with open(my_file) as fold:
 
                 with open("text_files/site_text.csv","w+") as fawn:
                     # Going through each line in the list.
-                    for line in fold:
+                    for line in read_site:
                         #Writing each line to the file.
-                        my_list.append(line)             
-
+                        print(line)
 
 
