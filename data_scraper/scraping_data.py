@@ -34,7 +34,7 @@ while not not_scraped:
             #Creating a blank list.
             my_list = []
             for line in read_site:
-                my_list.append(line)             
+                my_list.append(str(line)+",")             
 
                 print(line)
             #Opening the text file to work with.
@@ -42,8 +42,8 @@ while not not_scraped:
 
                 with open("text_files/site_text.csv","w+") as fawn:
                     # Going through each line in the list.
-                    for line in read_site:
+                    for line in my_list:
                         #Writing each line to the file.
-                        print(line)
+                        fawn.write(str(line))
 
 
