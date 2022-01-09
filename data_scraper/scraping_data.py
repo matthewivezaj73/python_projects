@@ -12,7 +12,7 @@ not_scraped = False
 #Testing for input from the user.
 while not not_scraped:
     #Asking the user what they want to do.
-    user_choice = input("Please enter \'r\' if you would like to read the contents of a website.\n\nPlease enter \'csv\' if you would like to read the contents of the csv file.")
+    user_choice = input("Please enter \'r\' if you would like to read the contents of a website.\n\nPlease enter \'csv\' if you would like to read the contents of the csv file.\n\nPlease enter \'rem\' if you would like to remove characters from the csv.")
     #Handling the case where the user enters r.
     if user_choice.lower() == "r":
         #Setting a flag.
