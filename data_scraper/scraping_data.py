@@ -43,4 +43,6 @@ while not not_scraped:
             for line in fawn:
                 #Writing each line to the file.
                 print(line)
-                
+    #Handling the case where the user wants to remove a character from the csv file.
+    elif user_choice.lower() == "csv":
+
