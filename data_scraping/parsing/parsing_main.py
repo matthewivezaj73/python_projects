@@ -7,6 +7,7 @@ import urllib.request as req
 not_done = False
 #Testing for a reponse from the user.
 while not not_done:
+    #Asking for a link from the user.
     my_link = input("Please enter a link whose page you would like to scrape in proper form (i.e. http, https, www., .com, .net): ")
     # print(bs.h1)
     response = req.urlopen(html)
