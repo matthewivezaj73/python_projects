@@ -9,8 +9,9 @@ not_done = False
 while not not_done:
     #Asking for a link from the user.
     my_link = input("Please enter a link whose page you would like to scrape in proper form (i.e. http, https, www., .com, .net): ")
-    # print(bs.h1)
-    response = req.urlopen(my_link)
+    if len(my_link) > 0:
+        # print(bs.h1)
+        response = req.urlopen(my_link)
 #Printing the response returned.
 # print(type(response))
 
