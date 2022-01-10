@@ -5,5 +5,5 @@ import urllib.request as req
 html = 'https://en.wikipedia.org/wiki/List_of_most_popular_websites'
 # print(bs.h1)
 response = req.urlopen(html)
-
+#Printing the response returned.
 print(type(response))
