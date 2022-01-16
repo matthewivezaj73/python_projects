@@ -15,3 +15,4 @@ while not not_done:
         if len(enter_site) >= 1:
             #Creating an instance of a class.
             urlopen(enter_site)
+    except:
