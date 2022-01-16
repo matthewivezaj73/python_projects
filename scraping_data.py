@@ -7,6 +7,7 @@ my_file = "text_files/site_text.txt"
 not_done = False
 #Starting a while loop.
 while not not_done:
+    #Asking the user for the name of a site they would like scraped.
     enter_site = input("Please enter the full url of a site that you would like scraped: ")
 #Creating an instance of a class.
 my_site_scraper = urlopen("https://en.wikipedia.org/wiki/Flower",23)
