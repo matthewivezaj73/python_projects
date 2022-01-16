@@ -2,4 +2,4 @@
 from urllib.request import urlopen
 
 #assigning a site to a variable.
-oakland_county = "https://www.oakgov.com/covid/workerrelief/Pages/unemployment.aspx"
+oakland_county = "https://www.oakgov.com/advantageoakland/resources/Documents/OaklandCounty_EconomicOutlookSummary_2021-2023.pdf"
