@@ -8,6 +8,6 @@ class Project(models.Model):
     """
     title = models.CharField(max_length=100)
     description = models.CharField(max_length=250)
-    image = models.ImageField(upload_to="portfolio/images/")
+    image = models.ImageField(upload_to="templates/portfolio/")
     #Blank is a property that can be added to anything.
     url = models.URLField(blank=True)

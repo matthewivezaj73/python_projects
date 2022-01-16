@@ -18,7 +18,7 @@ def password(request):
 
     This function will generate random passwords
     """
-    characters = list('abcdefghijklmnopqrstuvwyxz!')
+    characters = list('abcdefghijklmnopqrstuvwyxz')
 
     if request.GET.get('uppercase'):
         characters.extend(list('ABCDEFGHIJKLMNOPQRSTUVWXYZ'))

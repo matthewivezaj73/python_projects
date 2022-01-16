@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Link to Bootstrap style sheet -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <title>Password Generator</title>
+        <title>About me</title>
     </head>
     <!-- The start of the body-->
     <body>
@@ -27,6 +27,10 @@
                 <li class="nav-item active">
                     <a href="{% url 'about' %}" class="nav-link">about</a>
                 </li>
+                <li class="nav-item active">
+
+                    <a href="{% url 'blog' %}" class="nav-link">blog</a>
+                    </li>
                 </ul>
             </div>
         </nav>    
@@ -38,19 +42,22 @@
                         <h1>About me</h1>
                         <br>
                         <br>
-                        <table>
-                        <tr>
-                            <th>Website creator</th>
-                            <td>
-                                Matthew Ivezaj
-                            </td>
-                        </tr>
-                        </table>
+
                         
                         
                     </div>
                     <div class="bg-danger clearfix">
-                        <br><br><br><br>
+                        <br><br>
+                        {% for project in projects %}
+
+                        {{ project.title }}
+                        <p>{{ project.desciption }}</p>
+                        <img src=" {{ project.image.url }} " height=500 width=400>
+                        {{ project.image.url}}
+                        <!-- <a href="{{ project.url }}">Link</a> -->
+                        {% endfor %}
+        
+                        <br><br>
                         <!--A card that represents prime beef.-->
                         <div class="row">
                             <link rel="stylesheet" type="text/css" href="css/my_style.css">
@@ -63,7 +70,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Degree's Earned:</td>
+                                            <td><strong>Degree's Earned:</strong></td>
                                             <td>
                                             <ul>
                                                 <li>Bachelor of Science in Information Technology</li>
