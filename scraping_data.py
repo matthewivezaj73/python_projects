@@ -12,5 +12,6 @@ while not not_done:
     #Added a try block
     try:
         #Handling the case where the user enters a site.
-        #Creating an instance of a class.
-        urlopen(enter_site)
+        if len(enter_site) >= 1:
+            #Creating an instance of a class.
+            urlopen(enter_site)
