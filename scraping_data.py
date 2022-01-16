@@ -17,5 +17,5 @@ while not not_done:
             urlopen(enter_site)
     except:
         print(f"Sorry, but we can't connect to \'{enter_site}\', please try again")
-
+    #Asking the user what they would like to do with the scraped data.
     user_choice = input("Enter \'S\' if you would like to save the site that you scraped onto a file.")
