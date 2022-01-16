@@ -6,4 +6,4 @@ oakland_county = "https://www.oakgov.com/advantageoakland/resources/Documents/Oa
 
 #Reading each line on the site
 
-    print(line)
+print(line)
