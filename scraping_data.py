@@ -11,6 +11,6 @@ while not not_done:
     enter_site = input("Please enter the full url of a site that you would like scraped: ")
     #Added a try block
     try:
-    #Handling the case where the user enters a site.
-    #Creating an instance of a class.
-    urlopen(enter_site)
+        #Handling the case where the user enters a site.
+        #Creating an instance of a class.
+        urlopen(enter_site)
