@@ -10,3 +10,5 @@ my_site_scraper = ScrapingValidator("https://en.wikipedia.org/wiki/Flower",23)
 #Setting a flag.
 not_scraped = False
 #Testing for input from the user.
+for line in my_site_scraper:
+    print(line)
