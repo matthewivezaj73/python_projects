@@ -6,5 +6,5 @@ oakland_county = "https://www.oakgov.com/advantageoakland/resources/Documents/Oa
 #Opening the site.
 read_url = urlopen(oakland_county)
 #Reading each line on the site
-
-print()
+for line in read_url:
+    print(line)
