@@ -9,8 +9,8 @@ not_done = False
 while not not_done:
     #Asking the user for the name of a site they would like scraped.
     enter_site = input("Please enter the full url of a site that you would like scraped: ")
-#Creating an instance of a class.
-my_site_scraper = urlopen("https://en.wikipedia.org/wiki/Flower",23)
+    #Creating an instance of a class.
+    urlopen(enter_site)
 #Setting a flag.
 not_scraped = False
 #Testing for input from the user.
