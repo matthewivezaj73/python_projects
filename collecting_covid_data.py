@@ -7,4 +7,5 @@ oakland_county = "https://www.oakgov.com/advantageoakland/resources/Documents/Oa
 read_url = urlopen(oakland_county)
 #Reading each line on the site
 for line in read_url:
+    line = line.replace("b'3","")
     print(line)
