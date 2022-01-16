@@ -16,3 +16,4 @@ while not not_done:
             #Creating an instance of a class.
             urlopen(enter_site)
     except:
+        print(f"Sorry, but we can't connect to \'{enter_site}\', please try again")
