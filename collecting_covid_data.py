@@ -8,5 +8,5 @@ read_url = urlopen(oakland_county)
 #Reading each line on the site
 for line in read_url:
     line = str(line)
-    line = line.replace("b'3","")
+    line = line.replace("b'3","").replace("b'","").replace("\x82V","")
     print(line)
