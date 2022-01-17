@@ -1,0 +1,1 @@
+https://data.thetimesherald.com/covid-19-vaccine-tracker/michigan/wayne-county/26163/
