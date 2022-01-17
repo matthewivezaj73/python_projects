@@ -13,3 +13,4 @@ iii.	Popen – calls a subroutine defined in subprocess
 iv.	[‘netstat’, ‘-ano’] – We are feeding the command netstat as text into Popen with the arguments ‘-ano’.  If we only wanted to send netstat by itself as default, we would have ‘netstat’ with no brackets.  
 v.	stdout=subprocess.PIPE – We are sending the output back to this call for connection to the variable. 
 """
+print(output)
