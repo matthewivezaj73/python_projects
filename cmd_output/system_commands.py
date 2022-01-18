@@ -8,6 +8,7 @@ from datetime import date
 # We can also be clever and only output what we are interested in, 
 # instead of sifting through unessential information.  Don’t work harder, work smarter.)
 output = subprocess.Popen(['netstat','-ano'],stdout=subprocess.PIPE).communicate()
+now=datetime.datetime.now()
 """
 i.	output – variable we are instantiating.  
 ii.	subprocess – calls the subprocess module
