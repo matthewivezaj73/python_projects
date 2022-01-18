@@ -115,6 +115,7 @@ while not not_done:
                         #Creating a csv file for writing.
                         with open("text_files/click_output.csv","w") as csv_output:
                             csv_output.write(content)
+                    #Handling the case where the fild does not exist.
                     elif not os.ispath(csv_file):
                         #Creating a csv file for writing.
                         with open("text_files/click_output.csv","w+") as csv_output:
