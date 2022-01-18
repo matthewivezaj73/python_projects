@@ -55,6 +55,11 @@ with open("text_files/my_output.txt") as text_file:
                     my_line = "ESTABLISHED".encode()
                     csv_output.write(str(line)+"\n")
                     csv_output.write("")
+                if line.find("Foreign".encode()):
+                    print(line)
+                    my_line = "Foreign".encode()
+                    csv_output.write(str(line)+"\n")
+                    csv_output.write("")
                 else:
                     continue
             csv_output.write("\n")
