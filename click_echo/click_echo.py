@@ -112,12 +112,12 @@ while not not_done:
                     #Handling case where the file does exist.
                     if os.path.exists(csv_file):
                         #Creating a csv file for writing.
-                        with open("text_files/click_output.csv","w") as csv_output:
+                        with open("text_files/click_output.csv","a") as csv_output:
                             csv_output.write(content)
                             csv_output.write("\n")
                     #Handling the case where the fild does not exist.
                     elif not os.path.exists(csv_file):
                         #Creating a csv file for writing.
-                        with open("text_files/click_output.csv","w+") as csv_output:
+                        with open("text_files/click_output.csv","a+") as csv_output:
                             csv_output.write(content)
                             csv_output.write("\n")
