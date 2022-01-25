@@ -5,8 +5,8 @@ from urllib.request import urlopen
 my_file = "text_files/site_text.txt"
 #Importing class.
 #Creating an instance of a class.
-my_site_scraper = "https://www.google.com/"
 #Reading the conents of the site.
-read_site = urlopen(my_site_scraper)
-
+read_site = urlopen("https://hellopoetry.com/poem/1830922/five-little-flowers/")
+for line in read_site:
+    print(line)
 
