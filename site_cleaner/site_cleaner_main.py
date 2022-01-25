@@ -8,5 +8,7 @@ my_file = "text_files/site_text.txt"
 #Reading the conents of the site.
 read_site = urlopen("https://hellopoetry.com/poem/1830922/five-little-flowers/")
 for line in read_site:
-    print(line)
+    line = str(line).replace("b'","")
+    
+print(line)
 
