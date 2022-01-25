@@ -16,3 +16,4 @@ for line in read_site:
     website_arr.append(line)
 
 
+print(website_arr)
