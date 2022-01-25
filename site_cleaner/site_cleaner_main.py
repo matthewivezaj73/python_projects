@@ -15,5 +15,4 @@ for line in read_site:
     #Appending each line to the list.
     website_arr.append(line)
 
-print(line)
 
