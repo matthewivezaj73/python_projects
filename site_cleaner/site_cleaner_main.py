@@ -15,5 +15,6 @@ for line in read_site:
     #Appending each line to the list.
     website_arr.append(line)
 
+for line in website_arr:
 
-print(website_arr)
+    print(line)
