@@ -8,5 +8,5 @@ my_file = "text_files/site_text.txt"
 my_site_scraper = "https://www.google.com/"
 #Reading the conents of the site.
 read_site = urlopen(my_site_scraper)
-#Setting a flag.
+
 
