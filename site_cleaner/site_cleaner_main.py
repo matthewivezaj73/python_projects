@@ -10,6 +10,7 @@ read_site = urlopen("https://hellopoetry.com/poem/1830922/five-little-flowers/")
 #Creating a blank list.
 website_arr = []
 for line in read_site:
+    #Cleaning up each line.
     line = str(line).replace("b'","")
     #Appending each line to the list.
     website_arr.append(line)
