@@ -14,7 +14,7 @@ not_done = False
 #Asking the user what they would like to do.
 while not not_done:
     #Asking the user what they would like to do.
-    user_choice = input("Please enter c if you would like to clean up the text from the site.\nPlease enter e to exit.")
+    user_choice = input("Please enter c if you would like to clean up the text from the site.\nPlease enter d to display the content from the scraped site.\nPlease enter e to exit:")
     #Handling the case where the user enters c.
     if user_choice.lower() == "c":
         #Creating a for loop.
