@@ -28,6 +28,7 @@ while not not_done:
             website_arr.append(line)
     #Handling the case where the user enters d.
     elif user_choice.lower() == "d":
+        #For loop to print the lines from the original text.
         for line in website_arr:
 
             print(line)
