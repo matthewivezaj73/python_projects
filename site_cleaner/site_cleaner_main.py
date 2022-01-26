@@ -9,6 +9,8 @@ my_file = "text_files/site_text.txt"
 read_site = urlopen("https://hellopoetry.com/poem/1830922/five-little-flowers/")
 #Creating a blank list.
 website_arr = []
+#Asking the user what they would like to do.
+
 for line in read_site:
     #Cleaning up each line.
     line = str(line).replace("b'","").replace("b\"","").replace('\/',"")
@@ -22,4 +24,3 @@ for line in website_arr:
 
     print(line)
 
-#Asking the user what they would like to do.
