@@ -27,7 +27,7 @@ while not not_done:
             #Appending each line to the list.
             website_arr.append(line)
     #Handling the case where the user enters d.
-for line in website_arr:
+        for line in website_arr:
 
-    print(line)
+            print(line)
 
