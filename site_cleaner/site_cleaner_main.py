@@ -9,6 +9,8 @@ my_file = "text_files/site_text.txt"
 read_site = urlopen("https://hellopoetry.com/poem/1830922/five-little-flowers/")
 #Creating a blank list.
 website_arr = []
+#Adding a flag.
+not_done = False
 #Asking the user what they would like to do.
 
 for line in read_site:
