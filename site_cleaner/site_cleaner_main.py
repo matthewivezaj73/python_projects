@@ -14,6 +14,7 @@ not_done = False
 #Asking the user what they would like to do.
 while not not_done:
     #Asking the user what they would like to do.
+    user_choice = input("Please enter c if you would like to clean up the text from the site.\nPlease enter e to exit.")
 for line in read_site:
     #Cleaning up each line.
     line = str(line).replace("b'","").replace("b\"","").replace('\/',"")
