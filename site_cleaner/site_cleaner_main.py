@@ -27,6 +27,7 @@ while not not_done:
             #Appending each line to the list.
             website_arr.append(line)
     #Handling the case where the user enters d.
+    elif user_choice.lower() == "d":
         for line in website_arr:
 
             print(line)
