@@ -12,7 +12,8 @@ website_arr = []
 #Adding a flag.
 not_done = False
 #Asking the user what they would like to do.
-
+while not not_done:
+    
 for line in read_site:
     #Cleaning up each line.
     line = str(line).replace("b'","").replace("b\"","").replace('\/',"")
