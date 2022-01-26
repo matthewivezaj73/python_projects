@@ -21,3 +21,5 @@ for line in read_site:
 for line in website_arr:
 
     print(line)
+
+#Asking the user what they would like to do.
