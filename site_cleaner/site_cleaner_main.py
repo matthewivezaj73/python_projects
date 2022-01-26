@@ -15,14 +15,14 @@ not_done = False
 while not not_done:
     #Asking the user what they would like to do.
     user_choice = input("Please enter c if you would like to clean up the text from the site.\nPlease enter e to exit.")
-for line in read_site:
-    #Cleaning up each line.
-    line = str(line).replace("b'","").replace("b\"","").replace('\/',"")
-    if "\n" in line:
-        line = line.remove[-1]
-    line = str(line).replace("\ ","")
-    #Appending each line to the list.
-    website_arr.append(line)
+    for line in read_site:
+        #Cleaning up each line.
+        line = str(line).replace("b'","").replace("b\"","").replace('\/',"")
+        if "\n" in line:
+            line = line.remove[-1]
+        line = str(line).replace("\ ","")
+        #Appending each line to the list.
+        website_arr.append(line)
 
 for line in website_arr:
 
