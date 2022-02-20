@@ -6,7 +6,10 @@ my_file = "text_files/site_text.txt"
 #Importing class.
 #Creating an instance of a class.
 #Reading the conents of the site.
-read_site = urlopen("https://hellopoetry.com/poem/1830922/five-little-flowers/")
+read_site = urlopen("https://tradingeconomics.com/calendar#")
+with open("")
+for line in read_site:
+    print(line)
 #Creating a blank list.
 website_arr = []
 #Adding a flag.
@@ -21,6 +24,7 @@ while not not_done:
         for line in read_site:
             #Cleaning up each line.
             line = str(line).replace("b'","").replace("b\"","").replace('\/',"")
+            line = line.replace("\n'","")
             if "\n" in line:
                 line = line.remove[-1]
             line = str(line).replace("\ ","")
