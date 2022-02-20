@@ -13,7 +13,7 @@ read_site = urlopen("https://tradingeconomics.com/calendar#")
 with open("economics.txt","w+"):
 
     for line in read_site:
-        print("appending the following line: "+"\""+line)
+        print("appending the following line: "+"\""+line+"\"")
 #Creating a blank list.
 website_arr = []
 #Adding a flag.
