@@ -7,3 +7,5 @@ not_done = False
 while not not_done:
     #Asking the user for a choice.
     user_choice = input("Please enter a if you would like to add a configuration.")
+    #Handling the case where the user enters a.
+    
