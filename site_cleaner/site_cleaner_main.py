@@ -7,9 +7,13 @@ my_file = "text_files/site_text.txt"
 #Creating an instance of a class.
 #Reading the conents of the site.
 read_site = urlopen("https://tradingeconomics.com/calendar#")
-with open("")
-for line in read_site:
-    print(line)
+
+#Pick this back up later.
+
+with open("economics.txt","w+"):
+
+    for line in read_site:
+        print(""line)
 #Creating a blank list.
 website_arr = []
 #Adding a flag.
