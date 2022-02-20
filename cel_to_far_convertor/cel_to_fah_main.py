@@ -1,5 +1,5 @@
 #Importing libraries.
-import numpy
+import numpy as np
 #Importing the converter class.
 from classes.Converter import converter
 #Creating an instance of the class.
