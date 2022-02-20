@@ -2,6 +2,7 @@
 import socket
 import psutil
 #Creating a blank list.
+configurations = []
 #Creating a flag.
 not_done = False
 #Testing for user input.
