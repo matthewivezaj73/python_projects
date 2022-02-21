@@ -8,5 +8,6 @@ while not not_done:
     input_text = input("Please enter a phrase you would like hashed: ")
     #Hashing the text.
     hashed_text = hash(input_text)
+    #Typecasting the hashed text.
     #Printing the hashed value.
     print(hashed_text)
