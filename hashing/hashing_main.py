@@ -2,6 +2,9 @@
 import hashlib
 #Setting a flag.
 not_done = False
+
+# BEGUN THE STEP WHERE I COLLECT INPUT FROM THE USER.
+
 #Testing for user input.
 while not not_done:
     #Asking the user for iput.
@@ -12,3 +15,6 @@ while not not_done:
     hashed_text = str(hashed_text)
     #Printing the hashed value.
     print(hashed_text)
+
+
+# END THE STEP WHERE I COLLECT INPUT FROM THE USER.
