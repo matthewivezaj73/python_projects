@@ -9,5 +9,6 @@ while not not_done:
     #Hashing the text.
     hashed_text = hash(input_text)
     #Typecasting the hashed text.
+    hashed_text = str(hashed_text)
     #Printing the hashed value.
     print(hashed_text)
