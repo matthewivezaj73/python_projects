@@ -12,3 +12,7 @@ class Hashing:
         A method that checks to see if the 
         user has inputted text to be hashed.
         """
+        if len(inputted_text) > 0:
+            return True
+        else:
+            return False
