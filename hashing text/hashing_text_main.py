@@ -22,3 +22,4 @@ while not not_done:
             hashed_text = hash(raw_text)
             #Printing the hashed text out.
             print(hashed_text)
+            #Creating a dictionary and appending it to a list.
