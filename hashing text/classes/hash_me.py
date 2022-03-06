@@ -8,4 +8,7 @@ class Hashing:
         """
         self.hashed_input = hashed_input
     def get_text(self,inputted_text):
-        
+        """
+        A method that checks to see if the 
+        user has inputted text to be hashed.
+        """
