@@ -9,7 +9,7 @@ not_done = False
 #Testing for the users input.
 while not not_done:
     #Asking the user what they would like to do.
-    user_input = input("Enter \'S\' \n\n**(without single quotes)** \n\nif you would like to add a string to be hashed.")
+    user_input = input("Enter \'S\' \n\n**(without single quotes)** \n\nif you would like to add a string to be hashed.\nEnter \'R\' \n\n**(without single quotes)** \nif you would like to show what is inside of the list.")
 
     if user_input.upper() == 'S':
         #Setting a flag to false.
