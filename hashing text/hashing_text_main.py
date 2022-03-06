@@ -1,5 +1,7 @@
 #Importing a class file.
 from classes.hash_me import *
+#Creating a class instance.
+
 #Creating a flag.
 not_done = False
 #Testing for the users input.
@@ -12,5 +14,7 @@ while not not_done:
         while not not_hashed:
             #Asking the user to enter a phrase.
             my_text = input("Please enter a phrase you would like hashed: ")
+            if my_text:
+
             my_text = hash(inputted_text)
             print(my_text)
