@@ -2,6 +2,7 @@
 from classes.hash_me import *
 #Creating a class instance.
 my_hash = Hashing("Hello")
+hashed_list = []
 #Creating a flag.
 not_done = False
 #Testing for the users input.
