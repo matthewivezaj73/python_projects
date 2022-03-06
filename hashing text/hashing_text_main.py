@@ -31,4 +31,4 @@ while not not_done:
                 #Verifying that the input is greater than 0.
                 not_hashed = my_hash.get_text(raw_text)
             else:
-            
+                print(f"\'{raw_text}\' is not greater than zero, please try again!")
