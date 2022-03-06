@@ -26,4 +26,5 @@ while not not_done:
                 print(hashed_text)
                 #Creating a dictionary and appending it to a list.
                 hashed_list.append({"Hashed value:":hashed_text})
+                not_hashed = my_hash.get_text(raw_text)
             
