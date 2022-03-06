@@ -18,13 +18,17 @@ while not not_done:
         while not not_hashed:
             #Asking the user to enter a phrase.
             raw_text = input("Please enter a phrase you would like hashed: ")
+            #Verifying that the input is greater than 0.
+            greater_than_one = my_hash.get_text(raw_text)
             #Checking if the text has characters in it.
-            if raw_text:
+            if greater_than_one == True:
                 #Hashing the text.
                 hashed_text = hash(raw_text)
                 #Printing the hashed text out.
                 print(hashed_text)
                 #Creating a dictionary and appending it to a list.
                 hashed_list.append({"Hashed value:":hashed_text})
+                #Verifying that the input is greater than 0.
                 not_hashed = my_hash.get_text(raw_text)
+            else:
             
