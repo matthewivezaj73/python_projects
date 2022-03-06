@@ -34,4 +34,5 @@ while not not_done:
                 print(f"\'{raw_text}\' is not greater than zero, please try again!")
     #Handling the case where the user selects R.
     elif user_input.upper() == "R":
+        #Printing the hashed value.
         print(hashed_list)
