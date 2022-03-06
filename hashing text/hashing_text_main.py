@@ -16,4 +16,5 @@ while not not_done:
             raw_text = input("Please enter a phrase you would like hashed: ")
             #Hashing the text.
             hashed_text = hash(raw_text)
+            #Printing the hashed text out.
             print(hashed_text)
