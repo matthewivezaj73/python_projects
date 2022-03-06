@@ -7,3 +7,5 @@ class Hashing:
         Defining the hashed_input attribute.
         """
         self.hashed_input = hashed_input
+    def get_text(self,inputted_text):
+        
