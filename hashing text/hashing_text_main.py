@@ -8,6 +8,8 @@ while not not_done:
     user_input = input("Enter \'S\' \n\n**(without single quotes)** \n\nif you would like to add a string to be hashed.")
 
     if user_input.upper() == 'S':
-        
-        my_text = hash(inputted_text)
-        print(my_text)
+        not_hashed = False
+        while not not_hashed:
+            my_text = 
+            my_text = hash(inputted_text)
+            print(my_text)
