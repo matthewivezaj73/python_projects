@@ -23,7 +23,7 @@ while not not_done:
             #Checking if the text has characters in it.
             if greater_than_one == True:
                 #Hashing the text.
-                hashed_text = hash(raw_text)
+                hashed_text = bin(hash(raw_text))
                 #Printing the hashed text out.
                 print(hashed_text)
                 #Creating a dictionary and appending it to a list.
