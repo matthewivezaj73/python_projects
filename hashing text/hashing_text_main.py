@@ -10,6 +10,7 @@ while not not_done:
     user_input = input("Enter \'S\' \n\n**(without single quotes)** \n\nif you would like to add a string to be hashed.")
 
     if user_input.upper() == 'S':
+        #Setting a flag to false.
         not_hashed = False
         while not not_hashed:
             #Asking the user to enter a phrase.
