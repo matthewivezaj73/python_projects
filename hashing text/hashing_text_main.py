@@ -14,7 +14,6 @@ while not not_done:
         while not not_hashed:
             #Asking the user to enter a phrase.
             my_text = input("Please enter a phrase you would like hashed: ")
-            if type(my_text) is True:
 
-                my_text = hash(inputted_text)
-                print(my_text)
+            my_text = hash(inputted_text)
+            print(my_text)
