@@ -10,6 +10,7 @@ while not not_done:
     if user_input.upper() == 'S':
         not_hashed = False
         while not not_hashed:
+            #Asking the user to enter a phrase.
             my_text = input("Please enter a phrase you would like hashed: ")
             my_text = hash(inputted_text)
             print(my_text)
