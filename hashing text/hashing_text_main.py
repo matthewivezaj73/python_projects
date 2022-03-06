@@ -12,6 +12,7 @@ while not not_done:
     if user_input.upper() == 'S':
         #Setting a flag to false.
         not_hashed = False
+        #Testing for the hashed input.
         while not not_hashed:
             #Asking the user to enter a phrase.
             raw_text = input("Please enter a phrase you would like hashed: ")
