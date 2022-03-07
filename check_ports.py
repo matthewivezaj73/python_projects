@@ -10,5 +10,5 @@ if result == 0:
 
 
 
-
+#A command to close open ports found.
 # s.close()
