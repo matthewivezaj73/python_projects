@@ -7,3 +7,8 @@ result = open_ports.connect_ex(('127.0.0.1', 3306))
 #Checking for open ports and printing a message if they are.
 if result == 0:
     print('socket is open')
+
+
+
+
+# s.close()
