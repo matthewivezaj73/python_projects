@@ -11,3 +11,4 @@ while not not_done:
     if user_choice.lower() == "sha256":
         #Assigning the encrypted message to a variable.
         your_choice = sha256(user_choice)
+        #Printing the message.
