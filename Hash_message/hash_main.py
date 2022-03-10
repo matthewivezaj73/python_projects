@@ -10,7 +10,7 @@ while not not_done:
     #Handling the case where the user enters sha256.
     if user_choice.lower() == "sha256":
         #Asking the user to input a phrase.
-        
+        user_phrase = input("Please enter a phrase to encrypt: ")
         #Assigning the encrypted message to a variable.
         your_choice = sha256(user_choice)
         #Printing the message.
