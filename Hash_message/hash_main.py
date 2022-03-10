@@ -12,6 +12,6 @@ while not not_done:
         #Asking the user to input a phrase.
         user_phrase = input("Please enter a phrase to encrypt: ")
         #Assigning the encrypted message to a variable.
-        your_choice = sha256(user_choice)
+        your_choice = sha256(user_phrase)
         #Printing the message.
         print(your_choice)
