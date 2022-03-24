@@ -7,5 +7,4 @@ your_name = input("Please enter your name here: ")
 hashed_value = hashlib.sha256(your_name.encode())
 # creating a generic constructor
 generic = hashlib.new('sha256')
-print("Here is your name in a hashed value!")
-print(hashed_value)
+print("Here is your name in a hashed value: {hashed_value}")
