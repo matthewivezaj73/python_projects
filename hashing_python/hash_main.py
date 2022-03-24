@@ -4,6 +4,7 @@ import hashlib
 not_done = False
 #Testing for input.
 while not not_done:
+    print("here are all of the algorithm choices to choose from"+str(hashlib.algorithms_guaranteed))
     #Asking the user for their choice of encoding.
     user_choice = input("Please enter the type of encoding you would like to encode your string in: ")
     #Adding a case.
@@ -16,3 +17,4 @@ while not not_done:
         generic = hashlib.new('sha256')
         #Printing the hashed value.
         print(f"Here is your name in a hashed value: {hashed_value}")
+        
