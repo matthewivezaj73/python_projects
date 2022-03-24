@@ -5,7 +5,7 @@ class hashes:
     """
     def __init__(self,hash_name,hash_type,hash_len):
         """
-        Creating a method to initialize the program.
+        Creating a method to initialize the program and initializing the attributes of the __init__ method.
         """
         self.hash_name = hash_name
         self.hash_type = hash_type
