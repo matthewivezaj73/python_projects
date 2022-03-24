@@ -9,7 +9,7 @@ while not not_done:
     #Adding a case.
     if user_choice.lower() == "sha256":
         #Asking the individual for their name.
-        your_name = input("Please enter your text here: ")
+        your_name = input(b"Please enter your text here: ")
         #Assigning a sha256 hash to a variable.
         hashed_value = hashlib.sha256(your_name.encode())
         # creating a generic constructor
