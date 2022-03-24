@@ -2,6 +2,8 @@
 import hashlib
 #importing all methods from the hashes class.
 from classes.hashes import *
+#Creating an instance of the class.
+my_hash = hashes("sha1","string",12)
 #Created a flag.
 not_done = False
 #Testing for input.
