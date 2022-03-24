@@ -7,6 +7,9 @@ class hashes:
         """
         Creating a method to initialize the program.
         """
+        self.hash_name = hash_name
+        self.hash_type = hash_type
+        self.hash_len = hash_len
     def encrypt(self,algorithm):
         #Asking the user for their choice of encoding.
         user_choice = input("Please enter the type of encoding you would like to encode your string in: ")
