@@ -10,14 +10,13 @@ class hashes:
         self.hash_name = hash_name
         self.hash_type = hash_type
         self.hash_len = hash_len
-    def encrypt(self,algorithm):
+    def encrypt(self,your_phrase):
         """
         A method that will encrypt a string by algorithm selected.
         """
         #Asking the user for their choice of encoding.
         algorithm = input("Please enter the type of encoding you would like to encode your string in: ")
         #Asking the individual for their name.
-        your_phrase = input(b"Please enter your text here: ")
         #Assigning a sha256 hash to a variable.
         hashed_value = hashlib.algorithm(your_phrase.encode())
         # creating a generic constructor
