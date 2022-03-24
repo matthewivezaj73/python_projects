@@ -12,7 +12,7 @@ while not not_done:
         #Asking the individual for their name.
         your_phrase = input(b"Please enter your text here: ")
         #Assigning a sha256 hash to a variable.
-        hashed_value = hashlib.sha256(your_name.encode())
+        hashed_value = hashlib.sha256(your_phrase.encode())
         # creating a generic constructor
         generic = hashlib.new('sha256')
         #Printing the hashed value.
@@ -22,7 +22,7 @@ while not not_done:
         #Asking the individual for their name.
         your_phrase = input(b"Please enter your text here: ")
         #Assigning a sha256 hash to a variable.
-        hashed_value = hashlib.sha1(your_name.encode())
+        hashed_value = hashlib.sha1(your_phrase.encode())
         # creating a generic constructor
         generic = hashlib.new('sha1')
         #Printing the hashed value.
