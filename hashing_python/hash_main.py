@@ -47,7 +47,7 @@ while not not_done:
         generic = hashlib.new('sha3_256')
         #Printing the hashed value.
         print(f"Here is your name in a hashed value: {hashed_value}")
-    #Handling the case where the user enters sha3_256.
+    #Handling the case where the user enters sha3_384.
     elif user_choice.lower() == "sha3_384":
         #Asking the individual for their name.
         your_phrase = input(b"Please enter your text here: ")
@@ -57,3 +57,15 @@ while not not_done:
         generic = hashlib.new('sha3_384')
         #Printing the hashed value.
         print(f"Here is your name in a hashed value: {hashed_value}")
+    #Handling the case where the user enters sha3_384.
+    elif user_choice.lower() == "shake_256":
+        #Asking the individual for their name.
+        your_phrase = input(b"Please enter your text here: ")
+        #Assigning a sha256 hash to a variable.
+        hashed_value = hashlib.shake_256(your_phrase.encode())
+        # creating a generic constructor
+        generic = hashlib.new('shake_256')
+        #Printing the hashed value.
+        print(f"Here is your name in a hashed value: {hashed_value}")
+
+        
