@@ -1,6 +1,8 @@
 #Importing the hashlib library.
 import hashlib
 
+#Asking the individual for their name.
+
 #Assigning a sha256 hash to a variable.
 named = hashlib.sha256()
 # creating a generic constructor
