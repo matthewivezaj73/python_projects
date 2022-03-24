@@ -8,6 +8,7 @@ my_hash = hashes("sha1","string",12)
 not_done = False
 #Testing for input.
 while not not_done:
+    #Giving the user a list of choices.
     print("here are all of the algorithm choices to choose from"+str(hashlib.algorithms_guaranteed))
     
     # #Adding a case.
