@@ -5,3 +5,4 @@ import hashlib
 named = hashlib.sha256()
 # creating a generic constructor
 generic = hashlib.new('sha256')
+print(named)
