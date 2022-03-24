@@ -3,6 +3,10 @@ class hashes:
     """ 
     Creating a class that will represent the action of applying a hash to a string.
     """
+    def __init__(self,hash_name,hash_type,hash_len):
+        """
+        Creating a method to initialize the program.
+        """
     def encrypt(self,algorithm):
         #Asking the user for their choice of encoding.
         user_choice = input("Please enter the type of encoding you would like to encode your string in: ")
