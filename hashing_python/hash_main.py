@@ -10,7 +10,8 @@ not_done = False
 while not not_done:
     #Giving the user a list of choices.
     print("here are all of the algorithm choices to choose from"+str(hashlib.algorithms_guaranteed))
-    my_hash.encrypt
+    your_phrase = input(b"Please enter your text here: ")
+    my_hash.encrypt(your_phrase)
     # #Adding a case.
     # if user_choice.lower() == "sha256":
     #     #Asking the individual for their name.
