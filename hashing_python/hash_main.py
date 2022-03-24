@@ -3,3 +3,4 @@ import hashlib
 
 #Assigning a sha256 hash to a variable.
 named = hashlib.sha256()
+generic = hashlib.new('sha256')
