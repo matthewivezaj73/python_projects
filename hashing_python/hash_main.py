@@ -11,6 +11,7 @@ while not not_done:
     #Giving the user a list of choices.
     print("here are all of the algorithm choices to choose from"+str(hashlib.algorithms_guaranteed))
     your_phrase = input(b"Please enter your text here: ")
+    #Calling the encrypt method.
     my_hash.encrypt(your_phrase)
     # #Adding a case.
     # if user_choice.lower() == "sha256":
