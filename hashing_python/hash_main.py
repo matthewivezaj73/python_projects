@@ -2,6 +2,7 @@
 import hashlib
 #Created a flag.
 not_done = False
+#Testing for input.
 #Asking the individual for their name.
 your_name = input("Please enter your name here: ")
 #Assigning a sha256 hash to a variable.
