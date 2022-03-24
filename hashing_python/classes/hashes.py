@@ -15,7 +15,7 @@ class hashes:
         A method that will encrypt a string by algorithm selected.
         """
         #Asking the user for their choice of encoding.
-        user_choice = input("Please enter the type of encoding you would like to encode your string in: ")
+        algorithm = input("Please enter the type of encoding you would like to encode your string in: ")
         #Asking the individual for their name.
         your_phrase = input(b"Please enter your text here: ")
         #Assigning a sha256 hash to a variable.
