@@ -5,8 +5,7 @@ not_done = False
 #Testing for input.
 while not not_done:
     print("here are all of the algorithm choices to choose from"+str(hashlib.algorithms_guaranteed))
-    #Asking the user for their choice of encoding.
-    user_choice = input("Please enter the type of encoding you would like to encode your string in: ")
+    
     #Adding a case.
     if user_choice.lower() == "sha256":
         #Asking the individual for their name.
