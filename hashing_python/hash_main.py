@@ -7,6 +7,8 @@ while not not_done:
     #Asking the user for their choice of encoding.
     user_choice = input("Please enter the type of encoding you would like to encode your string in: ")
     #Adding a case.
+    if user_choice.lower() == "sha256":
+
     #Asking the individual for their name.
     your_name = input("Please enter your name here: ")
     #Assigning a sha256 hash to a variable.
