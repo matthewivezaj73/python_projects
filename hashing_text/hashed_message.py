@@ -6,3 +6,4 @@ not_done = False
 while not not_done:
     #Requesting user input.
     user_choice = input("Enter an algorithm to generate a string and encrypt it in that algorithm: ")
+    #Handling the case where the user selects SHA256.
