@@ -1,3 +1,4 @@
+#Importing a library.
 import hashlib
 class Hashing:
     """
