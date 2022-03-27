@@ -17,3 +17,9 @@ class Hashing:
         """
         Hashing a message in sha256.
         """
+        #Assigning a sha256 hash to a variable.
+        hashed_value = hashlib.sha256(your_phrase.encode())
+        # creating a generic constructor
+        generic = hashlib.new('sha256')
+        #Printing the hashed value.
+        print(f"Here is your name in a hashed value: {hashed_value}")
