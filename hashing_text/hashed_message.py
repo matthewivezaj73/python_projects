@@ -13,3 +13,4 @@ while not not_done:
         #asking the user to input a message
         my_message = input("Please enter a message you would like encrypted.")
         #Calling the sha256 method to encrypt the message.
+        my_hash.hash_sha256(my_message)
