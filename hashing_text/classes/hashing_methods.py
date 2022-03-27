@@ -20,7 +20,7 @@ class Hashing:
         Hashing a message in sha256.
         """
         #Assigning a sha256 hash to a variable.
-        hashed_value = hashlib.sha256(your_phrase.encode())
+        hashed_value = hashlib.sha256(hashed_message.encode())
         # creating a generic constructor
         generic = hashlib.new('sha256')
         #Printing the hashed value.
