@@ -3,6 +3,7 @@ from classes.hashing_methods import Hashing
 #Setting a flag.
 not_done = False
 #Instantiating the class.
+my_hash = Hashing("Hello sir","SHA-256",64)
 #Testing for user input.
 while not not_done:
     #Requesting user input.
