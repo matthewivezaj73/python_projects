@@ -1,0 +1,1 @@
+from classes.hashing_methods import Hashing
