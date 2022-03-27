@@ -15,5 +15,5 @@ class Hashing:
         self.byte_size = byte_size
     def hash_sha256(self,hashed_message):
         """
-        
+        Hashing a message in sha256.
         """
