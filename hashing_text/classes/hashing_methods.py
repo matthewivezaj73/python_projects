@@ -1,3 +1,4 @@
+import hashlib
 class Hashing:
     """
     A class that acts as a virtual representation 
