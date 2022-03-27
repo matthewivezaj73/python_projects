@@ -10,3 +10,4 @@ while not not_done:
     user_choice = input("Enter an algorithm to generate a string and encrypt it in that algorithm: ")
     #Handling the case where the user selects SHA256.
     if user_choice.lower() == "sha256":
+        my_message = input("Please enter a message you would like encrypted.")
