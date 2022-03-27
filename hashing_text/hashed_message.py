@@ -4,4 +4,4 @@ from classes.hashing_methods import Hashing
 not_done = False
 #Testing for user input.
 while not not_done:
-    
+    #Requesting user input.
