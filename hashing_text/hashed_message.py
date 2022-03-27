@@ -5,3 +5,4 @@ not_done = False
 #Testing for user input.
 while not not_done:
     #Requesting user input.
+    user_choice = input("Enter an algorithm to generate a string and encrypt it in that algorithm: ")
