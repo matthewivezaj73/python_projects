@@ -24,4 +24,5 @@ class Hashing:
         # creating a generic constructor
         generic = hashlib.new('sha256')
         #Printing the hashed value.
-        print(f"Here is your name in a hashed value: {hashed_value}")
+        hash_output = f"Here is your name in a hashed value: {hashed_value}"
+        return hash_output
