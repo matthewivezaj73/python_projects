@@ -11,3 +11,4 @@ class Hashing:
             - byte size
         """
         self.hashed_message = hashed_message
+        self.encryption_type = encryption_type
