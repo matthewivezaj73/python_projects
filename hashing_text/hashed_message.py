@@ -12,5 +12,5 @@ while not not_done:
     if user_choice.lower() == "sha256":
         #asking the user to input a message
         my_message = input("Please enter a message you would like encrypted.")
-        #Calling the sha256 method to encrypt the message.
+        #Calling the hash_sha256 method to encrypt the message.
         my_hash.hash_sha256(my_message)
