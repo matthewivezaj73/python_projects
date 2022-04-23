@@ -11,3 +11,4 @@ for node in nodes:
 network.add_edge("hello", "world")
 network.add_edge(1,2)
 network.add_edge(1,3)
+#Adding attributes to a node.
