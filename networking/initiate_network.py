@@ -25,4 +25,3 @@ network.edge["node1"]["node2"]["myattribute"] = 321
 print(network.edge["node2"]["node1"]["myattribute"])
 # adding an edge.
 #Specifying the network we want to save.
-network.add_edge("hello", "world")
