@@ -15,3 +15,4 @@ network.add_edge(1,3)
 network.add_node(1,myattribute="foo")
 #Accessing the node.
 print(network.nodes[1]["myattribute"])
+#Adding an attribute to the edges.
