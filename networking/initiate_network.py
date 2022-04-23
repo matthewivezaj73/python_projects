@@ -8,3 +8,4 @@ nodes = ["hello", "world", 1, 2, 3]
 for node in nodes:
     network.add_node(node)
 #Adding edges.
+network.add_edge("hello", "world")
