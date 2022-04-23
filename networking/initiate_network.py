@@ -26,3 +26,4 @@ print(network.edge["node2"]["node1"]["myattribute"])
 # adding an edge.
 network.add_edge("hello", "world")
 #Specifying the network we want to save.
+write_dot(network, "network.dot")
