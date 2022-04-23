@@ -17,4 +17,4 @@ network.add_node(1,myattribute="foo")
 print(network.nodes[1]["myattribute"])
 #Adding an attribute to the edges.
 network.add_edge("node1","node2",myattribute="attribute of an edge")
-["node2"]["myattribute"] = "attribute of an edge"
+network.edge["node1"]["node2"]["myattribute"] = "attribute of an edge"
