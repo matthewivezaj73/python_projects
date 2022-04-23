@@ -20,3 +20,4 @@ network.add_edge("node1","node2",myattribute="attribute of an edge")
 #Adding attributes to edges once they've been added.
 network.edge["node1"]["node2"]["myattribute"] = "attribute of an edge"
 #Using the edge dictionary to access node attributes the other way around.
+network.edge["node1"]["node2"]["myattribute"] = 321
