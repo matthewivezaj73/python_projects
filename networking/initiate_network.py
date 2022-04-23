@@ -4,3 +4,4 @@ import networkx
 network = networkx.Graph()
 #Creating a list.
 nodes = ["hello", "world", 1, 2, 3]
+#Adding the nodes.
