@@ -13,3 +13,4 @@ network.add_edge(1,2)
 network.add_edge(1,3)
 #Adding attributes to a node.
 network.add_node(1,myattribute="foo")
+#Accessing the node.
