@@ -10,3 +10,6 @@ class tictactoe:
         self.column = column
     #Creating a gameboard.
     def initializeGameboard(self):
+        """
+            A method to create the gameboard.
+        """
