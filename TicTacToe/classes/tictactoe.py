@@ -9,3 +9,4 @@ class tictactoe:
         self.row = row
         self.column = column
     #Creating a gameboard.
+    def initializeGameboard(self):
