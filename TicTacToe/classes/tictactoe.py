@@ -16,3 +16,4 @@ class tictactoe:
         #Creating a gameboard.
         gameBoard = [4][4]
         #Assigning * to specific cells.
+        gameBoard[0][0] = "*"
