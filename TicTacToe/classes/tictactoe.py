@@ -14,5 +14,5 @@ class tictactoe:
             A method to create the gameboard.
         """
         #Creating a gameboard.
-        gameBoard = [5][5]
+        gameBoard = [4][4]
         #Assigning * to specific cells.
