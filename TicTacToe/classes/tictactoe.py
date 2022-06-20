@@ -8,7 +8,7 @@ class tictactoe:
         self.username = username
         self.row = row
         self.column = column
-    #Creating a gameboard.
+    #Initializng the gameboard.
     def initializeGameboard(self):
         """
             A method to create the gameboard.
