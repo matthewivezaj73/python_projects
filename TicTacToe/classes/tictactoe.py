@@ -33,3 +33,4 @@ class tictactoe:
         gameBoard[1][4] = "_"
         #Assigning | to specific cells.
         gameBoard[0][1] = "|"
+        gameBoard[0][3] = "|"
