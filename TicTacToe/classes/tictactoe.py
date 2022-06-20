@@ -13,3 +13,4 @@ class tictactoe:
         """
             A method to create the gameboard.
         """
+        gameBoard[5][5]
