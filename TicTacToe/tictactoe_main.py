@@ -12,3 +12,4 @@ while not not_done:
     #Asking the user if they would like to enter an X or an O.
     user_choice = input("Please enter your token (X or O):\t")
     #Printing out the gameboard.
+    print(new_tictactoe.initializeGameboard())
