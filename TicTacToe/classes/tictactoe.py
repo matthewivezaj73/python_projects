@@ -7,3 +7,4 @@ class tictactoe:
         """
         self.username = username
         self.row = row
+        self.column = column
