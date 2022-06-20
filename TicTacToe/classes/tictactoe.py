@@ -5,3 +5,4 @@ class tictactoe:
         """
             Initializing username, row, and column.
         """
+        self.username = username
