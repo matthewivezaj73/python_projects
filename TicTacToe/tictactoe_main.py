@@ -9,4 +9,4 @@ new_tictactoe = tictactoe('Monty', 5, 5)
 not_done = False
 #Testing for user input.
 while not not_done:
-    
+    #Acquiring user input.
