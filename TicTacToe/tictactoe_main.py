@@ -10,3 +10,4 @@ not_done = False
 #Testing for user input.
 while not not_done:
     #Acquiring user input.
+    user_choice = input("Please enter your token (X or O):\t")
