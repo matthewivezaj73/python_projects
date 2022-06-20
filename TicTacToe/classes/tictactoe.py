@@ -23,3 +23,4 @@ class tictactoe:
         gameBoard[2][2] = "*"
         gameBoard[2][4] = "*"
         gameBoard[4][0] = "*"
+        gameBoard[4][2] = "*"
