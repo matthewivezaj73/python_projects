@@ -25,3 +25,4 @@ class tictactoe:
         gameBoard[4][0] = "*"
         gameBoard[4][2] = "*"
         gameBoard[4][4] = "*"
+        #Assigning _ to specific cells.
