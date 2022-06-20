@@ -9,5 +9,5 @@ new_tictactoe = tictactoe('Monty', 5, 5)
 not_done = False
 #Testing for user input.
 while not not_done:
-    #Acquiring user input.
+    #Asking the user if they would like to enter an X or an O.
     user_choice = input("Please enter your token (X or O):\t")
